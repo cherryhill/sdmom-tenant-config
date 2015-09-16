@@ -1,7 +1,7 @@
 #Login
 
 login-login: admin@museumofman.org
-login-rologin: reader@museumofman.org
+login-rologin: blah2@museumofman.org
 
 login-footerFirst: A tenant configured for use with \t
 login-footerLink: life sciences collections
@@ -10,3 +10,5 @@ login-footerLast:  is also available. In the future, additional demo tenants wil
 preferredPA-foreNameLabel: First Name
 preferredPA-middleNameLabel: Middle Name
 preferredPA-surNameLabel: Last Name
+
+exhibition-requiredStaffSecurityLabel: Required Staff and Security
