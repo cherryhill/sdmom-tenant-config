@@ -1,0 +1,7 @@
+<record id="exhibition" is-extension="yes" type="record,procedure">
+    <services-record-path id="sdmom">exhibition_sdmom:http://collectionspace.org/services/exhibition/local/sdmom,exhibition_sdmom</services-record-path>
+    
+    <section id="exhibitionInformation">
+        <field id="requiredStaffSecurity" section="sdmom"></field>
+    </section>
+</record>
