@@ -10,3 +10,6 @@ login-footerLast:  is also available. In the future, additional demo tenants wil
 preferredPA-foreNameLabel: First Name
 preferredPA-middleNameLabel: Middle Name
 preferredPA-surNameLabel: Last Name
+
+# Intake
+intake-ownersRequirementsLabel: Current owner's requirements
