@@ -4,7 +4,7 @@
 
   <section id="objectEntryInformation">
     <field id="ownersRequirements" section="sdmom"></field>
-    <field id="objectStatus">
+    <field id="objectStatus" section="sdmom">
         <options>
             <option id="" default="yes">Please select a value</option>
             <option id="located">Located</option>
