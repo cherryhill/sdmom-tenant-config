@@ -21,3 +21,6 @@ intake-objectStatusLabel: Status
 # Location, Movement and Inventory
 movement-normalLocationLabel: Home
 movement-movementContactLabel: Moved By
+
+# Media
+media-sourceLabel: Related Resource
