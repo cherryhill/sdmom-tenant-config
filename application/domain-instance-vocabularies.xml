@@ -1,0 +1,12 @@
+<instances>
+    <instance id="vocab-approvalState">
+        <web-url>approvalState</web-url>
+        <title-ref>approvalState</title-ref>
+        <title>Approval States</title>
+        <options>
+            <option id="yes">Yes</option>
+            <option id="no">No</option>
+            <option id="pending">Pending</option>
+        </options>
+    </instance>
+</instances>

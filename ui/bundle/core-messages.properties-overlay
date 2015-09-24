@@ -24,3 +24,18 @@ movement-movementContactLabel: Moved By
 
 # Media
 media-sourceLabel: Related Resource
+
+# Object Exit
+objectexit-deaccessionApprovalInformationLabel: Deaccession Approval Information
+objectexit-collectionsReviewCommitteeLabel: Collections Review Committee
+objectexit-collectionsReviewCommitteeStatusLabel: Approval Status
+objectexit-collectionsReviewCommitteeDateLabel: Approval Date
+objectexit-collectionsCommitteeLabel: Collections Committee
+objectexit-collectionsCommitteeStatusLabel: Approval Status
+objectexit-collectionsCommitteeDateLabel: Approval Date
+objectexit-executiveCommitteeLabel: Executive Committee
+objectexit-executiveCommitteeStatusLabel: Approval Status
+objectexit-executiveCommitteeDateLabel: Approval Date
+objectexit-boardOfTrusteesLabel: Board of Trustees
+objectexit-boardOfTrusteesStatusLabel: Approval Status
+objectexit-boardOfTrusteesDateLabel: Approval Date
