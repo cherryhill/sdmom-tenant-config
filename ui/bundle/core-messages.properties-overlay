@@ -47,3 +47,7 @@ acquisition-acquisitionProvisosLabel: Acquisition Restrictions
 
 # Loan Out
 loanout-loanRenewalApplicationDateLabel: Loan Renewal Date
+
+# Loan In
+loanin-loanInConditionsLabel: Loan Restrictions
+loanin-loanRenewalApplicationDateLabel: Loan Renewal Date
