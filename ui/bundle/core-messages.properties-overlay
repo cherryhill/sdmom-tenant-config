@@ -39,3 +39,8 @@ objectexit-executiveCommitteeDateLabel: Approval Date
 objectexit-boardOfTrusteesLabel: Board of Trustees
 objectexit-boardOfTrusteesStatusLabel: Approval Status
 objectexit-boardOfTrusteesDateLabel: Approval Date
+
+# Acquisition
+acquisition-acquisitionReferenceNumberLabel: Accsession Number
+acquisition-acquisitionProvenanceLabel: Acquisition Provenance
+acquisition-acquisitionProvisosLabel: Acquisition Restrictions
