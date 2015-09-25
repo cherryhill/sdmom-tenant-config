@@ -57,3 +57,6 @@ preferredOA-termDisplayNameLabel: Display Name
 preferredOA-termNameLabel: Organization Nickname
 preferredOA-additionsToNameLabel: Organization Notes
 preferredOA-mainBodyNameLabel: Organization Name
+
+# Place
+preferredPlace-termNameLabel: Place Name
