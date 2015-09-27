@@ -60,3 +60,8 @@ preferredOA-mainBodyNameLabel: Organization Name
 
 # Place
 preferredPlace-termNameLabel: Place Name
+
+# Citation
+preferredCI-termTypeLabel: Citation Type
+preferredCI-termStatusLabel: Type Status
+preferredCI-termSourceNoteLabel: Language Note
