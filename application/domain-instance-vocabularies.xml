@@ -9,4 +9,15 @@
             <option id="pending">Pending</option>
         </options>
     </instance>
+    <instance id="vocab-conditionStatus">
+        <web-url>conditionStatus</web-url>
+        <title-ref>conditionStatus</title-ref>
+        <title>Condition Check Status</title>
+        <options>
+            <option id="needsNoWork">Needs No Work</option>
+            <option id="exhibitableNeedsWork">Exhibitable/Needs Work</option>
+            <option id="notExhibitableStable">Not Exhibitable/Stable</option>
+            <option id="jeopardyUnstable">Jeopardy/Unstable</option>
+        </options>
+    </instance>
 </instances>

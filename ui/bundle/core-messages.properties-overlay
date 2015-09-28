@@ -65,3 +65,19 @@ preferredPlace-termNameLabel: Place Name
 preferredCI-termTypeLabel: Citation Type
 preferredCI-termStatusLabel: Type Status
 preferredCI-termSourceNoteLabel: Language Note
+
+# Condition Check
+conditioncheck-conditionStatusGroupLabel: Status
+conditioncheck-conditionStatusLabel: Status
+conditioncheck-statusDateLabel: Status Date
+conditioncheck-statusNoteLabel: Status Note
+
+conditioncheck-treatmentEstimateGroupLabel: Treatment Estimate
+conditioncheck-workAssessmentCompletedByLabel: Work Estimate Completed By
+conditioncheck-estimatedTreatmentCostLabel: Estimated Treatment Cost
+conditioncheck-estimatedCompletionDateLabel: Estimated Completion Date
+
+conditioncheck-workCompletedGroupLabel: Work Completed
+conditioncheck-workCompletedByLabel: Work Completed By
+conditioncheck-workCompletedLabel: Work Completed
+conditioncheck-workCompletedDateLabel: Work Completed Date
