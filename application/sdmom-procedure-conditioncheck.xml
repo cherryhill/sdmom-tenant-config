@@ -1,0 +1,54 @@
+<record id="conditioncheck" is-extension="true" type="record,procedure" generate-services-schema="true">
+
+  <services-record-path id="sdmom">conditionchecks_sdmom:http://collectionspace.org/services/conditioncheck/local/sdmom,conditionchecks_sdmom</services-record-path>
+
+  <section id="objectConditionInformation">
+    <field id="conditionStatus" autocomplete="vocab-conditionStatus" ui-type="enum" section="sdmom" />
+    <field id="statusDate" ui-type="date" datatype="date" section="sdmom" />
+    <field id="statusNote" section="sdmom" />
+
+    <field id="workAssessmentCompletedBy" ui-search="repeatable" autocomplete="person-person,organization-organization" section="sdmom" />
+    <field id="estimatedTreatmentCost" section="sdmom" />
+    <field id="estimatedCompletionDate" ui-type="date" datatype="date" section="sdmom" />
+
+    <repeat id="workCompletedList/workCompletedGroup" section="sdmom">
+      <field id="workCompletedBy" ui-search="repeatable" autocomplete="person-person,organization-organization" section="sdmom" />
+      <field id="workCompleted" section="sdmom" />
+      <field id="workCompletedDate" ui-type="date" datatype="date" section="sdmom" />
+    </repeat>
+  </section>
+
+  <section id="conditionCheckInformation">
+    <repeat id="conditionCheckInformationList/conditionCheckInformationGroup" section="sdmom">
+      <field id="conditionCheckAssessmentDate" ui-type="date" datatype="date" ui-search="range"></field>
+      <field id="conditionCheckMethod">
+        <selector>conditioncheck-conditionCheckMethod</selector>
+        <options>
+            <option id="" default="yes">Please select a value</option>
+            <option id="observed">Observed</option>
+            <option id="xrayed">X-rayed</option>
+        </options>
+      </field>
+      <field id="conditionCheckNote"></field>
+      <field id="conditionCheckReason">
+        <selector>conditioncheck-conditionCheckReason</selector>
+        <options>
+            <option id="" default="yes">Please select a value</option>
+            <option id="conservation">Conservation</option>
+            <option id="damagedintransit">Damaged in transit</option>
+            <option id="loanin">Loan in</option>
+            <option id="newacquisition">New acquisition</option>
+        </options>
+      </field>
+      <field id="conditionCheckRefNumber" ui-search="repeatable" in-title="yes" chooser="yes" mini="number,search,list,relate" seperate_ui_container="true">
+        <selector>conditioncheck-numberPatternChooser-reference-number</selector>
+        <title-selector>titleBar-conditioncheck-reference-number</title-selector>
+        <container-selector>conditioncheck-reference-number-patternChooserContainer</container-selector>
+        <options>
+            <option id="conditioncheck" sample="CC2012.1.1">Condition Check</option>
+        </options>
+      </field>
+      <field id="conditionChecker" ui-search="repeatable" autocomplete="person-person,organization-organization"></field>
+    </repeat>
+  </section>
+</record>
