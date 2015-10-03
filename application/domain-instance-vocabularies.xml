@@ -1,23 +1,252 @@
 <instances>
     <instance id="vocab-approvalState">
-        <web-url>approvalState</web-url>
-        <title-ref>approvalState</title-ref>
-        <title>Approval States</title>
-        <options>
-            <option id="yes">Yes</option>
-            <option id="no">No</option>
-            <option id="pending">Pending</option>
-        </options>
+      <web-url>approvalState</web-url>
+      <title-ref>approvalState</title-ref>
+      <title>Approval States</title>
+      <options>
+          <option id="yes">Yes</option>
+          <option id="no">No</option>
+          <option id="pending">Pending</option>
+      </options>
     </instance>
+
     <instance id="vocab-conditionStatus">
-        <web-url>conditionStatus</web-url>
-        <title-ref>conditionStatus</title-ref>
-        <title>Condition Check Status</title>
-        <options>
-            <option id="needsNoWork">Needs No Work</option>
-            <option id="exhibitableNeedsWork">Exhibitable/Needs Work</option>
-            <option id="notExhibitableStable">Not Exhibitable/Stable</option>
-            <option id="jeopardyUnstable">Jeopardy/Unstable</option>
-        </options>
+      <web-url>conditionStatus</web-url>
+      <title-ref>conditionStatus</title-ref>
+      <title>Condition Check Status</title>
+      <options>
+          <option id="needsNoWork">Needs No Work</option>
+          <option id="exhibitableNeedsWork">Exhibitable/Needs Work</option>
+          <option id="notExhibitableStable">Not Exhibitable/Stable</option>
+          <option id="jeopardyUnstable">Jeopardy/Unstable</option>
+      </options>
     </instance>
+
+    <instance id="vocab-otherNumberType">
+      <web-url>otherNumberType</web-url>
+      <title-ref>otherNumberType</title-ref>
+      <title>Other Number Type</title>
+      <options>
+        <option id="creator">creator</option>
+        <option id="lender">lender</option>
+        <option id="donorCollector">donor/collector</option>
+        <option id="catalogNumber">catalog number</option>
+        <option id="previousCatalogNumber">previous catalog number</option>
+        <option id="previous">previous</option>
+        <option id="serial">serial</option>
+        <option id="series">series</option>
+        <option id="unknown">unknown</option>
+        <option id="nonSDMoMcatalogNumber">non-SDMoM catalog number</option>
+        <option id="copyNumber">copy number</option>
+        <option id="edition">edition</option>
+        <option id="callNumber">call number</option>
+      </options>
+    </instance>
+
+  <instance id="vocab-objectStanding">
+    <web-url>objectStanding</web-url>
+    <title-ref>objectStanding</title-ref>
+    <title>Object Standing</title>
+    <options>
+      <option id="located">Located</option>
+      <option id="missing">Missing</option>
+      <option id="stolen">Stolen</option>
+      <option id="deaccessioned">Deaccessioned</option>
+      <option id="repatriated">Repatriated</option>
+      <option id="onLoan">On Loan</option>
+      <option id="returned">Returned</option>
+      <option id="restricted">Restricted</option>
+    </options>
+  </instance>
+
+  <instance id="vocab-classificationSystem">
+    <web-url>classificationSystem</web-url>
+    <title-ref>classificationSystem</title-ref>
+    <title>Object Classification Systems</title>
+    <options>
+      <option id="aaslhNomenclature">AASLH Nomenclature</option>
+      <option id="noSystem">no system</option>
+      <option id="bennyhoffOlivellaBeadTypology">Bennyhoff Olivella bead typology</option>
+      <option id="giffordWorkedBoneTypology">Gifford worked bone typology</option>
+      <option id="giffordWorkedShellTypology">Gifford worked shell typology</option>
+      <option id="heizerProjectilePointTypology">Heizer projectile point typology</option>
+      <option id="justicProjectilePointTypology">Justic projectile point typology</option>
+      <option id="meighanHistoricGlassBeadTypology">Meighan historic glass bead typology</option>
+      <option id="treganzaClayArtifactTypology">Treganza clay artifact typology</option>
+    </options>
+  </instance>
+
+  <instance id="vocab-titleType">
+    <web-url>titleType</web-url>
+    <title-ref>titleType</title-ref>
+    <title>Title Type</title>
+    <options>
+      <option id="assignedByArtist">Assigned by Artist</option>
+      <option id="collection">Collection</option>
+      <option id="commonName">Common Name</option>
+      <option id="popular">Popular</option>
+      <option id="series">Series</option>
+      <option id="sic">Sic</option>
+      <option id="trade">Trade</option>
+    </options>
+  </instance>
+
+  <instance id="vocab-recordStatus">
+    <web-url>recordStatus</web-url>
+    <title-ref>recordStatus</title-ref>
+    <title>Record Status</title>
+    <options>
+      <option id="approved">Approved</option>
+      <option id="inProcess">In Process</option>
+      <option id="skeleton">Skeleton</option>
+      <option id="temporary">Temporary</option>
+      <option id="pendingReview">Pending Review</option>
+      <option id="dead">Dead</option>
+    </options>
+  </instance>
+
+  <instance id="vocab-inscriptionMethod">
+    <web-url>inscriptionMethod</web-url>
+    <title-ref>inscriptionMethod</title-ref>
+    <title>Inscription Method</title>
+    <options>
+      <option id="brand">Brand</option>
+      <option id="embossed">Embossed</option>
+      <option id="embroidered">Embroidered</option>
+      <option id="engraved">Engraved</option>
+      <option id="etched">Etched</option>
+      <option id="painted">Painted</option>
+      <option id="penAndInk">Pen and ink</option>
+      <option id="pencil">Pencil</option>
+      <option id="printed">Printed</option>
+      <option id="stamped">Stamped</option>
+      <option id="stencilled">Stencilled</option>
+      <option id="other">other</option>
+    </options>
+  </instance>
+
+  <instance id="vocab-inscriptionType">
+    <web-url>inscriptionType</web-url>
+    <title-ref>inscriptionType</title-ref>
+    <title>Inscription Type</title>
+    <options>
+      <option id="clothLabel">Cloth Label</option>
+      <option id="decoration">Decoration</option>
+      <option id="hallmark">Hallmark</option>
+      <option id="inscription">Inscription</option>
+      <option id="label">Label</option>
+      <option id="makersMark">Maker's Mark</option>
+      <option id="manufacturersMark">Manufacturer's Mark</option>
+      <option id="paperTag">Paper Tag</option>
+      <option id="signature">Signature</option>
+      <option id="stamp">Stamp</option>
+    </options>
+  </instance>
+
+  <instance id="vocab-objectStatus">
+    <web-url>objectStatus</web-url>
+    <title-ref>objectStatus</title-ref>
+    <title>Object Status</title>
+    <options>
+      <option id="cast">Cast</option>
+      <option id="copy">Copy</option>
+      <option id="forgery">Forgery</option>
+      <option id="original">Original</option>
+      <option id="other">other</option>
+      <option id="photocopy">Photocopy</option>
+      <option id="touristTrade">Tourist Trade</option>
+      <option id="unknown">unknown</option>
+      <option id="questionable">Questionable</option>
+    </options>
+  </instance>
+
+  <instance id="vocab-technique">
+    <web-url>technique</web-url>
+    <title-ref>technique</title-ref>
+    <title>Technique</title>
+    <options>
+      <option id="penAndInk">Pen and Ink</option>
+      <option id="impasto">Impasto</option>
+      <option id="etching">Etching</option>
+      <option id="lithograph">Lithograph</option>
+      <option id="giclee">Giclee</option>
+      <option id="acrylicPaint">Acrylic Paint</option>
+      <option id="aquatint">Aquatint</option>
+      <option id="blockPrint">Block Print</option>
+      <option id="chiaroscuro">Chiaroscuro</option>
+      <option id="charcoal">Charcoal</option>
+      <option id="carving">Carving</option>
+      <option id="cast">Cast</option>
+      <option id="collage">Collage</option>
+      <option id="crayon">Crayon</option>
+      <option id="decopage">Decopage</option>
+      <option id="dryPoint">Dry Point</option>
+      <option id="embossing">Embossing</option>
+      <option id="engraving">Engraving</option>
+      <option id="gouache">Gouache</option>
+      <option id="lostWax">Lost Wax</option>
+      <option id="linocut">Linocut</option>
+      <option id="intaglio">Intaglio</option>
+      <option id="lineDrawing">Line Drawing</option>
+      <option id="mezzotint">Mezzotint</option>
+      <option id="mixedMedia">Mixed Media</option>
+      <option id="monotype">Monotype</option>
+      <option id="offsetPrinting">Offset Printing</option>
+      <option id="pastel">Pastel</option>
+      <option id="relief">Relief</option>
+      <option id="serigraph">Serigraph</option>
+      <option id="silkscreen">Silkscreen</option>
+      <option id="woodcut">Woodcut</option>
+      <option id="oilPaint">Oil Paint</option>
+    </options>
+  </instance>
+
+  <instance id="vocab-techniqueType">
+    <web-url>techniqueType</web-url>
+    <title-ref>techniqueType</title-ref>
+    <title>Technique Type</title>
+    <options>
+      <option id="massProduced">Mass-produced</option>
+      <option id="handCrafted">Hand-crafted</option>
+    </options>
+  </instance>
+
+  <instance id="vocab-viewerRole">
+    <web-url>viewerRole</web-url>
+    <title-ref>viewerRole</title-ref>
+    <title>Viewer Role</title>
+    <options>
+      <option id="curator">Curator</option>
+      <option id="owner">Owner</option>
+      <option id="consultant">Consultant</option>
+      <option id="researcher">Researcher</option>
+      <option id="staff">Staff</option>
+      <option id="other">Other</option>
+    </options>
+  </instance>
+
+  <instance id="vocab-referenceUse">
+    <web-url>referenceUse</web-url>
+    <title-ref>referenceUse</title-ref>
+    <title>Reference Use</title>
+    <options>
+      <option id="publishedIn">Published in</option>
+      <option id="referencedFor">Referenced for</option>
+      <option id="onlineAt">Online at</option>
+      <option id="other">Other</option>
+      <option id="alsoAvailableAt">Also available at</option>
+    </options>
+  </instance>
+
+  <instance id="vocab-referenceUse">
+    <web-url>referenceUse</web-url>
+    <title-ref>referenceUse</title-ref>
+    <title>Reference Use</title>
+    <options>
+      <option id="yes">Yes</option>
+      <option id="no">No</option>
+      <option id="inReview">In Review</option>
+    </options>
+  </instance>
+
 </instances>
