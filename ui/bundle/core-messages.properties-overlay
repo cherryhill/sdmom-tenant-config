@@ -142,3 +142,23 @@ collection-object-webReadyLabel: Web Ready?
 collection-object-fieldCollectionUnitLabel: Field Collection Unit
 collection-object-fieldCollectionLevelLabel: Field Collection Level
 collection-object-fieldCollectionStratumLabel: Field Collection Stratum
+
+#  Anthro Extension
+collection-object-repatriationNagpraComplianceInformationLabel: Registration and NAGPRA Compliance Information
+collection-object-nagpraInventoryGroupLabel: NAGPRA Inventory Available
+collection-object-nagpraInventoryAvailableLabel: NAGPRA Inventory Available
+collection-object-nagpraInventoryAvailableDateLabel: NAGPRA Inventory Available Date
+collection-object-nagpraStatusLabel: NAGPRA Status
+collection-object-nagpraCategoryDeterminationRepeatLabel: NAGPRA Category Determination
+collection-object-repatriationNotesRepeatLabel: Repatriation Notes
+collection-object-nagpraCulturalDeterminationRepeatLabel: NAGPRA Cultural Determination
+
+collection-object-culturalCareInformationLabel: Cultural Care Information
+collection-object-culturalCareNotesLabel: Cultural Care Notes
+collection-object-accessLimitationsGroupLabel: Access Limitations
+collection-object-accessLimitationTypeLabel: Access Limitation Type
+collection-object-accessLimitationLevelLabel: Access Limitation Label
+collection-object-accessLimitationDetailsLabel: Access Limitation Details
+collection-object-accessLimitationRequestorLabel: Access Limitation Requestor
+collection-object-accessLimitationOrganizationLabel: Access Limitation Organization
+collection-object-accessLimitationDateLabel: Access Limitation Date

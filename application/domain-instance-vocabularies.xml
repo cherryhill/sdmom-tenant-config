@@ -1,47 +1,50 @@
 <instances>
-    <instance id="vocab-approvalState">
-      <web-url>approvalState</web-url>
-      <title-ref>approvalState</title-ref>
-      <title>Approval States</title>
-      <options>
-          <option id="yes">Yes</option>
-          <option id="no">No</option>
-          <option id="pending">Pending</option>
-      </options>
-    </instance>
 
-    <instance id="vocab-conditionStatus">
-      <web-url>conditionStatus</web-url>
-      <title-ref>conditionStatus</title-ref>
-      <title>Condition Check Status</title>
-      <options>
-          <option id="needsNoWork">Needs No Work</option>
-          <option id="exhibitableNeedsWork">Exhibitable/Needs Work</option>
-          <option id="notExhibitableStable">Not Exhibitable/Stable</option>
-          <option id="jeopardyUnstable">Jeopardy/Unstable</option>
-      </options>
-    </instance>
+  <include src="extensions/anthro-vocabularies.xml" strip-root="yes" />
 
-    <instance id="vocab-otherNumberType">
-      <web-url>otherNumberType</web-url>
-      <title-ref>otherNumberType</title-ref>
-      <title>Other Number Type</title>
-      <options>
-        <option id="creator">creator</option>
-        <option id="lender">lender</option>
-        <option id="donorCollector">donor/collector</option>
-        <option id="catalogNumber">catalog number</option>
-        <option id="previousCatalogNumber">previous catalog number</option>
-        <option id="previous">previous</option>
-        <option id="serial">serial</option>
-        <option id="series">series</option>
-        <option id="unknown">unknown</option>
-        <option id="nonSDMoMcatalogNumber">non-SDMoM catalog number</option>
-        <option id="copyNumber">copy number</option>
-        <option id="edition">edition</option>
-        <option id="callNumber">call number</option>
-      </options>
-    </instance>
+  <instance id="vocab-approvalState">
+    <web-url>approvalState</web-url>
+    <title-ref>approvalState</title-ref>
+    <title>Approval States</title>
+    <options>
+        <option id="yes">Yes</option>
+        <option id="no">No</option>
+        <option id="pending">Pending</option>
+    </options>
+  </instance>
+
+  <instance id="vocab-conditionStatus">
+    <web-url>conditionStatus</web-url>
+    <title-ref>conditionStatus</title-ref>
+    <title>Condition Check Status</title>
+    <options>
+        <option id="needsNoWork">Needs No Work</option>
+        <option id="exhibitableNeedsWork">Exhibitable/Needs Work</option>
+        <option id="notExhibitableStable">Not Exhibitable/Stable</option>
+        <option id="jeopardyUnstable">Jeopardy/Unstable</option>
+    </options>
+  </instance>
+
+  <instance id="vocab-otherNumberType">
+    <web-url>otherNumberType</web-url>
+    <title-ref>otherNumberType</title-ref>
+    <title>Other Number Type</title>
+    <options>
+      <option id="creator">creator</option>
+      <option id="lender">lender</option>
+      <option id="donorCollector">donor/collector</option>
+      <option id="catalogNumber">catalog number</option>
+      <option id="previousCatalogNumber">previous catalog number</option>
+      <option id="previous">previous</option>
+      <option id="serial">serial</option>
+      <option id="series">series</option>
+      <option id="unknown">unknown</option>
+      <option id="nonSDMoMcatalogNumber">non-SDMoM catalog number</option>
+      <option id="copyNumber">copy number</option>
+      <option id="edition">edition</option>
+      <option id="callNumber">call number</option>
+    </options>
+  </instance>
 
   <instance id="vocab-objectStanding">
     <web-url>objectStanding</web-url>
@@ -238,15 +241,14 @@
     </options>
   </instance>
 
-  <instance id="vocab-referenceUse">
-    <web-url>referenceUse</web-url>
-    <title-ref>referenceUse</title-ref>
-    <title>Reference Use</title>
+  <instance id="vocab-webReady">
+    <web-url>webReady</web-url>
+    <title-ref>webReady</title-ref>
+    <title>Web Ready</title>
     <options>
       <option id="yes">Yes</option>
       <option id="no">No</option>
       <option id="inReview">In Review</option>
     </options>
   </instance>
-
 </instances>
