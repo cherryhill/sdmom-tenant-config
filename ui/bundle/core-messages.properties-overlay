@@ -82,3 +82,83 @@ conditioncheck-workCompletedGroupLabel: Work Completed
 conditioncheck-workCompletedByLabel: Work Completed By
 conditioncheck-workCompletedLabel: Work Completed
 conditioncheck-workCompletedDateLabel: Work Completed Date
+
+# Cataloging / Object
+collection-object-filtersLabel: Characteristics
+collection-object-filterObjectLabel: Object
+collection-object-filterPhysAnthroLabel: Physical Anthro
+collection-object-filterArchaeologyLabel: Archaeology
+collection-object-filterArchivesLabel: Archives
+collection-object-filterImageLabel: Photo
+
+collection-object-numberNoteLabel: Note
+
+collection-object-objectStandingsLabel: Object Standing
+collection-object-objectStandingGroupLabel: Object Standing
+collection-object-objectStandingLabel: Standing
+collection-object-objectStandingDateLabel: Date
+collection-object-objectStandingByLabel: By
+collection-object-objectStandingNoteLabel: Note
+
+collection-object-pastPerfectHistoryGroupLabel: Past Perfect Update History
+collection-object-pastPerfectHistoryByLabel: PastPerfect Cataloged By
+collection-object-pastPerfectHistoryDateLabel: PastPerfect Cataloged Date
+
+collection-object-briefDescriptionsLabel: Description
+
+collection-object-controlledObjectNameGroupLabel: Controlled Object Name
+collection-object-controlledObjectNameLabel: Object Name
+collection-object-controlledObjectNameNoteLabel: Note
+collection-object-controlledObjectNameSystemLabel: System
+collection-object-controlledObjectNameLanguageLabel: Language
+collection-object-otherObjectNameGroupLabel: Other Object Name
+collection-object-otherObjectNameLabel: Object Name
+collection-object-otherObjectNameNoteLabel: Note
+collection-object-otherObjectNameSystemLabel: System
+collection-object-otherObjectNameLanguageLabel: Language
+
+collection-object-contentPeoplesLabel: Culture
+collection-object-legacySearchTermsDataLabel: Legacy Search Terms Data
+
+collection-object-textualInscriptionInformationLabel: Inscription
+
+collection-object-objectProductionPeopleGroupLabel: Production Culture
+collection-object-objectProductionPeopleLabel: Production Culture
+
+collection-object-ownersLabel: Owners
+collection-object-ownerLabel: Owner
+collection-object-ownerNoteLabel: Note
+
+collection-object-objectViewersContributionInformationLabel: Viewers
+collection-object-historyAssociationViewerLabel: Viewer
+collection-object-historyAssociationViewerRoleLabel: Role
+collection-object-historyAssociationViewerDateLabel: Date
+collection-object-historyAssociationViewerNoteLabel: Note
+
+collection-object-referenceUseLabel: Reference Use
+collection-object-copyrightsLabel: Copyrights
+collection-object-webReadyLabel: Web Ready?
+
+collection-object-fieldCollectionUnitLabel: Field Collection Unit
+collection-object-fieldCollectionLevelLabel: Field Collection Level
+collection-object-fieldCollectionStratumLabel: Field Collection Stratum
+
+#  Anthro Extension
+collection-object-repatriationNagpraComplianceInformationLabel: Registration and NAGPRA Compliance Information
+collection-object-nagpraInventoryGroupLabel: NAGPRA Inventory Available
+collection-object-nagpraInventoryAvailableLabel: NAGPRA Inventory Available
+collection-object-nagpraInventoryAvailableDateLabel: NAGPRA Inventory Available Date
+collection-object-nagpraStatusLabel: NAGPRA Status
+collection-object-nagpraCategoryDeterminationRepeatLabel: NAGPRA Category Determination
+collection-object-repatriationNotesRepeatLabel: Repatriation Notes
+collection-object-nagpraCulturalDeterminationRepeatLabel: NAGPRA Cultural Determination
+
+collection-object-culturalCareInformationLabel: Cultural Care Information
+collection-object-culturalCareNotesLabel: Cultural Care Notes
+collection-object-accessLimitationsGroupLabel: Access Limitations
+collection-object-accessLimitationTypeLabel: Access Limitation Type
+collection-object-accessLimitationLevelLabel: Access Limitation Label
+collection-object-accessLimitationDetailsLabel: Access Limitation Details
+collection-object-accessLimitationRequestorLabel: Access Limitation Requestor
+collection-object-accessLimitationOrganizationLabel: Access Limitation Organization
+collection-object-accessLimitationDateLabel: Access Limitation Date

@@ -1,0 +1,204 @@
+<record id="collection-object" is-extension="true">
+
+  <services-record-path id="sdmom">collectionobjects_sdmom:http://collectionspace.org/services/collectionobject/local/sdmom,collectionobjects_sdmom</services-record-path>
+
+  <section id="identificationInformation">
+    <repeat id="otherNumberList/otherNumber">
+      <selector>object-identification-otherNumbers</selector>
+      <field id="numberValue" in-tab="yes">
+        <selector>object-identification-other-number</selector>
+      </field>
+      <field id="numberType" autocomplete="vocab-otherNumberType" ui-type="enum">
+        <selector>object-identification-other-number-type</selector>
+      </field>
+      <field id="numberNote" section="sdmom">
+        <selector>object-identification-other-number-note</selector>
+      </field>
+    </repeat>
+
+    <repeat id="objectStandingList/objectStandingGroup" section="sdmom">
+      <selector>object-identification-objectStandings</selector>
+      <field id="objectStanding" autocomplete="vocab-objectStanding" ui-type="enum" section="sdmom">
+        <selector>object-identification-object-standing</selector>
+      </field>
+      <field id="objectStandingBy" ui-search="repeatable" autocomplete="person-person,organization-organization" section="sdmom">
+        <selector>object-identification-object-standing-by</selector>
+      </field>
+      <field id="objectStandingDate" ui-type="date" datatype="date" ui-search="range" section="sdmom">
+        <selector>object-identification-object-standing-date</selector>
+      </field>
+      <field id="objectStandingNote" section="sdmom">
+        <selector>object-identification-object-standing-note</selector>
+      </field>
+    </repeat>
+
+    <repeat id="pastPerfectHistoryList/pastPerfectHistoryGroup" section="sdmom">
+      <selector>object-identification-past-perfect-history-group</selector>
+      <field id="pastPerfectHistoryBy" ui-readonly="true" autocomplete="person-person" section="sdmom">
+        <selector>object-identification-past-perfect-history-by</selector>
+      </field>
+      <field id="pastPerfectHistoryDate" ui-readonly="true" ui-type="date" datatype="date" ui-search="range" section="sdmom">
+        <selector>object-identification-past-perfect-history-date</selector>
+      </field>
+    </repeat>
+
+
+    <field id="filterObject" datatype="boolean" section="sdmom">
+			<default>false</default>
+		</field>
+    <field id="filterPhysAnthro" datatype="boolean" section="sdmom">
+			<default>false</default>
+		</field>
+    <field id="filterArchaeology" datatype="boolean" section="sdmom">
+			<default>false</default>
+		</field>
+    <field id="filterArchives" datatype="boolean" section="sdmom">
+			<default>false</default>
+		</field>
+    <field id="filterImage" datatype="boolean" section="sdmom">
+			<default>false</default>
+		</field>
+
+    <repeat id="controlledObjectNameList/controlledObjectNameGroup" section="sdmom">
+      <field id="controlledObjectName" ui-search="repeatable" mini="search,list" section="sdmom">
+        <selector>object-identification-controlled-object-name</selector>
+      </field>
+      <field id="controlledObjectNameNote" section="sdmom">
+        <selector>object-identification-controlled-object-name-note</selector>
+      </field>
+      <field id="controlledObjectNameSystem" seperate_ui_container="true" section="sdmom">
+        <selector>object-identification-controlled-object-name-system</selector>
+        <options>
+          <option id="">Please select a value</option>
+          <option id="art-and-architecture-thesaurus">Art &amp; Architecture Thesaurus</option>
+          <option id="nomenclature">Nomenclature</option>
+        </options>
+      </field>
+      <field id="controlledObjectNameLanguage" autocomplete="vocab-languages" ui-type="enum" ui-search="repeatable" section="sdmom">
+        <selector>object-identification-controlled-object-name-language</selector>
+        <enum>
+          <default>urn:cspace:core.collectionspace.org:vocabularies:name(languages):item:name(eng)'English'</default>
+          <blank-value>Please select a value</blank-value>
+        </enum>
+      </field>
+    </repeat>
+
+    <repeat id="otherObjectNameList/otherObjectNameGroup" section="sdmom">
+      <field id="otherObjectName" ui-search="repeatable" mini="search,list" section="sdmom">
+        <selector>object-identification-other-object-name</selector>
+      </field>
+      <field id="otherObjectNameNote" section="sdmom">
+        <selector>object-identification-other-object-name-note</selector>
+      </field>
+      <field id="otherObjectNameSystem" autocomplete="vocab-classificationSystem" ui-type="enum" section="sdmom">
+        <selector>object-identification-other-object-name-system</selector>
+        <enum>
+          <blank-value>Please select a value</blank-value>
+        </enum>
+      </field>
+      <field id="otherObjectNameLanguage" autocomplete="vocab-languages" ui-type="enum" section="sdmom">
+        <enum>
+          <default>urn:cspace:core.collectionspace.org:vocabularies:name(languages):item:name(eng)'English'</default>
+          <blank-value>Please select a value</blank-value>
+        </enum>
+        <selector>object-identification-other-object-name-language</selector>
+      </field>
+    </repeat>
+
+    <!-- Convert from static to dynamic term list. -->
+    <repeat id="titleGroupList/titleGroup">
+      <field id="titleType" autocomplete="vocab-titleType" ui-type="enum">
+        <selector>object-identification-object-title-type</selector>
+      </field>
+    </repeat>
+
+    <!-- Convert from static to dynamic term list. -->
+    <field id="recordStatus" autocomplete="vocab-recordStatus" ui-type="enum">
+      <selector>object-identification-record-status</selector>
+    </field>
+
+  </section>
+
+  <section id="descriptionInformation">
+    <section id="contentInformation">
+      <field id="legacySearchTermsData" ui-search="repeatable" mini="search,list" section="sdmom" />
+    </section>
+  </section>
+
+  <section id="descriptionInformation">
+    <section id="textualInscriptionInformation">
+      <repeat id="textualInscriptionGroupList/textualInscriptionGroup">
+        <field id="inscriptionContentMethod" autocomplete="vocab-inscriptionMethod" ui-type="enum">
+          <selector>object-description-inscription-content-method</selector>
+          <!-- Replace static term list with dynamic term list-->
+        </field>
+        <field id="inscriptionContentType" autocomplete="vocab-inscriptionType" ui-type="enum">
+          <selector>object-description-inscription-content-type</selector>
+          <!-- Replace text field with dynamic term list -->
+        </field>
+      </repeat>
+    </section>
+  </section>
+
+  <section id="descriptionInformation">
+    <repeat id="objectStatusList" services-type-anonymous="false">
+      <field id="objectStatus" autocomplete="vocab-objectStatus" ui-type="enum">
+        <selector>object-description-object-status</selector>
+        <options action="delete"/>
+      </field>
+    </repeat>
+  </section>
+
+  <section id="objectProductionInformation">
+    <repeat id="techniqueGroupList/techniqueGroup">
+      <field id="technique" autocomplete="vocab-technique" ui-type="enum">
+        <selector>object-production-technique</selector>
+      </field>
+      <field id="techniqueType" autocomplete="vocab-techniqueType" ui-type="enum">
+        <selector>object-production-technique-type</selector>
+      </field>
+    </repeat>
+  </section>
+
+  <section id="objectHistoryAssociationInformation">
+    <repeat id="owners">
+      <field id="ownerNote" section="sdmom">
+        <selector>object-history-association-owner-note</selector>
+      </field>
+    </repeat>
+  </section>
+
+  <section id="objectViewersContributionInformation">
+    <repeat id="viewersList/viewersGroup" section="sdmom">
+      <field id="viewer" autocomplete="person-person,organization-organization" section="sdmom">
+        <selector>object-history-association-viewer</selector>
+      </field>
+      <field id="viewerRole" autocomplete="vocab-viewerRole" ui-type="enum" section="sdmom">
+        <selector>object-history-association-viewer-role</selector>
+      </field>
+      <field id="viewerDate" ui-type="date" datatype="date" ui-search="range" section="sdmom">
+        <selector>object-history-association-viewer-date</selector>
+      </field>
+      <field id="viewerNote" section="sdmom">
+        <selector>object-history-association-viewer-note</selector>
+      </field>
+    </repeat>
+  </section>
+
+  <section id="referenceInformation">
+    <repeat id="referenceGroupList/referenceGroup">
+      <field id="referenceUse" autocomplete="vocab-referenceUse" ui-type="enum" section="sdmom" />
+    </repeat>
+  </section>
+
+  <section id="referenceInformation">
+    <field id="webReady" autocomplete="vocab-webReady" ui-type="enum" section="sdmom" />
+    <field id="copyrights" section="sdmom" />
+  </section>
+
+  <section id="objectCollectionInformation">
+    <field id="fieldCollectionUnit" section="sdmom" />
+    <field id="fieldCollectionLevel" section="sdmom" />
+    <field id="fieldCollectionStratum" section="sdmom" />
+  </section>
+</record>
