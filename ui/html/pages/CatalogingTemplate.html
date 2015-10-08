@@ -1607,52 +1607,67 @@
 
 <div class="fl-container-flex fl-fix information-group">
 	<div class="csc-recordEditor-header fl-container-flex header toggle csc-collection-object-objectViewersContributionInformation-label"></div>
-  <div class="csc-collection-object-viewersGroup cs-repeatable-stretched">
-  	<div class="csc-recordEditor-togglable fl-container-flex fl-fix content main">
-      <div class="info-column">
-        <div class="info-column3 fl-force-left">
-          <div class="info-pair-select">
-            <div class="header">
-              <div class="label csc-collection-object-history-association-viewer-label"></div>
+	<div class="csc-recordEditor-togglable fl-container-flex fl-fix content main">
+    <div class="info-column cs-multipleEdit" id="multipleEdit">
+      <div class="info-pair">
+        <div class="header">
+          <div class="label csc-collection-object-viewersGroup-label"></div>
+        </div>
+        <div class="content csc-collection-object-viewersGroup cs-repeatable-stretched">
+          <div class="info-column">
+            <div class="info-column3 fl-force-left">
+              <div class="info-pair">
+                <div class="header">
+                  <div class="label csc-collection-object-viewer-label"></div>
+                </div>
+                <div class="content">
+                  <input type="text" class="csc-object-viewers-viewer" />
+                </div>
+              </div>
             </div>
-            <div class="content">
-              <input type="text" class="csc-object-history-association-viewer" />
+            <div class="info-column3 fl-force-left">
+              <div class="info-pair-select">
+                <div class="header">
+                  <div class="label csc-collection-object-viewer-role-label"></div>
+                </div>
+                <div class="content">
+                  <select class="csc-object-viewers-viewer-role input-select"><option value="">Options not loaded</option></select>
+                </div>
+              </div>
+            </div>
+            <div class="info-column3 fl-force-left">
+              <div class="info-pair-date">
+                <div class="header">
+                  <div class="label csc-collection-object-viewer-date-label"></div>
+                </div>
+                <div class="content">
+                  <input type="text" class="csc-object-viewers-viewer-date" />
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="info-column3 fl-force-left">
-          <div class="info-pair-select">
-            <div class="header">
-              <div class="label csc-collection-object-history-association-viewer-role-label"></div>
-            </div>
-            <div class="content">
-              <select class="csc-object-history-association-viewer-role input-select"><option value="">Options not loaded</option></select>
-            </div>
-          </div>
-        </div>
-        <div class="info-column3 fl-force-left">
-          <div class="info-pair-date">
-            <div class="header">
-              <div class="label csc-collection-object-history-association-viewer-date-label"></div>
-            </div>
-            <div class="content">
-              <input type="text" class="csc-object-history-association-viewer-date" />
-            </div>
-          </div>
-        </div>
-      </div>
 
-      <div class="info-column">
-        <div class="info-pair-date">
-          <div class="header">
-            <div class="label csc-collection-object-history-association-viewer-note-label"></div>
-          </div>
-          <div class="content">
-            <input type="text" class="csc-object-history-association-viewer-note" />
+          <div class="info-column">
+            <div class="info-pair-date">
+              <div class="header">
+                <div class="label csc-collection-object-viewer-note-label"></div>
+              </div>
+              <div class="content">
+                <input type="text" class="csc-object-viewers-viewer-note" />
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
+</div>
+
+<!-- <div class="fl-container-flex fl-fix information-group">
+	<div class="csc-recordEditor-header fl-container-flex header toggle csc-collection-object-objectViewersContributionInformation-label"></div>
+  <div class="csc-collection-object-viewersGroup cs-repeatable-stretched">
+  	<div class="csc-recordEditor-togglable fl-container-flex fl-fix content main">
+      <div class="info-column"> -->
 
 		<!-- <div class="info-column">
 			<div class="info-pair">
@@ -1707,9 +1722,9 @@
 					<textarea rows="4" cols="30" class="input-textarea csc-object-viewer-contribution-note"></textarea>
 				</div>
 			</div>
-		</div> -->
+		</div>
 	</div>
-</div> <!-- information-group -->
+</div>  -->
 
 <div class="fl-container-flex fl-fix information-group">
 	<div class="csc-recordEditor-header fl-container-flex header toggle csc-collection-object-referenceInformation-label"></div>
