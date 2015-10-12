@@ -125,9 +125,9 @@ collection-object-textualInscriptionInformationLabel: Inscription
 collection-object-objectProductionPeopleGroupLabel: Production Culture
 collection-object-objectProductionPeopleLabel: Production Culture
 
-collection-object-ownersLabel: Owners
-collection-object-ownerLabel: Owner
-collection-object-ownerNoteLabel: Note
+collection-object-sdmomOwnerGroupLabel: Owners
+collection-object-sdmomOwnerLabel: Owner
+collection-object-sdmomOwnerNoteLabel: Owner's Note
 
 collection-object-objectViewersContributionInformationLabel: Viewers
 collection-object-viewersGroupLabel: Viewer
