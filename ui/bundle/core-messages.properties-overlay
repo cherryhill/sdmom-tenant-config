@@ -125,15 +125,16 @@ collection-object-textualInscriptionInformationLabel: Inscription
 collection-object-objectProductionPeopleGroupLabel: Production Culture
 collection-object-objectProductionPeopleLabel: Production Culture
 
-collection-object-ownersLabel: Owners
-collection-object-ownerLabel: Owner
-collection-object-ownerNoteLabel: Note
+collection-object-sdmomOwnerGroupLabel: Owners
+collection-object-sdmomOwnerLabel: Owner
+collection-object-sdmomOwnerNoteLabel: Owner's Note
 
 collection-object-objectViewersContributionInformationLabel: Viewers
-collection-object-historyAssociationViewerLabel: Viewer
-collection-object-historyAssociationViewerRoleLabel: Role
-collection-object-historyAssociationViewerDateLabel: Date
-collection-object-historyAssociationViewerNoteLabel: Note
+collection-object-viewersGroupLabel: Viewer
+collection-object-viewerLabel: Viewer Name
+collection-object-viewerRoleLabel: Viewer Role
+collection-object-viewerDateLabel: Viewer Date
+collection-object-viewerNoteLabel: Viewer Note
 
 collection-object-referenceUseLabel: Reference Use
 collection-object-copyrightsLabel: Copyrights

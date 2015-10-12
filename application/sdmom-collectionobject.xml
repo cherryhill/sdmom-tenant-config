@@ -161,27 +161,18 @@
   </section>
 
   <section id="objectHistoryAssociationInformation">
-    <repeat id="owners">
-      <field id="ownerNote" section="sdmom">
-        <selector>object-history-association-owner-note</selector>
-      </field>
+    <repeat id="sdmomOwnerGroupList/sdmomOwnerGroup" section="sdmom">
+      <field id="sdmomOwner" autocomplete="person-person,organization-organization" section="sdmom" />
+      <field id="sdmomOwnerNote" section="sdmom" />
     </repeat>
   </section>
 
   <section id="objectViewersContributionInformation">
-    <repeat id="viewersList/viewersGroup" section="sdmom">
-      <field id="viewer" autocomplete="person-person,organization-organization" section="sdmom">
-        <selector>object-history-association-viewer</selector>
-      </field>
-      <field id="viewerRole" autocomplete="vocab-viewerRole" ui-type="enum" section="sdmom">
-        <selector>object-history-association-viewer-role</selector>
-      </field>
-      <field id="viewerDate" ui-type="date" datatype="date" ui-search="range" section="sdmom">
-        <selector>object-history-association-viewer-date</selector>
-      </field>
-      <field id="viewerNote" section="sdmom">
-        <selector>object-history-association-viewer-note</selector>
-      </field>
+    <repeat id="viewersGroupList/viewersGroup" section="sdmom">
+      <field id="viewer" autocomplete="person-person,organization-organization" section="sdmom"/>
+      <field id="viewerRole" autocomplete="vocab-viewerRole" ui-type="enum" section="sdmom"/>
+      <field id="viewerDate" ui-type="date" datatype="date" ui-search="range" section="sdmom"/>
+      <field id="viewerNote" section="sdmom"/>
     </repeat>
   </section>
 
