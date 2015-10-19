@@ -1,10 +1,9 @@
 <record id="acquisition" is-extension="true" type="record,procedure">
-  <services-record-path id="sdmom">acquisitions_sdmom:http://collectionspace.org/services/objectexit/local/sdmom,acquisitions_sdmom</services-record-path>
+  <services-record-path id="sdmom">acquisitions_sdmom:http://collectionspace.org/services/acquisition/local/sdmom,acquisitions_sdmom</services-record-path>
 
   <section id="acquisitionInformation">
-    <field id="acquisitionProvenance" section="sdmom">
-      <selector>acquisition-acquisition-provenance</selector>
-    </field>
+    <field id="acquisitionProvenance" section="sdmom" />
+    <field id="acquisitionProvisos" section="sdmom" />
   </section>
 
 </record>
