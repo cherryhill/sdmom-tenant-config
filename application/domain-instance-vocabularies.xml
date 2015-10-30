@@ -255,7 +255,7 @@
   <instance id="vocab-persontermtype">
     <web-url>persontermtype</web-url>
     <title-ref>persontermtype</title-ref>
-    <title>personTermType</title>
+    <title>Person Term Type</title>
     <options>
       <option id="artist">Artist</option>
       <option id="artistDonor">Artist and Donor</option>
@@ -264,6 +264,22 @@
       <option id="donorEmployee">Donor and Employee</option>
       <option id="employee">Employee</option>
       <option id="other">other</option>
+    </options>
+  </instance>
+
+  <instance id="vocab-lostatus">
+    <web-url>loanoutstatus</web-url>
+    <title-ref>loanoutstatus</title-ref>
+    <title>Loaned Object Status</title>
+    <options>
+        <option id="abandoned">Abandoned</option>
+        <option id="authorized">Authorized</option>
+        <option id="closed">Closed</option>
+        <option id="open">Open</option>
+        <option id="other">Other</option>
+        <option id="refused">Refused</option>
+        <option id="renewed">Renewed</option>
+        <option id="returned">Returned</option>
     </options>
   </instance>
 </instances>
