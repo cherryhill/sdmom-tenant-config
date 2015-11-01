@@ -25,6 +25,50 @@
     </options>
   </instance>
 
+  <instance id="vocab-collectionType">
+    <web-url>nameCurrency</web-url>
+    <title-ref>nameCurrency</title-ref>
+    <title>Collection Type</title>
+    <options>
+      <option id="archaeology">Archaeology</option>
+      <option id="archives">Archives</option>
+      <option id="images">Images</option>
+      <option id="objects">Objects</option>
+      <option id="physicalAnthropology">Physical Anthropology</option>
+    </options>
+  </instance>
+
+  <instance id="vocab-nameCurrency">
+    <web-url>nameCurrency</web-url>
+    <title-ref>nameCurrency</title-ref>
+    <title>Name Currency</title>
+    <options>
+        <option id="current">Current</option>
+        <option id="outOfDate">Out-of-date</option>
+        <option id="unknown">Unknown</option>
+    </options>
+  </instance>
+
+  <instance id="vocab-nameLevel">
+    <web-url>nameCurrency</web-url>
+    <title-ref>nameCurrency</title-ref>
+    <title>Name Level</title>
+    <options>
+      <option id="album">Album</option>
+      <option id="collection">Collection</option>
+      <option id="component">Component</option>
+      <option id="folder">Folder</option>
+      <option id="item">Item</option>
+      <option id="group">Group</option>
+      <option id="multiples">Multiples</option>
+      <option id="series">Series</option>
+      <option id="set">Set</option>
+      <option id="subgroup">Subgroup</option>
+      <option id="subseries">Subseries</option>
+      <option id="volume">Volume</option>
+    </options>
+  </instance>
+
   <instance id="vocab-otherNumberType">
     <web-url>otherNumberType</web-url>
     <title-ref>otherNumberType</title-ref>
@@ -249,6 +293,7 @@
       <option id="yes">Yes</option>
       <option id="no">No</option>
       <option id="inReview">In Review</option>
+      <option id="online">Online</option>
     </options>
   </instance>
 

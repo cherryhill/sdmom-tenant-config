@@ -42,26 +42,19 @@
       </field>
     </repeat>
 
-
-    <field id="filterObject" datatype="boolean" section="sdmom">
-			<default>false</default>
-		</field>
-    <field id="filterPhysAnthro" datatype="boolean" section="sdmom">
-			<default>false</default>
-		</field>
-    <field id="filterArchaeology" datatype="boolean" section="sdmom">
-			<default>false</default>
-		</field>
-    <field id="filterArchives" datatype="boolean" section="sdmom">
-			<default>false</default>
-		</field>
-    <field id="filterImage" datatype="boolean" section="sdmom">
-			<default>false</default>
-		</field>
+    <repeat id="collectionTypes" has-primary="yes" section="sdmom">
+      <field id="collectionType" autocomplete="vocab-collectionType" ui-type="enum" ui-search="repeatable" section="sdmom">></field>
+    </repeat>
 
     <repeat id="controlledObjectNameList/controlledObjectNameGroup" section="sdmom">
       <field id="controlledObjectName" ui-search="repeatable" mini="search,list" section="sdmom">
         <selector>object-identification-controlled-object-name</selector>
+      </field>
+      <field id="controlledObjectNameCurrency" autocomplete="vocab-nameCurrency" ui-type="enum" ui-search="repeatable" section="sdmom">
+        <selector>object-identification-controlled-object-name-currency</selector>
+      </field>
+      <field id="controlledObjectNameLevel" autocomplete="vocab-nameLevel" ui-type="enum" ui-search="repeatable" section="sdmom">
+        <selector>object-identification-controlled-object-name-level</selector>
       </field>
       <field id="controlledObjectNameNote" section="sdmom">
         <selector>object-identification-controlled-object-name-note</selector>
@@ -170,9 +163,10 @@
   <section id="objectViewersContributionInformation">
     <repeat id="viewersGroupList/viewersGroup" section="sdmom">
       <field id="viewer" autocomplete="person-person,organization-organization" section="sdmom"/>
+      <field id="viewerNote" section="sdmom"/>
       <field id="viewerRole" autocomplete="vocab-viewerRole" ui-type="enum" section="sdmom"/>
       <field id="viewerDate" ui-type="date" datatype="date" ui-search="range" section="sdmom"/>
-      <field id="viewerNote" section="sdmom"/>
+      <field id="viewerCommentary" section="sdmom"/>
     </repeat>
   </section>
 
@@ -184,7 +178,12 @@
 
   <section id="referenceInformation">
     <field id="webReady" autocomplete="vocab-webReady" ui-type="enum" section="sdmom" />
-    <field id="copyrights" section="sdmom" />
+    <repeat id="copyrights" has-primary="yes">
+      <field id="copyright" section="sdmom" />
+    </repeat>
+    <repeat id="credits" has-primary="yes">
+      <field id="credit" section="sdmom" />
+    </repeat>
   </section>
 
   <section id="objectCollectionInformation">
