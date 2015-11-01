@@ -128,41 +128,22 @@
 				</div>
 
         <div class="info-pair">
-            <div class="header">
-                <div class="label csc-collection-object-computedCurrentLocation-label"></div>
-            </div>
-            <div class="content">
-                <input type="text" class="csc-collection-object-computedCurrentLocation"/>
-            </div>
+          <div class="header">
+            <div class="label csc-collection-object-computedCurrentLocation-label"></div>
+          </div>
+          <div class="content">
+            <input type="text" class="csc-collection-object-computedCurrentLocation"/>
+          </div>
         </div>
 
         <div class="info-pair">
-					<div class="header">
-						<div class="label csc-collection-object-filters-label"></div>
-					</div>
-					<div class="content">
-						<table>
-							<thead>
-								<tr>
-									<td class="csc-collection-object-filterObject-label"></td>
-									<td class="csc-collection-object-filterPhysAnthro-label"></td>
-									<td class="csc-collection-object-filterArchaeology-label"></td>
-                  <td class="csc-collection-object-filterArchives-label"></td>
-									<td class="csc-collection-object-filterImage-label"></td>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td style="width:20%"><input class="input-select csc-collection-object-filterObject" type="checkbox"/></td>
-                  <td style="width:20%"><input class="input-select csc-collection-object-filterPhysAnthro" type="checkbox"/></td>
-                  <td style="width:20%"><input class="input-select csc-collection-object-filterArchaeology" type="checkbox"/></td>
-                  <td style="width:20%"><input class="input-select csc-collection-object-filterArchives" type="checkbox"/></td>
-                  <td style="width:20%"><input class="input-select csc-collection-object-filterImage" type="checkbox"/></td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-				</div>
+          <div class="header">
+            <div class="label csc-collection-object-collectionType-label"></div>
+          </div>
+          <div class="content csc-collection-object-collectionTypes">
+            <select class="csc-collection-object-collectionType input-select"><option value="">Options not loaded</option></select>
+          </div>
+        </div>
 
         <div class="info-pair">
           <div class="header">
@@ -298,7 +279,9 @@
 					<thead>
 						<tr>
 							<td class="csc-collection-object-controlledObjectName-label"></td>
-              <td class="csc-collection-object-controlledObjectNameNote-label"></td>
+							<td class="csc-collection-object-controlledObjectNameCurrency-label"></td>
+							<td class="csc-collection-object-controlledObjectNameLevel-label"></td>
+							<td class="csc-collection-object-controlledObjectNameNote-label"></td>
 							<td class="csc-collection-object-controlledObjectNameSystem-label"></td>
 							<td class="csc-collection-object-controlledObjectNameLanguage-label"></td>
 						</tr>
@@ -306,7 +289,9 @@
 					<tbody>
 						<tr class="csc-collection-object-controlledObjectNameGroup">
 							<td><input type="text" class="csc-object-identification-controlled-object-name"/></td>
-              <td style="width:25%;"><input type="text" class="csc-object-identification-controlled-object-name-note"/></td>
+							<td><select class="csc-object-identification-controlled-object-name-currency input-select"><option value="">Options not loaded</option></select></td>
+							<td><select class="csc-object-identification-controlled-object-name-level input-select"><option value="">Options not loaded</option></select></td>
+							<td style="width:25%;"><input type="text" class="csc-object-identification-controlled-object-name-note"/></td>
 							<td><select class="csc-object-identification-controlled-object-name-system input-select"><option value="">Options not loaded</option></select></td>
 							<td><select class="csc-object-identification-controlled-object-name-language input-select"><option value="">Options not loaded</option></select></td>
 						</tr>
@@ -846,7 +831,7 @@
                             </div>
                         </div>
 
-                        <div class="info-pair hidden">
+                        <div class="info-pair">
                             <div class="header">
                                 <div class="label csc-collection-object-inscriptionContentTransliteration-label"></div>
                             </div>
@@ -1557,15 +1542,25 @@
                 </div>
               </div>
             </div>
+            <div class="info-column3 fl-force-left">
+              <div class="info-pair">
+                <div class="header">
+                  <div class="label csc-collection-object-viewerNote-label"></div>
+                </div>
+                <div class="content">
+                  <input type="text" class="csc-collection-object-viewerNote" />
+                </div>
+              </div>
+            </div>
           </div>
 
           <div class="info-column">
             <div class="info-pair-date">
               <div class="header">
-                <div class="label csc-collection-object-viewerNote-label"></div>
+                <div class="label csc-collection-object-viewerCommentary-label"></div>
               </div>
               <div class="content">
-                <textarea rows="4" cols="30" class="input-textarea csc-collection-object-viewerNote"></textarea>
+                <textarea rows="4" cols="30" class="input-textarea csc-collection-object-viewerCommentary"></textarea>
               </div>
             </div>
           </div>
@@ -1605,14 +1600,22 @@
 			</div>
 		</div>
 
-    <div class="info-column">
-      <div class="info-column2-50 fl-force-left">
+		<div class="info-column">
+			<div class="info-column2-50 fl-force-left">
 				<div class="info-pair">
 					<div class="header">
 						<div class="label csc-collection-object-copyrights-label"></div>
 					</div>
-					<div class="content">
+					<div class="content csc-collection-object-copyrights">
 						<textarea rows="4" cols="30" class="csc-collection-object-copyrights" />
+					</div>
+				</div>
+				<div class="info-pair">
+					<div class="header">
+						<div class="label csc-collection-object-credits-label"></div>
+					</div>
+					<div class="content csc-collection-object-credits">
+						<textarea rows="4" cols="30" class="csc-collection-object-credits" />
 					</div>
 				</div>
 			</div>
@@ -1623,7 +1626,7 @@
 						<div class="label csc-collection-object-webReady-label"></div>
 					</div>
 					<div class="content">
-            <select class="csc-collection-object-webReady input-select"><option value="">Options not loaded</option></select>
+						<select class="csc-collection-object-webReady input-select"><option value="">Options not loaded</option></select>
 					</div>
 				</div>
 			</div>
