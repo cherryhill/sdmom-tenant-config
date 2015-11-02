@@ -27,6 +27,7 @@ movement-approvedByLabel: Approved By
 media-sourceLabel: Related Resource
 
 # Object Exit
+objectexit-objectExitTitleLabel: Exit Event Title
 objectexit-deaccessionApprovalInformationLabel: Deaccession Approval Information
 objectexit-collectionsReviewCommitteeLabel: Collections Review Committee
 objectexit-collectionsReviewCommitteeStatusLabel: Approval Status
