@@ -16,6 +16,10 @@
     </field>
   </section> -->
 
+  <section id="objectexitInformation">
+    <field id="objectExitTitle" section="sdmom" />
+  </section>
+  
   <section id="deaccessionApprovalInformation">
     <section id="collectionsReviewCommittee">
       <field id="collectionsReviewCommitteeStatus" autocomplete="vocab-approvalState" ui-type="enum" section="sdmom">
