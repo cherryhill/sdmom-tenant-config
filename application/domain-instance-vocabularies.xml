@@ -297,6 +297,60 @@
     </options>
   </instance>
 
+  <instance id="vocab-personTitle">
+    <web-url>personTitle</web-url>
+    <title-ref>personTitle</title-ref>
+    <title>Person Title</title>
+    <options>
+      <option id="admiral">Admiral</option>
+      <option id="asstVice">Asst. Vice</option>
+      <option id="canon">Canon</option>
+      <option id="captain">Captain</option>
+      <option id="chief">Chief</option>
+      <option id="colonel">Colonel</option>
+      <option id="commander">Commander</option>
+      <option id="corporal">Corporal</option>
+      <option id="deputy">Deputy</option>
+      <option id="deputy Sheriff">Deputy Sheriff</option>
+      <option id="dr">Dr.</option>
+      <option id="duke">Duke</option>
+      <option id="emperor">Emperor</option>
+      <option id="empress">Empress</option>
+      <option id="father">Father</option>
+      <option id="general">General</option>
+      <option id="governor">Governor</option>
+      <option id="judge">Judge</option>
+      <option id="junior">Junior</option>
+      <option id="king">King</option>
+      <option id="lieutenant">Lieutenant</option>
+      <option id="ltCommander">Lt. Commander</option>
+      <option id="master">Master</option>
+      <option id="miss">Miss</option>
+      <option id="misses">Misses</option>
+      <option id="mr">Mr.</option>
+      <option id="mrAndMrs">Mr. and Mrs.</option>
+      <option id="mrs">Mrs.</option>
+      <option id="ms">Ms.</option>
+      <option id="national">National</option>
+      <option id="president">President</option>
+      <option id="prince">Prince</option>
+      <option id="professor">Professor</option>
+      <option id="queen">Queen</option>
+      <option id="rabbi">Rabbi</option>
+      <option id="ranger">Ranger</option>
+      <option id="rearAdmiral">Rear Admiral</option>
+      <option id="reverend">Reverend</option>
+      <option id="royal">Royal</option>
+      <option id="saint">Saint</option>
+      <option id="sergeant">Sergeant</option>
+      <option id="sir">Sir</option>
+      <option id="sister">Sister</option>
+      <option id="sr">Sr.</option>
+      <option id="sra">Sra.</option>
+      <option id="viceAdmiral">Vice Admiral</option>
+    </options>
+  </instance>
+
   <!-- Replace base-instance-vocabulary -->
   <instance id="vocab-persontermtype">
     <web-url>persontermtype</web-url>
