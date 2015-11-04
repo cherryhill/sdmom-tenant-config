@@ -311,7 +311,7 @@
       <option id="commander">Commander</option>
       <option id="corporal">Corporal</option>
       <option id="deputy">Deputy</option>
-      <option id="deputy Sheriff">Deputy Sheriff</option>
+      <option id="deputySheriff">Deputy Sheriff</option>
       <option id="dr">Dr.</option>
       <option id="duke">Duke</option>
       <option id="emperor">Emperor</option>
