@@ -61,6 +61,8 @@ preferredOA-additionsToNameLabel: Organization Notes
 preferredOA-mainBodyNameLabel: Organization Name
 
 # Place
+vocab-bgn_place: U.S. Board on Geographic Names
+place-nga_place: U.S. National Geospatial-Intelligence Agency
 preferredPlace-termNameLabel: Place Name
 
 # Citation

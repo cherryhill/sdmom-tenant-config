@@ -16,6 +16,11 @@
           <title-ref>bgn_place</title-ref>
           <title>U.S. Board on Geographic Names</title>
       </instance>
+      <instance id="place-nga_place">
+          <web-url>bgn_place</web-url>
+          <title-ref>bgn_place</title-ref>
+          <title>U.S. National Geospatial-Intelligence Agency</title>
+      </instance>
   </instances>
 
 </record>
