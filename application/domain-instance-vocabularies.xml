@@ -26,8 +26,8 @@
   </instance>
 
   <instance id="vocab-collectionType">
-    <web-url>nameCurrency</web-url>
-    <title-ref>nameCurrency</title-ref>
+    <web-url>collectionType</web-url>
+    <title-ref>collectionType</title-ref>
     <title>Collection Type</title>
     <options>
       <option id="archaeology">Archaeology</option>
@@ -95,6 +95,7 @@
     <title-ref>objectStanding</title-ref>
     <title>Object Standing</title>
     <options>
+      <option id="ok">OK</option>
       <option id="located">Located</option>
       <option id="missing">Missing</option>
       <option id="stolen">Stolen</option>
@@ -187,6 +188,26 @@
       <option id="paperTag">Paper Tag</option>
       <option id="signature">Signature</option>
       <option id="stamp">Stamp</option>
+    </options>
+  </instance>
+
+  <instance id="vocab-inscriptionPosition">
+    <web-url>inscriptionPosition</web-url>
+    <title-ref>inscriptionPosition</title-ref>
+    <title>Inscription Position</title>
+    <options>
+      <option id="back">Back</option>
+      <option id="base">Base</option>
+      <option id="bottom">Bottom</option>
+      <option id="front">Front</option>
+      <option id="inside">Inside</option>
+      <option id="left">Left</option>
+      <option id="outside">Outside</option>
+      <option id="recto">Recto</option>
+      <option id="right">Right</option>
+      <option id="rim">Rim</option>
+      <option id="top">Top</option>
+      <option id="verso">Verso</option>
     </options>
   </instance>
 

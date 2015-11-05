@@ -116,15 +116,18 @@ collection-object-otherObjectNameNoteLabel: Note
 collection-object-otherObjectNameSystemLabel: System
 collection-object-otherObjectNameLanguageLabel: Language
 
+collection-object-objectStatusLabel: Object Authenticity
 collection-object-contentObjectLabel: SDMoM Object Contained
 collection-object-contentPeoplesLabel: Culture
 collection-object-legacySearchTermsDataLabel: Legacy Search Terms Data
 
+collection-object-legacyPastPerfectDimensionDetailsLabel: Legacy Past Perfect Dimension Details
 collection-object-textualInscriptionInformationLabel: Inscription
 
 collection-object-objectProductionPeopleGroupLabel: Production Culture
 collection-object-objectProductionPeopleLabel: Production Culture
 
+collection-object-objectHistoryNote-label: Provenance
 collection-object-sdmomOwnerGroupLabel: Owners
 collection-object-sdmomOwnerLabel: Owner
 collection-object-sdmomOwnerNoteLabel: Owner's Note
