@@ -34,30 +34,11 @@
   </section>
 
   <section id="conditionCheckInformation">
-    <repeat id="conditionCheckInformationList/conditionCheckInformationGroup" section="sdmom">
-      <field id="conditionCheckAssessmentDate" ui-type="date" datatype="date" ui-search="range"></field>
-      <field id="conditionCheckMethod">
-        <selector>conditioncheck-conditionCheckMethod</selector>
-        <options>
-            <option id="" default="yes">Please select a value</option>
-            <option id="observed">Observed</option>
-            <option id="xrayed">X-rayed</option>
-        </options>
-      </field>
-      <field id="conditionCheckNote"></field>
+    <repeat id="conditionCheckInformationList/conditionCheckInformationGroup">
       <!-- Converting 'conditionCheckReason' to Dynamic -->
       <field id="conditionCheckReason" ui-search="repeatable" mini="search,list,relate" autocomplete="vocab-conditionCheckReason" ui-type="enum">
         <selector>conditioncheck-conditionCheckReason</selector>
       </field>
-      <field id="conditionCheckRefNumber" ui-search="repeatable" in-title="yes" chooser="yes" mini="number,search,list,relate" seperate_ui_container="true">
-        <selector>conditioncheck-numberPatternChooser-reference-number</selector>
-        <title-selector>titleBar-conditioncheck-reference-number</title-selector>
-        <container-selector>conditioncheck-reference-number-patternChooserContainer</container-selector>
-        <options>
-            <option id="conditioncheck" sample="CC2012.1.1">Condition Check</option>
-        </options>
-      </field>
-      <field id="conditionChecker" ui-search="repeatable" autocomplete="person-person"></field>
     </repeat>
   </section>
 </record>
