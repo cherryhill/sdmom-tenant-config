@@ -25,6 +25,30 @@
     </options>
   </instance>
 
+  <instance id="vocab-condition">
+    <web-url>condition</web-url>
+    <title-ref>condition</title-ref>
+    <title>Condition Check Condition</title>
+    <options>
+        <option id="excellent">Excellent</option>
+        <option id="good">Good</option>
+        <option id="fair">Fair</option>
+        <option id="poor">Poor</option>
+    </options>
+  </instance>
+
+  <instance id="vocab-hazard">
+    <web-url>hazard</web-url>
+    <title-ref>hazard</title-ref>
+    <title>Condition Check Hazard</title>
+    <options>
+        <option id="poisonous">Poisonous</option>
+        <option id="cumbustable">Combustable</option>
+        <option id="radioactive">Radioactive</option>
+        <option id="other">other</option>
+    </options>
+  </instance>
+
   <instance id="vocab-collectionType">
     <web-url>collectionType</web-url>
     <title-ref>collectionType</title-ref>
