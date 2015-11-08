@@ -1,11 +1,8 @@
 #Login
+login-current: San Diego Museum of Man
+login-current-info: Welcome to the Museum of Man CollectionSpace system
+login-current-details:
 
-login-login: admin@museumofman.org
-login-rologin: blah2@museumofman.org
-
-login-footerFirst: A tenant configured for use with \t
-login-footerLink: life sciences collections
-login-footerLast:  is also available. In the future, additional demo tenants will be created to show configurations specific to art, digital and variable media, and anthropology.
 
 preferredPA-foreNameLabel: First Name
 preferredPA-middleNameLabel: Middle Name
