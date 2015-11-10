@@ -28,7 +28,7 @@
 			<include src="base-procedure-movement.xml,sdmom-procedure-movement.xml" merge="xmlmerge.properties"/>
 			<include src="base-procedure-objectexit.xml,sdmom-procedure-objectexit.xml" merge="xmlmerge.properties"/>
 
-			<include src="base-authority-contact.xml"/>
+			<include src="base-authority-contact.xml,sdmom-authority-contact.xml" merge="xmlmerge.properties"/>
                         <!-- IMPORTANT: *-termList.xml files MUST precede their equivalent files. -->
 			<include src="base-authority-location-termList.xml"/>
 			<include src="base-authority-location.xml"/>
