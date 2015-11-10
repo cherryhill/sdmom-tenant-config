@@ -13,7 +13,7 @@ exhibition-requiredStaffSecurityLabel: Required Staff and Security
 
 # Intake
 intake-ownersRequirementsLabel: Current owner's requirements
-intake-objectStatusLabel: Status
+intake-entryStatusLabel: Status
 
 # Location, Movement and Inventory
 movement-normalLocationLabel: Home Location
