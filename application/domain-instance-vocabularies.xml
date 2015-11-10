@@ -400,4 +400,16 @@
     </options>
   </instance>
 
+  <instance id="vocab-telephoneNumberType">
+    <web-url>telephoneNumberType</web-url>
+    <title-ref>telephoneNumberType</title-ref>
+    <title>Telephone Number Type</title>
+    <options>
+      <option id="business">Business</option>
+      <option id="home">Home</option>
+      <option id="mobile">Mobile</option>
+      <option id="fax">Fax</option>
+      <option id="other">other</option>
+    </options>
+  </instance>
 </instances>
