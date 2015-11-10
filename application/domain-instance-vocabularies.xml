@@ -378,11 +378,11 @@
     <title-ref>entryReason</title-ref>
     <title>Intake Entry Reason</title>
     <options>
-      <option><id="acquisition">Acquisition</option>
-      <option><id="consideration">Consideration</option>
-      <option><id="auction">Auction</option>
-      <option><id="enquiry">Enquiry</option>
-      <option><id="commission">Commission</option>
+      <option id="acquisition">Acquisition</option>
+      <option id="consideration">Consideration</option>
+      <option id="auction">Auction</option>
+      <option id="enquiry">Enquiry</option>
+      <option id="commission">Commission</option>
     </options>
   </instance>
 
