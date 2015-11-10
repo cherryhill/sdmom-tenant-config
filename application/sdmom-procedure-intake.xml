@@ -3,18 +3,10 @@
   <services-record-path id="sdmom">intakes_sdmom:http://collectionspace.org/services/intake/local/sdmom,intakes_sdmom</services-record-path>
 
   <section id="objectEntryInformation">
+    <!-- convert to dynamic controlled list -->
+    <field id="entryReason" ui-search="repeatable" autocomplete="vocab-entryReason" ui-type="enum"/>
     <field id="ownersRequirements" section="sdmom"></field>
-    <field id="objectStatus" section="sdmom">
-        <options>
-            <option id="" default="yes">Please select a value</option>
-            <option id="located">Located</option>
-            <option id="missing">Missing</option>
-            <option id="stolen">Stolen</option>
-            <option id="onloan">On Loan</option>
-            <option id="returned">Returned</option>
-            <option id="restricted">Restricted</option>
-        </options>
-    </field>
+    <field id="entryStatus" ui-search="repeatable" autocomplete="vocab-entryStatus" ui-type="enum" section="sdmom"/>
   </section>
 
 </record>
