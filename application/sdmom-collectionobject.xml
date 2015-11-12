@@ -2,7 +2,14 @@
 
   <services-record-path id="sdmom">collectionobjects_sdmom:http://collectionspace.org/services/collectionobject/local/sdmom,collectionobjects_sdmom</services-record-path>
 
+
   <section id="identificationInformation">
+
+    <!-- Suppress from Advanced Search Screen -->
+    <repeat id="responsibleDepartments" has-primary="yes">
+      <field id="responsibleDepartment" ui-search="" mini="" />
+    </repeat>
+
     <repeat id="sdmomOtherNumberList/sdmomOtherNumber" section="sdmom">
       <selector>object-identification-otherNumbers</selector>
       <field id="sdmomNumberValue" in-tab="yes" section="sdmom">
