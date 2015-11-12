@@ -83,6 +83,14 @@ conditioncheck-workCompletedByLabel: Work Completed By
 conditioncheck-workCompletedLabel: Work Completed
 conditioncheck-workCompletedDateLabel: Work Completed Date
 
+conditioncheck-conditionChkInformationLabel: Condition Check/Technical Assessment Information
+conditioncheck-conditionChkAssessmentDateLabel: Condition Check/Assessment Date
+conditioncheck-conditionChkMethodLabel: Condition Check/Assessment Method
+conditioncheck-conditionChkNoteLabel: Condition Check/Assessment Note
+conditioncheck-conditionChkReasonLabel: Condition Check/Assessment Reason
+conditioncheck-conditionChkRefNumberLabel: Condition Check/Assessment Reference Number
+conditioncheck-conditionChkerLabel: Condition Checker/Assessor
+
 # Cataloging / Object
 collection-object-numberNoteLabel: Number Note
 collection-object-collectionTypeLabel: Collection Type
