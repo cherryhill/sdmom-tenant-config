@@ -25,6 +25,30 @@
     </options>
   </instance>
 
+  <instance id="vocab-condition">
+    <web-url>condition</web-url>
+    <title-ref>condition</title-ref>
+    <title>Condition Check Condition</title>
+    <options>
+        <option id="excellent">Excellent</option>
+        <option id="good">Good</option>
+        <option id="fair">Fair</option>
+        <option id="poor">Poor</option>
+    </options>
+  </instance>
+
+  <instance id="vocab-hazard">
+    <web-url>hazard</web-url>
+    <title-ref>hazard</title-ref>
+    <title>Condition Check Hazard</title>
+    <options>
+        <option id="poisonous">Poisonous</option>
+        <option id="cumbustable">Combustable</option>
+        <option id="radioactive">Radioactive</option>
+        <option id="other">other</option>
+    </options>
+  </instance>
+
   <instance id="vocab-collectionType">
     <web-url>collectionType</web-url>
     <title-ref>collectionType</title-ref>
@@ -74,19 +98,19 @@
     <title-ref>otherNumberType</title-ref>
     <title>Other Number Type</title>
     <options>
-      <option id="creator">creator</option>
-      <option id="lender">lender</option>
-      <option id="donorCollector">donor/collector</option>
-      <option id="catalogNumber">catalog number</option>
-      <option id="previousCatalogNumber">previous catalog number</option>
-      <option id="previous">previous</option>
-      <option id="serial">serial</option>
-      <option id="series">series</option>
+      <option id="creator">Creator</option>
+      <option id="lender">Lender</option>
+      <option id="donorCollector">Donor/Collector</option>
+      <option id="catalogNumber">Catalog Number</option>
+      <option id="previousCatalogNumber">Previous Catalog Number</option>
+      <option id="previous">Previous</option>
+      <option id="serial">Serial</option>
+      <option id="series">Series</option>
       <option id="unknown">unknown</option>
-      <option id="nonSDMoMcatalogNumber">non-SDMoM catalog number</option>
-      <option id="copyNumber">copy number</option>
-      <option id="edition">edition</option>
-      <option id="callNumber">call number</option>
+      <option id="nonSDMoMcatalogNumber">Non-SDMoM Catalog Number</option>
+      <option id="copyNumber">Copy Number</option>
+      <option id="edition">Edition</option>
+      <option id="callNumber">Call Number</option>
     </options>
   </instance>
 
@@ -412,4 +436,44 @@
       <option id="other">other</option>
     </options>
   </instance>
+
+  <instance id="vocab-conditionChkMethod">
+    <web-url>conditionChkMethod</web-url>
+    <title-ref>conditionChkMethod</title-ref>
+    <title>Condition Check Method</title>
+    <options>
+      <option id="observed">Observed</option>
+      <option id="xrayed">X-rayed</option>
+    </options>
+  </instance>
+
+  <instance id="vocab-conditionChkReason">
+    <web-url>conditionChkReason</web-url>
+    <title-ref>conditionChkReason</title-ref>
+    <title>Condition Check Reason</title>
+    <options>
+      <option id="conditionReport">Condition Report</option>
+      <option id="conservation">Conservation Assessment</option>
+      <option id="damage">Damage</option>
+      <option id="inventory">Inventory</option>
+      <option id="loanIn">Loan In</option>
+      <option id="loanOut">Loan Out</option>
+      <option id="newAcquisition">New Acquisition</option>
+      <option id="preexibition">Pre-exhibition</option>
+      <option id="postexibition">Post-exhibition</option>
+    </options>
+  </instance>
+
+  <instance id="vocab-condition">
+    <web-url>condition</web-url>
+    <title-ref>condition</title-ref>
+    <title>Condition</title>
+    <options>
+      <option id="excellent">Excellent</option>
+      <option id="good">Good</option>
+      <option id="fair">Fair</option>
+      <option id="poor">Poor</option>
+    </options>
+  </instance>
+
 </instances>

@@ -117,18 +117,25 @@
             <option id="foundondoorstep">Found on doorstep</option>
         </options>
     </instance>
-    <instance id="vocab-conditioncheckreason">
-        <web-url>conditioncheckreason</web-url>
-        <title-ref>conditioncheckreason</title-ref>
-        <title>Condition Check Reason</title>
-        <options>
-            <option id="consideration">Consideration</option>
-            <option id="damagedintransit">Damaged in transit</option>
-            <option id="enquiry">Enquiry</option>
-            <option id="loanin">Loan in</option>
-            <option id="conservation">Conservation</option>
-        </options>
+
+    <!-- REPLACED VOCABULARY -->
+    <instance id="vocab-conditionCheckReason">
+      <web-url>conditionCheckReason</web-url>
+      <title-ref>conditionCheckReason</title-ref>
+      <title>Condition Check Reason</title>
+      <options>
+        <option id="conditionReport">Condition Report</option>
+        <option id="conservationAssessment">Conservation Assessment</option>
+        <option id="damage">Damage</option>
+        <option id="inventory">Inventory</option>
+        <option id="loanIn">Loan In</option>
+        <option id="loanOut">Loan Out</option>
+        <option id="newAcquisition">New Acquisition</option>
+        <option id="preExhibition">Pre-exhibition</option>
+        <option id="postExhibition">Post-exhibition</option>
+      </options>
     </instance>
+
     <instance id="vocab-locationtype">
         <web-url>locationtype</web-url>
         <title-ref>locationtype</title-ref>

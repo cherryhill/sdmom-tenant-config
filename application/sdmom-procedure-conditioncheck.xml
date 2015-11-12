@@ -3,9 +3,23 @@
   <services-record-path id="sdmom">conditionchecks_sdmom:http://collectionspace.org/services/conditioncheck/local/sdmom,conditionchecks_sdmom</services-record-path>
 
   <section id="objectConditionInformation">
-    <field id="conditionStatus" autocomplete="vocab-conditionStatus" ui-type="enum" section="sdmom" />
-    <field id="statusDate" ui-type="date" datatype="date" section="sdmom" />
-    <field id="statusNote" section="sdmom" />
+    <repeat id="conditionStatusGroupList/conditionStatusGroup" section="sdmom">
+      <field id="conditionStatus" autocomplete="vocab-conditionStatus" ui-type="enum" section="sdmom" />
+      <field id="statusDate" ui-type="date" datatype="date" section="sdmom" />
+      <field id="statusNote" section="sdmom" />
+    </repeat>
+
+    <repeat id="conditionCheckGroupList/conditionCheckGroup">
+      <!-- Convert to dynamic list -->
+        <field id="condition" ui-search="repeatable" autocomplete="vocab-condition" ui-type="enum" mini="summary,search,list,relate" />
+        <field id="conditionDate" ui-type="date" datatype="date"></field>
+        <field id="conditionNote"></field>
+    </repeat>
+
+    <!-- Converting 'condition' field to Dynamic -->
+    <repeat id="conditionCheckGroupList/conditionCheckGroup">
+      <field id="condition" ui-search="repeatable" mini="summary,search,list,relate" autocomplete="vocab-condition" ui-type="enum"></field>
+    </repeat>
 
     <field id="workAssessmentCompletedBy" ui-search="repeatable" autocomplete="person-person,organization-organization" section="sdmom" />
     <field id="estimatedTreatmentCost" section="sdmom" />
@@ -16,31 +30,25 @@
       <field id="workCompleted" section="sdmom" />
       <field id="workCompletedDate" ui-type="date" datatype="date" section="sdmom" />
     </repeat>
+
+    <repeat id="hazardGroupList/hazardGroup">
+      <!-- Converting 'hazard' field to Dynamic -->
+      <field id="hazard" ui-search="repeatable" mini="search,list,relate" autocomplete="vocab-hazard" ui-type="enum">
+        <selector>conditioncheck-hazard</selector>
+      </field>
+      <field id="hazardDate" ui-type="date" datatype="date"></field>
+      <field id="hazardNote"></field>
+    </repeat>
+
   </section>
 
   <section id="conditionCheckInformation">
-    <repeat id="conditionCheckInformationList/conditionCheckInformationGroup" section="sdmom">
-      <field id="conditionCheckAssessmentDate" ui-type="date" datatype="date" ui-search="range"></field>
-      <field id="conditionCheckMethod">
-        <selector>conditioncheck-conditionCheckMethod</selector>
-        <options>
-            <option id="" default="yes">Please select a value</option>
-            <option id="observed">Observed</option>
-            <option id="xrayed">X-rayed</option>
-        </options>
-      </field>
-      <field id="conditionCheckNote"></field>
-      <field id="conditionCheckReason">
-        <selector>conditioncheck-conditionCheckReason</selector>
-        <options>
-            <option id="" default="yes">Please select a value</option>
-            <option id="conservation">Conservation</option>
-            <option id="damagedintransit">Damaged in transit</option>
-            <option id="loanin">Loan in</option>
-            <option id="newacquisition">New acquisition</option>
-        </options>
-      </field>
-      <field id="conditionCheckRefNumber" ui-search="repeatable" in-title="yes" chooser="yes" mini="number,search,list,relate" seperate_ui_container="true">
+    <repeat id="conditionChkInformationList/conditionChkInformationGroup" section="sdmom">
+      <field id="conditionChkAssessmentDate" ui-type="date" datatype="date" ui-search="range" section="sdmom" />
+      <field id="conditionChkMethod" autocomplete="vocab-conditionChkMethod" ui-type="enum" section="sdmom" />
+      <field id="conditionChkNote" section="sdmom" />
+      <field id="conditionChkReason" autocomplete="vocab-conditionChkReason" ui-type="enum" section="sdmom" />
+      <field id="conditionChkRefNumber" ui-search="repeatable" in-title="yes" chooser="yes" mini="number,search,list,relate" seperate_ui_container="true" section="sdmom">
         <selector>conditioncheck-numberPatternChooser-reference-number</selector>
         <title-selector>titleBar-conditioncheck-reference-number</title-selector>
         <container-selector>conditioncheck-reference-number-patternChooserContainer</container-selector>
@@ -48,7 +56,7 @@
             <option id="conditioncheck" sample="CC2012.1.1">Condition Check</option>
         </options>
       </field>
-      <field id="conditionChecker" ui-search="repeatable" autocomplete="person-person,organization-organization"></field>
+      <field id="conditionChker" ui-search="repeatable" autocomplete="person-person,organization-organization" section="sdmom" />
     </repeat>
   </section>
 </record>
