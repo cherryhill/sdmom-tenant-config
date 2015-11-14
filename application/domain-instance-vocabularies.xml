@@ -447,22 +447,12 @@
     </options>
   </instance>
 
-  <instance id="vocab-conditionCheckReason">
+  <!-- You'll find this in base-instance-vocabularies.xml -->
+  <!-- <instance id="vocab-conditionCheckReason">
     <web-url>conditionCheckReason</web-url>
     <title-ref>conditionCheckReason</title-ref>
     <title>Condition Check Reason</title>
-    <options>
-      <option id="conditionReport">Condition Report</option>
-      <option id="conservation">Conservation Assessment</option>
-      <option id="damage">Damage</option>
-      <option id="inventory">Inventory</option>
-      <option id="loanIn">Loan In</option>
-      <option id="loanOut">Loan Out</option>
-      <option id="newAcquisition">New Acquisition</option>
-      <option id="preexibition">Pre-exhibition</option>
-      <option id="postexibition">Post-exhibition</option>
-    </options>
-  </instance>
+  </instance> -->
 
   <instance id="vocab-condition">
     <web-url>condition</web-url>

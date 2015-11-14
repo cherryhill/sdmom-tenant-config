@@ -47,6 +47,11 @@
       <field id="conditionAssessmentPart" autocomplete="vocab-conditionAssessmentPart" ui-type="enum" section="sdmom" />
       <field id="conditionAssessmentComment" section="sdmom" />
     </repeat>
+
+    <repeat id="conditionChkers" has-primary="yes" section="sdmom">
+      <field id="conditionChker" ui-search="repeatable" autocomplete="person-person,organization-organization" section="sdmom" />
+    </repeat>
+
   </section>
 
 </record>
