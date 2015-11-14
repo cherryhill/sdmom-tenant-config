@@ -12,18 +12,18 @@
       <title-ref>material_ca</title-ref>
       <title>Material Concepts</title>
     </instance>
-    <!-- <instance id="concept-activity">
+    <instance id="concept-activity">
       <web-url>activity</web-url>
       <title-ref>activity</title-ref>
       <title>Activity Concepts</title>
-    </instance> -->
+    </instance>
 
     <!-- Added new -->
-    <instance id="concept-objectName">
+    <!-- <instance id="concept-objectName">
       <web-url>concept-objectName</web-url>
       <title-ref>concept-objectName</title-ref>
       <title>Object Name Concepts</title>
-    </instance>
+    </instance> -->
   </instances>
 
 </record>
