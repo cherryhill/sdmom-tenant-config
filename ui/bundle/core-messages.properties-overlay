@@ -72,7 +72,7 @@ preferredCI-termSourceNoteLabel: Language Note
 
 # Condition Check
 conditioncheck-conditionStatusGroupLabel: Status
-conditioncheck-conditionStatusLabel: Status
+conditioncheck-statusLabel: Status
 conditioncheck-statusDateLabel: Status Date
 conditioncheck-statusNoteLabel: Status Note
 
@@ -86,12 +86,10 @@ conditioncheck-workCompletedByLabel: Work Completed By
 conditioncheck-workCompletedLabel: Work Completed
 conditioncheck-workCompletedDateLabel: Work Completed Date
 
-conditioncheck-conditionChkInformationLabel: Condition Check/Technical Assessment Information
-conditioncheck-conditionChkAssessmentDateLabel: Condition Check/Assessment Date
-conditioncheck-conditionChkMethodLabel: Condition Check/Assessment Method
-conditioncheck-conditionChkNoteLabel: Condition Check/Assessment Note
-conditioncheck-conditionChkReasonLabel: Condition Check/Assessment Reason
-conditioncheck-conditionChkRefNumberLabel: Condition Check/Assessment Reference Number
+conditioncheck-conditionAssessmentGroupLabel: Assessment
+conditioncheck-conditionAssessmentTermLabel: Assessment Term
+conditioncheck-conditionAssessmentPartLabel: Assessed Part
+conditioncheck-conditionAssessmentCommentLabel: Assessment Comment
 conditioncheck-conditionChkerLabel: Condition Checker/Assessor
 
 # Cataloging / Object

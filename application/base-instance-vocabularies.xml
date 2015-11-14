@@ -125,14 +125,17 @@
       <title>Condition Check Reason</title>
       <options>
         <option id="conditionReport">Condition Report</option>
-        <option id="conservationAssessment">Conservation Assessment</option>
-        <option id="damage">Damage</option>
-        <option id="inventory">Inventory</option>
-        <option id="loanIn">Loan In</option>
-        <option id="loanOut">Loan Out</option>
-        <option id="newAcquisition">New Acquisition</option>
-        <option id="preExhibition">Pre-exhibition</option>
-        <option id="postExhibition">Post-exhibition</option>
+        <option id="conservation">Conservation</option>
+        <option id="damageReport">Damage Report</option>
+        <option id="evaluation">Evaluation</option>
+        <option id="incomingReport">Incoming report</option>
+        <option id="inventoryReport">Inventory Report</option>
+        <option id="outgoingReport">Outgoing Report</option>
+        <option id="postExhibit">Post-exhibit</option>
+        <option id="preExhibit">Pre-exhibit</option>
+        <option id="routineReport">Routine Report</option>
+        <option id="treatmentProposal">Treatment Proposal</option>
+        <option id="treatmentReport">Treatment Report</option>
       </options>
     </instance>
 
