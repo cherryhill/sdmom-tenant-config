@@ -3,18 +3,15 @@
   <services-record-path id="sdmom">conditionchecks_sdmom:http://collectionspace.org/services/conditioncheck/local/sdmom,conditionchecks_sdmom</services-record-path>
 
   <section id="objectConditionInformation">
-    <repeat id="conditionStatusGroupList/conditionStatusGroup" section="sdmom">
-      <field id="conditionStatus" autocomplete="vocab-conditionStatus" ui-type="enum" section="sdmom" />
+    <repeat id="conditionStatusList/conditionStatusGroup">
+      <field id="status" autocomplete="vocab-conditionStatus" ui-type="enum" section="sdmom" />
       <field id="statusDate" ui-type="date" datatype="date" section="sdmom" />
       <field id="statusNote" section="sdmom" />
     </repeat>
 
-    <repeat id="conditionCheckGroupList/conditionCheckGroup">
-      <!-- Convert to dynamic list -->
-        <field id="condition" ui-search="repeatable" autocomplete="vocab-condition" ui-type="enum" mini="summary,search,list,relate" />
-        <field id="conditionDate" ui-type="date" datatype="date"></field>
-        <field id="conditionNote"></field>
-    </repeat>
+    <field id="cond" ui-search="repeatable" autocomplete="vocab-conditionCondition" ui-type="enum" mini="summary,search,list,relate" section="sdmom" />
+    <field id="condDate" ui-type="date" datatype="date" section="sdmom" />
+    <field id="condNote" section="sdmom" />
 
     <!-- Converting 'condition' field to Dynamic -->
     <repeat id="conditionCheckGroupList/conditionCheckGroup">
@@ -39,24 +36,11 @@
       <field id="hazardDate" ui-type="date" datatype="date"></field>
       <field id="hazardNote"></field>
     </repeat>
-
   </section>
 
   <section id="conditionCheckInformation">
-    <repeat id="conditionChkInformationList/conditionChkInformationGroup" section="sdmom">
-      <field id="conditionChkAssessmentDate" ui-type="date" datatype="date" ui-search="range" section="sdmom" />
-      <field id="conditionChkMethod" autocomplete="vocab-conditionChkMethod" ui-type="enum" section="sdmom" />
-      <field id="conditionChkNote" section="sdmom" />
-      <field id="conditionChkReason" autocomplete="vocab-conditionChkReason" ui-type="enum" section="sdmom" />
-      <field id="conditionChkRefNumber" ui-search="repeatable" in-title="yes" chooser="yes" mini="number,search,list,relate" seperate_ui_container="true" section="sdmom">
-        <selector>conditioncheck-numberPatternChooser-reference-number</selector>
-        <title-selector>titleBar-conditioncheck-reference-number</title-selector>
-        <container-selector>conditioncheck-reference-number-patternChooserContainer</container-selector>
-        <options>
-            <option id="conditioncheck" sample="CC2012.1.1">Condition Check</option>
-        </options>
-      </field>
-      <field id="conditionChker" ui-search="repeatable" autocomplete="person-person,organization-organization" section="sdmom" />
-    </repeat>
+    <!-- Converting 'conditionCheckReason' field to Dynamic -->
+    <field id="conditionCheckReason" ui-search="repeatable" mini="search,list,relate" autocomplete="vocab-conditionCheckReason" ui-type="enum" />
   </section>
+
 </record>

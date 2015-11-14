@@ -72,7 +72,7 @@ preferredCI-termSourceNoteLabel: Language Note
 
 # Condition Check
 conditioncheck-conditionStatusGroupLabel: Status
-conditioncheck-conditionStatusLabel: Status
+conditioncheck-statusLabel: Status
 conditioncheck-statusDateLabel: Status Date
 conditioncheck-statusNoteLabel: Status Note
 

@@ -25,7 +25,7 @@
     </options>
   </instance>
 
-  <instance id="vocab-condition">
+  <instance id="vocab-conditionCondition">
     <web-url>condition</web-url>
     <title-ref>condition</title-ref>
     <title>Condition Check Condition</title>
@@ -447,9 +447,9 @@
     </options>
   </instance>
 
-  <instance id="vocab-conditionChkReason">
-    <web-url>conditionChkReason</web-url>
-    <title-ref>conditionChkReason</title-ref>
+  <instance id="vocab-conditionCheckReason">
+    <web-url>conditionCheckReason</web-url>
+    <title-ref>conditionCheckReason</title-ref>
     <title>Condition Check Reason</title>
     <options>
       <option id="conditionReport">Condition Report</option>
