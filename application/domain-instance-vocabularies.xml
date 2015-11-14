@@ -476,4 +476,129 @@
     </options>
   </instance>
 
+  <instance id="vocab-conditionAssessmentTerm">
+    <web-url>conditionAssessmentTerm</web-url>
+    <title-ref>conditionAssessmentTerm</title-ref>
+    <title>Condition Check Term</title>
+    <options>
+      <option id="abrasion">Abrasion</option>
+      <option id="accretion">Accretion</option>
+      <option id="bleeding">Bleeding</option>
+      <option id="bubblyAreas">Bubbly areas</option>
+      <option id="adhesiveResidue">Adhesive residue</option>
+      <option id="chip">Chip</option>
+      <option id="corrosion">Corrosion</option>
+      <option id="crack">Crack</option>
+      <option id="crease">Crease</option>
+      <option id="crocking">Crocking</option>
+      <option id="delamination">Delamination</option>
+      <option id="dent">Dent</option>
+      <option id="discoloration">Discoloration</option>
+      <option id="disjoin">Disjoin</option>
+      <option id="distortion">Distortion</option>
+      <option id="dryRot">Dry rot</option>
+      <option id="efflorescence">Efflorescence</option>
+      <option id="embrittlement">Embrittlement</option>
+      <option id="gouge">Gouge</option>
+      <option id="fraying">Fraying</option>
+      <option id="inclusion">Inclusion</option>
+      <option id="iridescence">Iridescence</option>
+      <option id="loss">Loss</option>
+      <option id="mildew">Mildew</option>
+      <option id="missingElement">Missing element</option>
+      <option id="mold">Mold</option>
+      <option id="odor">Odor</option>
+      <option id="oozing">Oozing</option>
+      <option id="patina">Patina</option>
+      <option id="pitting">Pitting</option>
+      <option id="powdering">Powdering</option>
+      <option id="redRot">Red rot</option>
+      <option id="scratch">Scratch</option>
+      <option id="sheen">Sheen</option>
+      <option id="silvering">Silvering</option>
+      <option id="spalling">Spalling</option>
+      <option id="soil">Soil</option>
+      <option id="stain">Stain</option>
+      <option id="sugaring">Sugaring</option>
+      <option id="sweating">Sweating</option>
+      <option id="tarnish">Tarnish</option>
+      <option id="tear">Tear</option>
+      <option id="wear">Wear</option>
+      <option id="weeping">Weeping</option>
+      <option id="blanching">Blanching</option>
+      <option id="blister">Blister</option>
+      <option id="bloom">Bloom</option>
+      <option id="buckling">Buckling</option>
+      <option id="chalking">Chalking</option>
+      <option id="check">Check</option>
+      <option id="cleavage">Cleavage</option>
+      <option id="crackle">Crackle</option>
+      <option id="cupping">Cupping</option>
+      <option id="dishing">Dishing</option>
+      <option id="draw">Draw</option>
+      <option id="fill">Fill</option>
+      <option id="flaking">Flaking</option>
+      <option id="impasto">Impasto</option>
+      <option id="inpainting">Inpainting</option>
+      <option id="overpainting">Overpainting</option>
+      <option id="split">Split</option>
+      <option id="stretcherCrease">Stretcher crease</option>
+      <option id="tenting">Tenting</option>
+      <option id="warp">Warp</option>
+      <option id="wrinkling">Wrinkling</option>
+      <option id="drumming">Drumming</option>
+      <option id="fold">Fold</option>
+      <option id="foxing">Foxing</option>
+      <option id="ferrotyping">Ferrotyping</option>
+      <option id="frilling">Frilling</option>
+      <option id="dust">Dust</option>
+      <option id="grime">Grime</option>
+      <option id="smear">Smear</option>
+      <option id="fingerprint">Fingerprint</option>
+      <option id="spatter">Spatter</option>
+      <option id="run">Run</option>
+      <option id="hole">Hole</option>
+      <option id="fracture">Fracture</option>
+      <option id="fragment">Fragment</option>
+      <option id="spot">Spot</option>
+      <option id="clean">Clean</option>
+      <option id="cockling">Cockling</option>
+      <option id="yellowing">Yellowing</option>
+      <option id="fading">Fading</option>
+      <option id="bleaching">Bleaching</option>
+      <option id="darkening">Darkening</option>
+      <option id="worn">Worn</option>
+      <option id="stable">Stable</option>
+      <option id="unstable">Unstable</option>
+      <option id="rust">Rust</option>
+      <option id="broken">Broken</option>
+      <option id="dirty">Dirty</option>
+      <option id="pest">Pest</option>
+      <option id="intact">Intact</option>
+      <option id="paintLossMinor">Paint loss (minor)</option>
+      <option id="paintLossMajor">Paint loss (major)</option>
+      <option id="crackMinor">Crack (minor)</option>
+      <option id="crackMajor">Crack (major)</option>
+      <option id="deposit">Deposit</option>
+      <option id="crazing">Crazing</option>
+      <option id="unraveling">Unraveling</option>
+      <option id="dimpling">Dimpling</option>
+      <option id="bent">Bent</option>
+    </options>
+  </instance>
+
+  <instance id="vocab-conditionAssessmentPart">
+    <web-url>conditionAssessmentPart</web-url>
+    <title-ref>conditionAssessmentPart</title-ref>
+    <title>Condition Assessment Part</title>
+    <options>
+      <option id="damage">Damage</option>
+      <option id="clean">Clean</option>
+      <option id="surface">Surface</option>
+      <option id="material">Material</option>
+      <option id="structure">Structure</option>
+      <option id="parts">Parts</option>
+    </options>
+  </instance>
+
 </instances>

@@ -41,6 +41,12 @@
   <section id="conditionCheckInformation">
     <!-- Converting 'conditionCheckReason' field to Dynamic -->
     <field id="conditionCheckReason" ui-search="repeatable" mini="search,list,relate" autocomplete="vocab-conditionCheckReason" ui-type="enum" />
+
+    <repeat id="conditionAssessmentList/conditionAssessmentGroup" section="sdmom">
+      <field id="conditionAssessmentTerm" autocomplete="vocab-conditionAssessmentTerm" ui-type="enum" section="sdmom" />
+      <field id="conditionAssessmentPart" autocomplete="vocab-conditionAssessmentPart" ui-type="enum" section="sdmom" />
+      <field id="conditionAssessmentComment" section="sdmom" />
+    </repeat>
   </section>
 
 </record>
