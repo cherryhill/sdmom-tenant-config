@@ -57,6 +57,9 @@ preferredOA-termNameLabel: Organization Nickname
 preferredOA-additionsToNameLabel: Organization Notes
 preferredOA-mainBodyNameLabel: Organization Name
 
+# Concept
+vocab-objectName: Object Name Concepts
+
 # Place
 vocab-bgn_place: U.S. Board on Geographic Names
 vocab-nga_place: U.S. National Geospatial-Intelligence Agency

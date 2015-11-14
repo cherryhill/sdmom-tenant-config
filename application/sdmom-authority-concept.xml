@@ -19,11 +19,11 @@
     </instance>
 
     <!-- Added new -->
-    <!-- <instance id="concept-objectName">
-      <web-url>concept-objectName</web-url>
-      <title-ref>concept-objectName</title-ref>
+    <instance id="concept-objectName">
+      <web-url>objectName</web-url>
+      <title-ref>objectName</title-ref>
       <title>Object Name Concepts</title>
-    </instance> -->
+    </instance>
   </instances>
 
 </record>
