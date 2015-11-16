@@ -58,7 +58,7 @@
     </repeat>
 
     <repeat id="controlledObjectNameList/controlledObjectNameGroup" section="sdmom">
-      <field id="controlledObjectName" ui-search="repeatable" mini="search,list" section="sdmom">
+      <field id="controlledObjectName" autocomplete="concept-objectName" ui-search="repeatable" mini="search,list" section="sdmom">
         <selector>object-identification-controlled-object-name</selector>
       </field>
       <field id="controlledObjectNameCurrency" autocomplete="vocab-nameCurrency" ui-type="enum" ui-search="repeatable" section="sdmom">
