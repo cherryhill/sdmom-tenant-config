@@ -463,6 +463,7 @@
       <option id="good">Good</option>
       <option id="fair">Fair</option>
       <option id="poor">Poor</option>
+      <option id="notRated">Not Rated</option>
     </options>
   </instance>
 
