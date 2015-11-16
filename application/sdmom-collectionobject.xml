@@ -134,7 +134,7 @@
     </section>
     <repeat id="materialGroupList/materialGroup">
       <!-- selector>collection-object-materialGroup</selector -->
-      <field id="material" ui-search="repeatable">
+      <field id="material" ui-search="repeatable" autocomplete="concept-material_ca">
         <selector>object-description-material</selector>
       </field>
       <field id="materialComponent">
@@ -204,6 +204,10 @@
       <field id="sdmomOwnerNote" section="sdmom" />
     </repeat>
     <section id="associationInformation">
+      <repeat id="assocActivityGroupList/assocActivityGroup">
+        <field id="assocActivity" autocomplete="concept-activity"/>
+      </repeat>
+
       <repeat id="assocPlaceGroupList/assocPlaceGroup">
         <field id="assocPlace" ui-search="repeatable" autocomplete="vocab-place,vocab-bgn_place,vocab-nga_place"/>
         <field id="assocPlaceType"/>
