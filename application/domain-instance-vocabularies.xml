@@ -592,4 +592,15 @@
     </options>
   </instance>
 
+  <instance id="vocab-valueType">
+    <web-url>valueType</web-url>
+    <title-ref>valueType</title-ref>
+    <title>Value Type</title>
+    <options>
+      <option id="appraisal">Appraisal</option>
+      <option id="insurance">Insurance</option>
+      <option id="loan">Loan</option>
+    </options>
+  </instance>
+
 </instances>
