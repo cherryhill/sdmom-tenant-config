@@ -45,14 +45,15 @@
       <title-ref>loanoutstatus</title-ref>
       <title>Loaned Object Status</title>
       <options>
-          <option id="abandoned">Abandoned</option>
+          <option id="active">Active</option>
+          <option id="agreed">Agreed</option>
           <option id="authorized">Authorized</option>
-          <option id="closed">Closed</option>
-          <option id="open">Open</option>
-          <option id="other">Other</option>
+          <option id="conservation">Conservation</option>
           <option id="refused">Refused</option>
           <option id="renewed">Renewed</option>
+          <option id="requested">Requested</option>
           <option id="returned">Returned</option>
+          <option id="sent">Sent</option>
       </options>
     </instance>
     <instance id="vocab-currency">
