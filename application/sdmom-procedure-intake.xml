@@ -9,4 +9,13 @@
     <field id="entryStatus" ui-search="repeatable" autocomplete="vocab-entryStatus" ui-type="enum" section="sdmom"/>
   </section>
 
+  <section id="valuationInformation">
+    <field id="valuationCurrency" autocomplete="vocab-currency" ui-type="enum" section="sdmom">
+      <enum>
+        <default>urn:cspace:core.collectionspace.org:vocabularies:name(currency):item:name(USD)'US Dollar'</default>
+      </enum>
+    </field>
+    <field id="valuation" ui-type="validated" datatype="float" section="sdmom"/>
+  </section>
+
 </record>

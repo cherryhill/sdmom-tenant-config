@@ -14,6 +14,8 @@ exhibition-requiredStaffSecurityLabel: Required Staff and Security
 # Intake
 intake-ownersRequirementsLabel: Current owner's requirements
 intake-entryStatusLabel: Status
+intake-valuationLabel: Valuation
+intake-valuationCurrencyLabel: Valuation Currency
 
 # Location, Movement and Inventory
 movement-normalLocationLabel: Home Location
