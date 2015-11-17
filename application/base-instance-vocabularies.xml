@@ -120,9 +120,9 @@
     </instance>
 
     <!-- REPLACED VOCABULARY -->
-    <instance id="vocab-conditionCheckReason">
-      <web-url>conditionCheckReason</web-url>
-      <title-ref>conditionCheckReason</title-ref>
+    <instance id="vocab-conditioncheckreason">
+      <web-url>conditioncheckreason</web-url>
+      <title-ref>conditioncheckreason</title-ref>
       <title>Condition Check Reason</title>
       <options>
         <option id="conditionReport">Condition Report</option>
