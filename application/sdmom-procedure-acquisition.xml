@@ -3,7 +3,10 @@
 
   <section id="acquisitionInformation">
     <field id="acquisitionProvenance" section="sdmom" />
-    <field id="acquisitionProvisos" section="sdmom" />
+    <field id="acquisitionRestrictions" section="sdmom" />
+
+    <!-- Converting 'acquisitionMethod' field to Dynamic -->
+    <field id="acquisitionMethod" ui-search="repeatable" mini="summary,search,list,relate" autocomplete="vocab-acquisitionMethod" ui-type="enum"/>
   </section>
 
 </record>

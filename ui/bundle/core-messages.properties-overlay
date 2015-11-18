@@ -44,7 +44,7 @@ objectexit-boardOfTrusteesDateLabel: Approval Date
 # Acquisition
 acquisition-acquisitionReferenceNumberLabel: Accsession Number
 acquisition-acquisitionProvenanceLabel: Acquisition Provenance
-acquisition-acquisitionProvisosLabel: Acquisition Restrictions
+acquisition-acquisitionRestrictionsLabel: Acquisition Restrictions
 
 # Loan Out
 loanout-loanRenewalApplicationDateLabel: Loan Renewal Date
