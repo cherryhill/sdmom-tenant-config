@@ -132,6 +132,8 @@ collection-object-legacySearchTermsDataLabel: Legacy Search Terms Data
 collection-object-legacyPastPerfectDimensionDetailsLabel: Legacy Past Perfect Dimension Details
 collection-object-textualInscriptionInformationLabel: Inscription
 
+collection-object-contentEventNameGroupLabel: Event
+
 collection-object-objectProductionPeopleGroupLabel: Production Culture
 collection-object-objectProductionPeopleLabel: Production Culture
 
