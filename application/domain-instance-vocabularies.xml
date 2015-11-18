@@ -603,4 +603,19 @@
     </options>
   </instance>
 
+  <instance id="vocab-acquisitionMethod">
+    <web-url>acquisitionMethod</web-url>
+    <title-ref>acquisitionMethod</title-ref>
+    <title>Acquisition Method</title>
+    <options>
+      <option id="fieldCollection">Field Collection</option>
+      <option id="gift">Gift</option>
+      <option id="purchase">Purchase</option>
+      <option id="exchange">Exchange</option>
+      <option id="transfer">Transfer</option>
+      <option id="treasure">Treasure</option>
+      <option id="unknown">Unknown</option>
+    </options>
+  </instance>
+
 </instances>
