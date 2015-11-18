@@ -618,4 +618,117 @@
     </options>
   </instance>
 
+  <instance id="vocab-event">
+    <web-url>event</web-url>
+    <title-ref>event</title-ref>
+    <title>Event</title>
+    <options>
+      <option id="ADistantDrum">A Distant Drum</option>
+      <option id="AllIsMoreBeautiful">All Is More Beautiful</option>
+      <option id="AndTheBeadGoesOn">And The Bead Goes On!</option>
+      <option id="Apache">Apache!</option>
+      <option id="ArtifakesExhibition">Artifakes Exhibition</option>
+      <option id="Athapaskansexhibition">Athapaskans exhibition</option>
+      <option id="Baptismofbaby">Baptism of baby</option>
+      <option id="BathingBeautyContest">Bathing Beauty Contest</option>
+      <option id="BeadIt">Bead It!</option>
+      <option id="BeautyintheBeast">Beauty in the Beast</option>
+      <option id="CabrilloCelebrationof1892">Cabrillo Celebration of 1892</option>
+      <option id="CaliforniaPacificInternationalExpositionof1935">California Pacific International Exposition of 1935</option>
+      <option id="CollectorsChoice">Collector's Choice</option>
+      <option id="CrockerLandExpedition">Crocker Land Expedition</option>
+      <option id="DedicatoryServices">Dedicatory Services</option>
+      <option id="Dewlineexhibition">Dewline exhibition</option>
+      <option id="DocentPotluck">Docent Potluck</option>
+      <option id="EarlyMan">Early Man</option>
+      <option id="EgyptianTombexhibition">Egyptian Tomb exhibition</option>
+      <option id="FarabeesTheCentralCaribs">Farabee's "The Central Caribs"</option>
+      <option id="FlightoftheJaguar">Flight of the Jaguar</option>
+      <option id="FootstepsThroughTime">Footsteps Through Time</option>
+      <option id="FromtheRivertotheSeaSouthernCaliforniaIndians">From the River to the Sea: Southern California Indians</option>
+      <option id="FuneralofCinonDuro">Funeral of Cinon Duro</option>
+      <option id="GillensBaramaRiverCarbisofBritishGuiana">Gillen's "Barama River Carbis of British Guiana"</option>
+      <option id="GordosMexico">Gordo's Mexico</option>
+      <option id="GuatemalanTextilesandCostumesExhibit">Guatemalan Textiles and Costumes Exhibit</option>
+      <option id="HauntedMuseum">Haunted Museum</option>
+      <option id="HeritageinClay">Heritage in Clay</option>
+      <option id="HorsePower">Horse Power</option>
+      <option id="IndianFair">Indian Fair</option>
+      <option id="InterTribalIndianCeremonial">Inter-Tribal Indian Ceremonial</option>
+      <option id="IWeartheMorningStar">I Wear the Morning Star</option>
+      <option id="JapaneseWomanexhibition">Japanese Woman exhibition</option>
+      <option id="JemezPuebloChildrensArt">Jemez Pueblo Children's Art</option>
+      <option id="JubileeoftheVirgenofLaSoledad">Jubilee of the Virgen of La Soledad</option>
+      <option id="KleeWyckLecture">Klee Wyck Lecture</option>
+      <option id="LacandonMaya">Lacandon Maya</option>
+      <option id="LaFiestadelaMamaNegra">La Fiesta de la Mama Negra</option>
+      <option id="Laplandexhibition">Lapland exhibition</option>
+      <option id="LosingYourHeadOverSportstheAncientMexicanBallGame">Losing Your Head Over Sports: the Ancient Mexican Ball Game</option>
+      <option id="MadebyFrankMickabydirectionofHrdlickaforthePanamaCaliforniaExpositionof1915">Made by Frank Micka by direction of Hrdlicka for the Panama-California Exposition of 1915</option>
+      <option id="MadeforthePanamaCaliforniaExpositionof1915">Made for the Panama-California Exposition of 1915</option>
+      <option id="MadeinBelgiumforthePanamaCaliforniaExpositionof1915">Made in Belgium for the Panama-California Exposition of 1915</option>
+      <option id="MadeonexpeditionforthePanamaCaliforniaExpositionof1915">Made on expedition for the Panama-California Exposition of 1915</option>
+      <option id="MadeonexpeditionforthePanamaCaliforniaExpositionof1916">Made on expedition for the Panama-California Exposition of 1916</option>
+      <option id="MansMostViciousKillerHimself">Man's Most Vicious Killer, Himself</option>
+      <option id="ManandtheSea">Man and the Sea</option>
+      <option id="MapucheIndiansofChileexhibition">Mapuche Indians of Chile exhibition</option>
+      <option id="MatachineDance">Matachine Dance</option>
+      <option id="MedicalSuperstitions">Medical Superstitions</option>
+      <option id="Messengers">Messengers</option>
+      <option id="MessengersVoicesfromBeyond">Messengers: Voices from Beyond</option>
+      <option id="Metro">Metro</option>
+      <option id="MorningStarQuilts">Morning Star Quilts</option>
+      <option id="MummiesMayhemandMiseries">Mummies, Mayhem, and Miseries</option>
+      <option id="NavajoTradingPostsexhibition">Navajo Trading Posts exhibition</option>
+      <option id="NavyReliefCarnival">Navy Relief Carnival</option>
+      <option id="OlsensOntheTrailoftheArawak">Olsen's On the Trail of the Arawak</option>
+      <option id="PaipaiandSeriUtilitarianCrafts">Paipai and Seri Utilitarian Crafts</option>
+      <option id="PalmersNorthAmericanIndians">Palmer's North American Indians</option>
+      <option id="PanamaCaliforniaExhibitionNews">Panama California Exhibition News</option>
+      <option id="PanamaCaliforniaExpositionof1915">Panama-California Exposition of 1915</option>
+      <option id="PanamaPacificInternationalExpositionof1915SanFrancisco">Panama–Pacific International Exposition of 1915 (San Francisco)</option>
+      <option id="PanAmericanDay">Pan-American Day</option>
+      <option id="PhilippinesExhibition">Philippines Exhibition</option>
+      <option id="PortableContainers">Portable Containers</option>
+      <option id="ProjectPeru">Project Peru</option>
+      <option id="QuechuaWeavingQuillwork">Quechua Weaving Quillwork</option>
+      <option id="Ramapithecus">Ramapithecus</option>
+      <option id="RamonaTurkeyQueen">Ramona Turkey Queen</option>
+      <option id="Regattas">Regattas</option>
+      <option id="RockArtImages">Rock Art Images</option>
+      <option id="RomanticRussiaFantasiesinLacquer">Romantic Russia: Fantasies in Lacquer</option>
+      <option id="Roundup">Roundup</option>
+      <option id="SanDiegoCountyFair">San Diego County Fair</option>
+      <option id="SanDiegoMuseumofManChildrensSummerProgram">San Diego Museum of Man Children's Summer Program</option>
+      <option id="ShamansandSpirits">Shamans and Spirits</option>
+      <option id="Shelters">Shelters</option>
+      <option id="SirFrancisDraketheFamousVoyage">Sir Francis Drake: the Famous Voyage</option>
+      <option id="SouthAfricanTribalLife">South African Tribal Life</option>
+      <option id="SouthwestColloquium">Southwest Colloquium</option>
+      <option id="SouthwestIndianArtsColloquium">Southwest Indian Arts Colloquium</option>
+      <option id="SpiritWorld">Spirit World</option>
+      <option id="Stitchery">Stitchery</option>
+      <option id="StitchesInTime">Stitches In Time</option>
+      <option id="SummerSnakeCeremony">Summer Snake Ceremony</option>
+      <option id="SuntanContest">Suntan Contest</option>
+      <option id="SWAIASantaFeIndianMarket">SWAIA - Santa Fe Indian Market</option>
+      <option id="TensionandHarmonyexhibit">Tension and Harmony exhibit</option>
+      <option id="TheArtifactPiece">The Artifact Piece</option>
+      <option id="TijuanaMexicanMarketplace">Tijuana-Mexican Marketplace</option>
+      <option id="TlingitFaces">Tlingit Faces</option>
+      <option id="TraditionalCraftsofSaudiArabia">Traditional Crafts of Saudi Arabia</option>
+      <option id="TreasuresoftheEarthSeaandSky">Treasures of the Earth, Sea, and Sky</option>
+      <option id="TukanoManiokHarvest">Tukano Maniok Harvest</option>
+      <option id="USCPotteryWorkshop">USC Pottery Workshop</option>
+      <option id="Vestidos">Vestidos</option>
+      <option id="WindintheBuffaloGrasswithTetonSiouxBusts">Wind in the Buffalo Grass (with Teton Sioux Busts)</option>
+      <option id="Wings">Wings</option>
+      <option id="WinterOlympics">Winter Olympics</option>
+      <option id="WonderofLife">Wonder of Life</option>
+      <option id="YearoftheHopi">Year of the Hopi</option>
+      <option id="YerDailegeMolas">Yer Dailege: Molas</option>
+      <option id="ZuluWars">Zulu Wars</option>
+    </options>
+  </instance>
+
 </instances>
