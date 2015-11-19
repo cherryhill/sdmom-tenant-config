@@ -125,6 +125,7 @@
 
   <section id="descriptionInformation">
     <field id="legacyPastPerfectDimensionDetails" section="sdmom" />
+    <field id="legacySearchTermsData" section="sdmom" />
 
     <field id="copyNumber" ui-search="repeatable">
       <selector>object-description-copy-number</selector>
