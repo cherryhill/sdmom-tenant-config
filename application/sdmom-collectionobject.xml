@@ -11,16 +11,9 @@
     </repeat>
 
     <repeat id="sdmomOtherNumberList/sdmomOtherNumber" section="sdmom">
-      <selector>object-identification-otherNumbers</selector>
-      <field id="sdmomNumberValue" in-tab="yes" section="sdmom">
-        <selector>object-identification-other-number</selector>
-      </field>
-      <field id="sdmomNumberType" autocomplete="vocab-otherNumberType" ui-type="enum" section="sdmom">
-        <selector>object-identification-other-number-type</selector>
-      </field>
-      <field id="sdmomNumberNote" section="sdmom">
-        <selector>object-identification-other-number-note</selector>
-      </field>
+      <field id="sdmomNumberValue" in-tab="yes" section="sdmom" />
+      <field id="sdmomNumberType" autocomplete="vocab-otherNumberType" ui-type="enum" section="sdmom" />
+      <field id="sdmomNumberNote" section="sdmom" />
     </repeat>
 
     <repeat id="objectStandingList/objectStandingGroup" section="sdmom">
@@ -199,7 +192,7 @@
     </repeat>
     <repeat id="materialGroupList/materialGroup">
       <!-- selector>collection-object-materialGroup</selector -->
-      <field id="material" ui-search="repeatable">
+      <field id="material" ui-search="repeatable" autocomplete="concept-material_ca">
         <selector>object-description-material</selector>
       </field>
       <field id="materialComponent">

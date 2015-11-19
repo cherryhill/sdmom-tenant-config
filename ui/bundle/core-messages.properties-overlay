@@ -95,6 +95,11 @@ conditioncheck-conditionAssessmentCommentLabel: Assessment Comment
 conditioncheck-conditionChkerLabel: Condition Checker/Assessor
 
 # Cataloging / Object
+collection-object-sdmomOtherNumberListLabel: Other Number
+collection-object-sdmomNumberValueLabel: Other number
+collection-object-sdmomNumberTypeLabel: Type
+collection-object-sdmomNumberNoteLabel: Note
+
 collection-object-numberNoteLabel: Number Note
 collection-object-collectionTypeLabel: Collection Type
 
