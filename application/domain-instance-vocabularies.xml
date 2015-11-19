@@ -447,6 +447,19 @@
     </options>
   </instance>
 
+  <instance id="vocab-conservationTreatmentPriority">
+    <web-url>conservationTreatmentPriority</web-url>
+    <title-ref>conservationTreatmentPriority</title-ref>
+    <title>Conservation Treatment Priority</title>
+    <options>
+      <option id="none">None</option>
+      <option id="low">Low</option>
+      <option id="medium">Medium</option>
+      <option id="high">High</option>
+      <option id="urgent">Urgent</option>
+    </options>
+  </instance>
+
   <!-- You'll find this in base-instance-vocabularies.xml -->
   <!-- <instance id="vocab-conditionCheckReason">
     <web-url>conditionCheckReason</web-url>
@@ -730,5 +743,6 @@
       <option id="ZuluWars">Zulu Wars</option>
     </options>
   </instance>
+
 
 </instances>

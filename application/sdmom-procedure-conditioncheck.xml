@@ -18,6 +18,9 @@
       <field id="condition" ui-search="repeatable" mini="summary,search,list,relate" autocomplete="vocab-condition" ui-type="enum"></field>
     </repeat>
 
+    <!-- Converting 'conservationTreatmentPriority' field to Dynamic -->
+    <field id="conservationTreatmentPriority" ui-search="repeatable" autocomplete="vocab-conservationTreatmentPriority" ui-type="enum" />
+
     <field id="workAssessmentCompletedBy" ui-search="repeatable" autocomplete="person-person,organization-organization" section="sdmom" />
     <field id="estimatedTreatmentCost" section="sdmom" />
     <field id="estimatedCompletionDate" ui-type="date" datatype="date" section="sdmom" />
@@ -40,7 +43,7 @@
 
   <section id="conditionCheckInformation">
     <!-- Converting 'conditionCheckReason' field to Dynamic -->
-    <field id="conditionCheckReason" ui-search="repeatable" mini="search,list,relate" autocomplete="vocab-conditionCheckReason" ui-type="enum" />
+    <field id="conditionCheckReason" ui-search="repeatable" mini="search,list,relate" autocomplete="vocab-conditioncheckreason" ui-type="enum" />
 
     <repeat id="conditionAssessmentList/conditionAssessmentGroup" section="sdmom">
       <field id="conditionAssessmentTerm" autocomplete="vocab-conditionAssessmentTerm" ui-type="enum" section="sdmom" />
