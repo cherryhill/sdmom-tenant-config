@@ -1,7 +1,7 @@
 /*
 Copyright 2011 Museum of Moving Image
 
-Licensed under the Educational Community License (ECL), Version 2.0. 
+Licensed under the Educational Community License (ECL), Version 2.0.
 You may not use this file except in compliance with this License.
 
 You may obtain a copy of the ECL 2.0 License at
@@ -13,9 +13,9 @@ https://source.collectionspace.org/collection-space/LICENSE.txt
 cspace = cspace || {};
 
 (function ($, fluid) {
-    
+
     "use strict";
-    
+
     fluid.registerNamespace("cspace.listView");
 
     // Default sorter for the pager used by the list view.
@@ -39,7 +39,7 @@ cspace = cspace || {};
             pagerModel: {
                 pageCount: 1,
                 pageIndex: 0,
-                pageSize: 5,
+                pageSize: 50,
                 sortDir: 1,
                 sortKey: "",
                 totalRange: 0
@@ -377,7 +377,7 @@ cspace = cspace || {};
             var updateRequired = oldModel["sortKey"] !== newModel["sortKey"];
             // CSPACE-5998: Leave out pageCount and totalRange. These fields can't be changed by the end user, so if they do change,
             // it's because of a list update. There's no point in updating the list again.
-            updateRequired = updateRequired || fluid.find(["pageIndex", "pageSize", "sortDir"], function (field) { 
+            updateRequired = updateRequired || fluid.find(["pageIndex", "pageSize", "sortDir"], function (field) {
                 var oldVal = oldModel[field],
                     newVal = newModel[field];
                 if (isNaN(oldVal)) {
@@ -398,7 +398,7 @@ cspace = cspace || {};
                 that.updateModel(model);
             }
         });
-        
+
         that.updateModel();
     };
 
@@ -617,7 +617,7 @@ cspace = cspace || {};
             return column.id;
         });
     };
-    
+
     fluid.demands("cspace.listView.dataSource",  ["cspace.localData", "cspace.listView"], {
         funcName: "cspace.listView.testDataSource",
         args: {
@@ -669,7 +669,7 @@ cspace = cspace || {};
                     decorators: {
                         type: "attrs",
                         attributes: {
-                            "rsf:id": "${{column}.id}"                        
+                            "rsf:id": "${{column}.id}"
                         }
                     }
                 }
@@ -677,12 +677,12 @@ cspace = cspace || {};
         },
         renderOnInit: true
     });
-    
+
     fluid.demands("cspace.listView.headers", "cspace.listView", {
         container: "{arguments}.0",
         mergeAllOptions: [{}, "{arguments}.1"]
     });
-    
+
     fluid.defaults("cspace.listView.headers", {
         gradeNames: ["autoInit", "fluid.rendererComponent"],
         selectors: {
@@ -738,7 +738,7 @@ cspace = cspace || {};
         container: "{arguments}.0",
         mergeAllOptions: [{}, "{arguments}.1"]
     });
-    
+
     fluid.defaults("cspace.listView.headers.header", {
         gradeNames: ["autoInit", "fluid.rendererComponent"],
         selectors: {
@@ -761,7 +761,7 @@ cspace = cspace || {};
                         decorators: [{
                             type: "attrs",
                             attributes: {
-                                "rsf:id": "${id}"                        
+                                "rsf:id": "${id}"
                             }
                         }, {"addClass": "{styles}.link"}]
                     }
@@ -772,7 +772,7 @@ cspace = cspace || {};
                         decorators: [{
                             type: "attrs",
                             attributes: {
-                                "rsf:id": "${id}"                        
+                                "rsf:id": "${id}"
                             }
                         }]
                     }
@@ -783,7 +783,7 @@ cspace = cspace || {};
         parentBundle: "{globalBundle}",
         renderOnInit: true
     });
-    
+
     fluid.fetchResources.primeCacheFromResources("cspace.listView");
-    
+
 })(jQuery, fluid);
