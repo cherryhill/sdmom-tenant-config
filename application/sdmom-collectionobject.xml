@@ -11,16 +11,9 @@
     </repeat>
 
     <repeat id="sdmomOtherNumberList/sdmomOtherNumber" section="sdmom">
-      <selector>object-identification-otherNumbers</selector>
-      <field id="sdmomNumberValue" in-tab="yes" section="sdmom">
-        <selector>object-identification-other-number</selector>
-      </field>
-      <field id="sdmomNumberType" autocomplete="vocab-otherNumberType" ui-type="enum" section="sdmom">
-        <selector>object-identification-other-number-type</selector>
-      </field>
-      <field id="sdmomNumberNote" section="sdmom">
-        <selector>object-identification-other-number-note</selector>
-      </field>
+      <field id="sdmomNumberValue" in-tab="yes" section="sdmom" />
+      <field id="sdmomNumberType" autocomplete="vocab-otherNumberType" ui-type="enum" section="sdmom" />
+      <field id="sdmomNumberNote" section="sdmom" />
     </repeat>
 
     <repeat id="objectStandingList/objectStandingGroup" section="sdmom">
@@ -199,7 +192,7 @@
     </repeat>
     <repeat id="materialGroupList/materialGroup">
       <!-- selector>collection-object-materialGroup</selector -->
-      <field id="material" ui-search="repeatable">
+      <field id="material" ui-search="repeatable" autocomplete="concept-material_ca">
         <selector>object-description-material</selector>
       </field>
       <field id="materialComponent">
@@ -212,7 +205,9 @@
         <selector>object-description-material-name</selector>
       </field>
       <!-- SDMoM-modified to use place authority -->
-      <field id="materialSource" ui-search="repeatable" autocomplete="place-place,place-bgn_place,place-nga_place" />
+      <field id="materialSource" ui-search="repeatable" autocomplete="place-place,place-bgn_place,place-nga_place">
+        <selector>object-description-material-source</selector>
+      </field>
     </repeat>
     <field id="physicalDescription">
       <selector>object-description-physical-description</selector>
@@ -314,13 +309,8 @@
         <field id="contentObject">
           <selector>object-description-content-object</selector>
         </field>
-        <field id="contentObjectType" seperate_ui_container="true">
+        <field id="contentObjectType" autocomplete="concept-objectName">
           <selector>object-description-content-object-type</selector>
-          <options>
-            <option id="">Please select a value</option>
-            <option id="furniture">Furniture</option>
-            <option id="food">Food</option>
-          </options>
         </field>
       </repeat>
       <repeat id="contentPeoples">
