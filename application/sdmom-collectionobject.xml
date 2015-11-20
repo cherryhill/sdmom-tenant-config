@@ -205,7 +205,9 @@
         <selector>object-description-material-name</selector>
       </field>
       <!-- SDMoM-modified to use place authority -->
-      <field id="materialSource" ui-search="repeatable" autocomplete="place-place,place-bgn_place,place-nga_place" />
+      <field id="materialSource" ui-search="repeatable" autocomplete="place-place,place-bgn_place,place-nga_place">
+        <selector>object-description-material-source</selector>
+      </field>
     </repeat>
     <field id="physicalDescription">
       <selector>object-description-physical-description</selector>
@@ -307,13 +309,8 @@
         <field id="contentObject">
           <selector>object-description-content-object</selector>
         </field>
-        <field id="contentObjectType" seperate_ui_container="true">
+        <field id="contentObjectType" autocomplete="concept-objectName">
           <selector>object-description-content-object-type</selector>
-          <options>
-            <option id="">Please select a value</option>
-            <option id="furniture">Furniture</option>
-            <option id="food">Food</option>
-          </options>
         </field>
       </repeat>
       <repeat id="contentPeoples">

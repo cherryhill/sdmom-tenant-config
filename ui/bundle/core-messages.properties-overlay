@@ -111,8 +111,8 @@ collection-object-objectStandingByLabel: By
 collection-object-objectStandingNoteLabel: Note
 
 collection-object-pastPerfectHistoryGroupLabel: Past Perfect Update History
-collection-object-pastPerfectHistoryByLabel: PastPerfect Cataloged By
-collection-object-pastPerfectHistoryDateLabel: PastPerfect Cataloged Date
+collection-object-pastPerfectHistoryByLabel: Cataloged By
+collection-object-pastPerfectHistoryDateLabel: Cataloged Date
 
 collection-object-briefDescriptionsLabel: Description
 
