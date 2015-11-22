@@ -21,6 +21,11 @@ intake-valuationCurrencyLabel: Valuation Currency
 movement-normalLocationLabel: Home Location
 movement-movementContactLabel: Moved By
 movement-approvedByLabel: Approved By
+movement-inventoryContactLabel: Inventoried By
+
+# Location authority
+location-locationTypeLabel: Location Type
+location-addressLabel: Location Address
 
 # Media
 media-sourceLabel: Related Resource
@@ -28,18 +33,19 @@ media-sourceLabel: Related Resource
 # Object Exit
 objectexit-objectExitTitleLabel: Exit Event Title
 objectexit-deaccessionApprovalInformationLabel: Deaccession Approval Information
-objectexit-collectionsReviewCommitteeLabel: Collections Review Committee
+objectexit-collectionsReviewCommitteeLabel: Approved by Collection Review Committee
 objectexit-collectionsReviewCommitteeStatusLabel: Approval Status
-objectexit-collectionsReviewCommitteeDateLabel: Approval Date
-objectexit-collectionsCommitteeLabel: Collections Committee
+objectexit-collectionsReviewCommitteeDateLabel: Date Approved
+objectexit-collectionsCommitteeLabel: Approved by Collection Committee
 objectexit-collectionsCommitteeStatusLabel: Approval Status
-objectexit-collectionsCommitteeDateLabel: Approval Date
-objectexit-executiveCommitteeLabel: Executive Committee
+objectexit-collectionsCommitteeDateLabel: Date Approved
+objectexit-executiveCommitteeLabel: Approved by Executive Committee
 objectexit-executiveCommitteeStatusLabel: Approval Status
-objectexit-executiveCommitteeDateLabel: Approval Date
-objectexit-boardOfTrusteesLabel: Board of Trustees
+objectexit-executiveCommitteeDateLabel: Date Approved
+objectexit-boardOfTrusteesLabel: Approved by Board of Trustees
 objectexit-boardOfTrusteesStatusLabel: Approval Status
-objectexit-boardOfTrusteesDateLabel: Approval Date
+objectexit-boardOfTrusteesDateLabel: Date Approved
+objectexit-deaccessionNoteLabel: Notes
 
 # Acquisition
 acquisition-acquisitionReferenceNumberLabel: Accsession Number
