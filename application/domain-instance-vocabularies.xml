@@ -621,12 +621,15 @@
     <title-ref>acquisitionMethod</title-ref>
     <title>Acquisition Method</title>
     <options>
-      <option id="fieldCollection">Field Collection</option>
+      <option id="exchange">Exchange</option>
       <option id="gift">Gift</option>
       <option id="purchase">Purchase</option>
-      <option id="exchange">Exchange</option>
       <option id="transfer">Transfer</option>
-      <option id="treasure">Treasure</option>
+      <option id="partialGift">Partial Gift</option>
+      <option id="bequest">Bequest</option>
+      <option id="producedByStaff">Produced by Staff</option>
+      <option id="fieldCollection">Field Collection</option>
+      <option id="foundInCollection">Found in Collection</option>
       <option id="unknown">Unknown</option>
     </options>
   </instance>
