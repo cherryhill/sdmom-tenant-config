@@ -51,6 +51,8 @@ objectexit-deaccessionNoteLabel: Notes
 acquisition-acquisitionReferenceNumberLabel: Accsession Number
 acquisition-acquisitionProvenanceLabel: Acquisition Provenance
 acquisition-acquisitionRestrictionsLabel: Acquisition Restrictions
+acquisition-ownersLabel: Acquisition Source
+acquisition-acquisitionSourceLabel: Contact
 
 # Loan Out
 loanout-loanRenewalApplicationDateLabel: Loan Renewal Date
