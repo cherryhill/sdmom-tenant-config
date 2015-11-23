@@ -69,11 +69,13 @@ preferredOA-mainBodyNameLabel: Organization Name
 
 # Concept
 vocab-objectName: Object Name Concepts
+preferredCA-termSourceLabel: Citation Source
 
 # Place
 vocab-bgn_place: U.S. Board on Geographic Names
 vocab-nga_place: U.S. National Geospatial-Intelligence Agency
 preferredPlace-termNameLabel: Place Name
+preferredPlace-termSourceLabel: Citation Source
 
 # Citation
 preferredCI-termTypeLabel: Citation Type

@@ -308,29 +308,14 @@
 
     <div class="info-column">
       <div class="info-column2-50 fl-force-left">
-        <div class="info-pair">
+        <div class="info-pair-select">
           <div class="header">
-            <div class="label csc-collection-object-pastPerfectHistoryGroup-label"></div>
+            <div class="label csc-collection-object-collection-label"></div>
           </div>
           <div class="content">
-            <table>
-              <thead>
-                <tr>
-                  <td class="csc-collection-object-pastPerfectHistoryBy-label"></td>
-                  <td class="csc-collection-object-pastPerfectHistoryDate-label"></td>
-                </tr>
-              </thead>
-              <tbody>
-                <tr class="csc-object-identification-past-perfect-history-group">
-                  <td>
-                    <input type="text" class="csc-object-identification-past-perfect-history-by" />
-                  </td>
-                  <td>
-                    <input type="text" class="csc-object-identification-past-perfect-history-date" />
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+            <select class="csc-object-identification-collection input-select">
+              <option value="">Options not loaded</option>
+            </select>
           </div>
         </div>
       </div>
@@ -342,17 +327,6 @@
           </div>
           <div class="content">
             <input type="text" class="csc-collection-object-computedCurrentLocation" />
-          </div>
-        </div>
-
-        <div class="info-pair-select">
-          <div class="header">
-            <div class="label csc-collection-object-collection-label"></div>
-          </div>
-          <div class="content">
-            <select class="csc-object-identification-collection input-select">
-              <option value="">Options not loaded</option>
-            </select>
           </div>
         </div>
       </div>
@@ -1519,27 +1493,25 @@
           <div class="info-column2-50 fl-force-left">
             <div class="info-pair">
               <div class="header">
-                <div class="label csc-collection-object-assocCulturalContextGroup-label"></div>
+                <div class="label csc-collection-object-assocPersonGroup-label"></div>
               </div>
               <div class="content">
                 <table>
                   <thead>
                     <tr>
-                      <td class="csc-collection-object-assocCulturalContext-label"></td>
-                      <td class="csc-collection-object-assocCulturalContextType-label"></td>
-                      <td class="csc-collection-object-assocCulturalContextNote-label"></td>
+                      <td class="csc-collection-object-assocPerson-label"></td>
+                      <!-- <td class="csc-collection-object-assocPersonType-label"></td> -->
+                      <td class="csc-collection-object-assocPersonNote-label"></td>
                     </tr>
                   </thead>
                   <tbody>
-                    <tr class="csc-collection-object-assocCulturalContextGroup">
+                    <tr class="csc-collection-object-assocPersonGroup">
                       <td>
-                        <input type="text" class="csc-collection-object-assocCulturalContext" />
+                        <input type="text" class="csc-collection-object-assocPerson" />
                       </td>
+                      <!-- <td><input type="text" class="csc-collection-object-assocPersonType"/></td> -->
                       <td>
-                        <input type="text" class="csc-collection-object-assocCulturalContextType" />
-                      </td>
-                      <td>
-                        <input type="text" class="csc-collection-object-assocCulturalContextNote" />
+                        <input type="text" class="csc-collection-object-assocPersonNote" />
                       </td>
                     </tr>
                   </tbody>
@@ -1581,33 +1553,6 @@
 
         <div class="info-column">
           <div class="info-column2-50 fl-force-left">
-            <div class="info-pair">
-              <div class="header">
-                <div class="label csc-collection-object-assocPersonGroup-label"></div>
-              </div>
-              <div class="content">
-                <table>
-                  <thead>
-                    <tr>
-                      <td class="csc-collection-object-assocPerson-label"></td>
-                      <!-- <td class="csc-collection-object-assocPersonType-label"></td> -->
-                      <td class="csc-collection-object-assocPersonNote-label"></td>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr class="csc-collection-object-assocPersonGroup">
-                      <td>
-                        <input type="text" class="csc-collection-object-assocPerson" />
-                      </td>
-                      <!-- <td><input type="text" class="csc-collection-object-assocPersonType"/></td> -->
-                      <td>
-                        <input type="text" class="csc-collection-object-assocPersonNote" />
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
           </div>
 
           <div class="info-column2-50 fl-force-right">
@@ -1675,6 +1620,35 @@
 
 
         <div class="info-column">
+          <div class="info-pair hidden">
+            <div class="header">
+              <div class="label csc-collection-object-assocCulturalContextGroup-label"></div>
+            </div>
+            <div class="content">
+              <table>
+                <thead>
+                  <tr>
+                    <td class="csc-collection-object-assocCulturalContext-label"></td>
+                    <td class="csc-collection-object-assocCulturalContextType-label"></td>
+                    <td class="csc-collection-object-assocCulturalContextNote-label"></td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="csc-collection-object-assocCulturalContextGroup">
+                    <td>
+                      <input type="text" class="csc-collection-object-assocCulturalContext" />
+                    </td>
+                    <td>
+                      <input type="text" class="csc-collection-object-assocCulturalContextType" />
+                    </td>
+                    <td>
+                      <input type="text" class="csc-collection-object-assocCulturalContextNote" />
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
           <div class="info-pair hidden">
             <div class="header">
               <div class="label csc-collection-object-assocConceptGroup-label"></div>
@@ -2171,7 +2145,7 @@
             <thead>
               <tr>
                 <td class="csc-collection-object-reference-label"></td>
-                <td class="csc-collection-object-referenceUse-label"></td>
+                <td style="width:20%;" class="csc-collection-object-referenceUse-label"></td>
                 <td class="csc-collection-object-referenceNote-label"></td>
               </tr>
             </thead>
