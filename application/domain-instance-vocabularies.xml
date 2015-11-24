@@ -630,6 +630,7 @@
       <option id="producedByStaff">Produced by Staff</option>
       <option id="fieldCollection">Field Collection</option>
       <option id="foundInCollection">Found in Collection</option>
+      <option id="collectedByStaff">Collected by Staff</option>
       <option id="unknown">Unknown</option>
     </options>
   </instance>
