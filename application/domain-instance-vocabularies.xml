@@ -74,8 +74,8 @@
   </instance>
 
   <instance id="vocab-nameLevel">
-    <web-url>nameCurrency</web-url>
-    <title-ref>nameCurrency</title-ref>
+    <web-url>nameLevel</web-url>
+    <title-ref>nameLevel</title-ref>
     <title>Name Level</title>
     <options>
       <option id="album">Album</option>
