@@ -756,12 +756,12 @@
       <option id="base">base</option>
       <option id="frame">frame</option>
       <option id="framed">framed</option>
-      <option id="film-size">film size</option>
-      <option id="print-size">print size</option>
-      <option id="image-size">image size</option>
+      <option id="filmSize">film size</option>
+      <option id="printSize">print size</option>
+      <option id="imageSize">image size</option>
       <option id="mount">mount</option>
-      <option id="paper-size">paper size</option>
-      <option id="plate-size">plate size</option>
+      <option id="paperSize">paper size</option>
+      <option id="plateSize">plate size</option>
       <option id="unframed">unframed</option>
     </options>
   </instance>
