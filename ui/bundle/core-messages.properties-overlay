@@ -148,6 +148,16 @@ collection-object-legacyPastPerfectDimensionDetailsLabel: Legacy Past Perfect Di
 collection-object-textualInscriptionInformationLabel: Inscription
 
 collection-object-contentEventNameGroupLabel: Event
+collection-object-contentConceptsLabel: Content - Search Terms
+collection-object-contentPersonsLabel: Content - Person
+collection-object-contentPeoplesLabel: Content - Culture
+collection-object-contentPlacesLabel: Content - Place
+collection-object-contentOrganizationsLabel: Content - Organization
+collection-object-contentDateLabel: Content - Date
+
+collection-object-assocActivityGroupLabel: Associated Search Terms
+collection-object-assocActivityLabel: Associated Search Term
+collection-object-assocActivityNoteLabel: Associated Search Term Note
 
 collection-object-objectProductionPeopleGroupLabel: Production Culture
 collection-object-objectProductionPeopleLabel: Production Culture
@@ -169,7 +179,7 @@ collection-object-referenceUseLabel: Reference Use
 collection-object-copyrightsLabel: Copyrights
 collection-object-copyrightLabel: Copyright
 collection-object-creditsLabel: Credits
-collection-object-creditLabel: Credit
+collection-object-creditLabel: Label Credit
 collection-object-webReadyLabel: Web Ready?
 
 collection-object-fieldCollectionUnitLabel: Field Collection Unit

@@ -313,9 +313,7 @@
             <div class="label csc-collection-object-collection-label"></div>
           </div>
           <div class="content">
-            <select class="csc-object-identification-collection input-select">
-              <option value="">Options not loaded</option>
-            </select>
+            <input type="text" class="csc-object-identification-collection" />
           </div>
         </div>
       </div>
@@ -432,6 +430,55 @@
   <div class="csc-recordEditor-header fl-container-flex header toggle csc-collection-object-descriptionInformation-label"></div>
   <div class="csc-recordEditor-togglable fl-container-flex fl-fix content main">
     <div class="info-column">
+      <div class="info-pair">
+        <div class="header">
+          <div class="label csc-collection-object-materialGroup-label"></div>
+        </div>
+        <div class="content">
+          <table>
+            <thead>
+              <tr>
+                <td class="csc-collection-object-material-label"></td>
+                <td class="csc-collection-object-materialComponent-label"></td>
+                <!-- <td class="csc-collection-object-materialComponentNote-label"></td> -->
+                <!-- <td class="csc-collection-object-materialName-label"></td> -->
+                <td class="csc-collection-object-materialSource-label"></td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="csc-collection-object-materialGroup">
+                <td>
+                  <input type="text" class="csc-object-description-material" />
+                </td>
+                <td>
+                  <input type="text" class="csc-object-description-material-component" />
+                </td>
+                <!-- <td><input type="text" class="csc-object-description-materialComponentNote"/></td> -->
+                <!-- <td><input type="text" class="csc-object-description-materialName"/></td> -->
+                <td>
+                  <input type="text" class="csc-object-description-material-source" />
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="csc-collection-object-dimension cs-multipleEdit"></div>
+
+    <div class="info-column">
+      <div class="info-pair">
+        <div class="header">
+          <div class="label csc-collection-object-legacyPastPerfectDimensionDetails-label"></div>
+        </div>
+        <div class="content">
+          <textarea rows="4" cols="30" class="input-textarea csc-collection-object-legacyPastPerfectDimensionDetails"></textarea>
+        </div>
+      </div>
+    </div>
+
+    <div class="info-column">
       <div class="info-column2-30 fl-force-left">
         <div class="info-pair-select">
           <div class="header">
@@ -478,55 +525,6 @@
               </tbody>
             </table>
           </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="info-column">
-      <div class="info-pair">
-        <div class="header">
-          <div class="label csc-collection-object-materialGroup-label"></div>
-        </div>
-        <div class="content">
-          <table>
-            <thead>
-              <tr>
-                <td class="csc-collection-object-material-label"></td>
-                <td class="csc-collection-object-materialComponent-label"></td>
-                <!-- <td class="csc-collection-object-materialComponentNote-label"></td> -->
-                <!-- <td class="csc-collection-object-materialName-label"></td> -->
-                <td class="csc-collection-object-materialSource-label"></td>
-              </tr>
-            </thead>
-            <tbody>
-              <tr class="csc-collection-object-materialGroup">
-                <td>
-                  <input type="text" class="csc-object-description-material" />
-                </td>
-                <td>
-                  <input type="text" class="csc-object-description-material-component" />
-                </td>
-                <!-- <td><input type="text" class="csc-object-description-materialComponentNote"/></td> -->
-                <!-- <td><input type="text" class="csc-object-description-materialName"/></td> -->
-                <td>
-                  <input type="text" class="csc-object-description-material-source" />
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </div>
-
-    <div class="csc-collection-object-dimension cs-multipleEdit"></div>
-
-    <div class="info-column">
-      <div class="info-pair">
-        <div class="header">
-          <div class="label csc-collection-object-legacyPastPerfectDimensionDetails-label"></div>
-        </div>
-        <div class="content">
-          <textarea rows="4" cols="30" class="input-textarea csc-collection-object-legacyPastPerfectDimensionDetails"></textarea>
         </div>
       </div>
     </div>
@@ -1073,14 +1071,6 @@
 
     <div class="info-column">
       <div class="info-column2-50 fl-force-left">
-        <div class="info-pair hidden">
-          <div class="header">
-            <div class="label csc-collection-object-contentActivities-label"></div>
-          </div>
-          <div class="content">
-            <input type="text" class="csc-object-description-content-activity" />
-          </div>
-        </div>
 
         <div class="info-pair-select hidden">
           <div class="header">
@@ -1518,33 +1508,6 @@
                 </table>
               </div>
             </div>
-            <div class="info-pair">
-              <div class="header">
-                <div class="label csc-collection-object-assocPersonGroup-label"></div>
-              </div>
-              <div class="content">
-                <table>
-                  <thead>
-                    <tr>
-                      <td class="csc-collection-object-assocPerson-label"></td>
-                      <!-- <td class="csc-collection-object-assocPersonType-label"></td> -->
-                      <td class="csc-collection-object-assocPersonNote-label"></td>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr class="csc-collection-object-assocPersonGroup">
-                      <td>
-                        <input type="text" class="csc-collection-object-assocPerson" />
-                      </td>
-                      <!-- <td><input type="text" class="csc-collection-object-assocPersonType"/></td> -->
-                      <td>
-                        <input type="text" class="csc-collection-object-assocPersonNote" />
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
           </div>
 
           <div class="info-column2-50 fl-force-right">
@@ -1893,8 +1856,84 @@
 <!-- (hidden) OBJECT OWNER COMMENTARY information-group -->
 
 <div class="fl-container-flex fl-fix information-group">
-  <div class="csc-recordEditor-header fl-container-flex header toggle csc-collection-object-repatriationNagpraComplianceInformation-label"></div>
+  <div class="csc-recordEditor-header fl-container-flex header toggle csc-collection-object-referenceInformation-label"></div>
   <div class="csc-recordEditor-togglable fl-container-flex fl-fix content main">
+    <!-- Changed in CSPACE-3501. Reference and Catalog number merged into repeatable group; catalog number renamed reference note -->
+    <div class="info-column">
+      <div class="info-pair">
+        <div class="header">
+          <div class="label csc-collection-object-referenceGroup-label"></div>
+        </div>
+        <div class="content">
+          <table>
+            <thead>
+              <tr>
+                <td class="csc-collection-object-reference-label"></td>
+                <td style="width:20%;" class="csc-collection-object-referenceUse-label"></td>
+                <td class="csc-collection-object-referenceNote-label"></td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="csc-collection-object-referenceGroup">
+                <td>
+                  <input type="text" class="csc-collection-object-reference" />
+                </td>
+                <td>
+                  <select class="csc-collection-object-referenceUse input-select">
+                    <option value="">Options not loaded</option>
+                  </select>
+                </td>
+                <td>
+                  <input type="text" class="csc-collection-object-referenceNote" />
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="info-column">
+      <div class="info-column2-25 fl-force-left">
+        <div class="info-pair-select">
+          <div class="header">
+            <div class="label csc-collection-object-webReady-label"></div>
+          </div>
+          <div class="content">
+            <select class="csc-collection-object-webReady input-select">
+              <option value="">Options not loaded</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="info-column2-75 fl-force-right">
+        <div class="info-pair">
+          <div class="header">
+            <div class="label csc-collection-object-copyrights-label"></div>
+          </div>
+          <div class="content csc-collection-object-copyrights">
+            <input type="text" class="csc-collection-object-copyright" />
+          </div>
+        </div>
+        <div class="info-pair">
+          <div class="header">
+            <div class="label csc-collection-object-credits-label"></div>
+          </div>
+          <div class="content csc-collection-object-credits">
+            <input type="text" class="csc-collection-object-credit" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- REFERENCE INFORMATION information-group -->
+
+<div class="fl-container-flex fl-fix information-group">
+  <div class="csc-recordEditor-header fl-container-flex header toggle csc-collection-object-repatriationNagpraComplianceInformation-label  cs-togglable-collapsed"></div>
+  <div class="csc-recordEditor-togglable fl-container-flex fl-fix content main" style="display:none;">
     <div class="info-column">
       <div class="info-column2-50 fl-force-left">
         <div class="info-pair">
@@ -1983,8 +2022,8 @@
 <!-- REPATRIATION AND NAGPRA information-group -->
 
 <div class="fl-container-flex fl-fix information-group">
-  <div class="csc-recordEditor-header fl-container-flex header toggle csc-collection-object-culturalCareInformation-label"></div>
-  <div class="csc-recordEditor-togglable fl-container-flex fl-fix content main">
+  <div class="csc-recordEditor-header fl-container-flex header toggle csc-collection-object-culturalCareInformation-label  cs-togglable-collapsed"></div>
+  <div class="csc-recordEditor-togglable fl-container-flex fl-fix content main" style="display:none;">
     <div class="info-column">
       <div class="info-pair">
         <div class="header">
@@ -2083,8 +2122,8 @@
 <!-- CULTURAL CARE information-group -->
 
 <div class="fl-container-flex fl-fix information-group">
-  <div class="csc-recordEditor-header fl-container-flex header toggle csc-collection-object-objectViewersContributionInformation-label"></div>
-  <div class="csc-recordEditor-togglable fl-container-flex fl-fix content main">
+  <div class="csc-recordEditor-header fl-container-flex header toggle csc-collection-object-objectViewersContributionInformation-label  cs-togglable-collapsed"></div>
+  <div class="csc-recordEditor-togglable fl-container-flex fl-fix content main" style="display:none;">
     <div class="info-column cs-multipleEdit">
       <div class="info-pair">
         <div class="header">
@@ -2157,84 +2196,8 @@
 <!-- VIEWER COMMENTARY information-group -->
 
 <div class="fl-container-flex fl-fix information-group">
-  <div class="csc-recordEditor-header fl-container-flex header toggle csc-collection-object-referenceInformation-label"></div>
-  <div class="csc-recordEditor-togglable fl-container-flex fl-fix content main">
-    <!-- Changed in CSPACE-3501. Reference and Catalog number merged into repeatable group; catalog number renamed reference note -->
-    <div class="info-column">
-      <div class="info-pair">
-        <div class="header">
-          <div class="label csc-collection-object-referenceGroup-label"></div>
-        </div>
-        <div class="content">
-          <table>
-            <thead>
-              <tr>
-                <td class="csc-collection-object-reference-label"></td>
-                <td style="width:20%;" class="csc-collection-object-referenceUse-label"></td>
-                <td class="csc-collection-object-referenceNote-label"></td>
-              </tr>
-            </thead>
-            <tbody>
-              <tr class="csc-collection-object-referenceGroup">
-                <td>
-                  <input type="text" class="csc-collection-object-reference" />
-                </td>
-                <td>
-                  <select class="csc-collection-object-referenceUse input-select">
-                    <option value="">Options not loaded</option>
-                  </select>
-                </td>
-                <td>
-                  <input type="text" class="csc-collection-object-referenceNote" />
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </div>
-
-    <div class="info-column">
-      <div class="info-column2-25 fl-force-left">
-        <div class="info-pair-select">
-          <div class="header">
-            <div class="label csc-collection-object-webReady-label"></div>
-          </div>
-          <div class="content">
-            <select class="csc-collection-object-webReady input-select">
-              <option value="">Options not loaded</option>
-            </select>
-          </div>
-        </div>
-      </div>
-
-      <div class="info-column2-75 fl-force-right">
-        <div class="info-pair">
-          <div class="header">
-            <div class="label csc-collection-object-copyrights-label"></div>
-          </div>
-          <div class="content csc-collection-object-copyrights">
-            <input type="text" class="csc-collection-object-copyright" />
-          </div>
-        </div>
-        <div class="info-pair">
-          <div class="header">
-            <div class="label csc-collection-object-credits-label"></div>
-          </div>
-          <div class="content csc-collection-object-credits">
-            <input type="text" class="csc-collection-object-credit" />
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</div>
-<!-- REFERENCE INFORMATION information-group -->
-
-<div class="fl-container-flex fl-fix information-group">
-  <div class="csc-recordEditor-header fl-container-flex header toggle csc-collection-object-objectCollectionInformation-label"></div>
-  <div class="csc-recordEditor-togglable fl-container-flex fl-fix content main">
+  <div class="csc-recordEditor-header fl-container-flex header toggle csc-collection-object-objectCollectionInformation-label  cs-togglable-collapsed"></div>
+  <div class="csc-recordEditor-togglable fl-container-flex fl-fix content main" style="display:none;">
     <div class="info-column">
       <div class="info-column2-50 fl-force-left">
         <div class="info-pair">

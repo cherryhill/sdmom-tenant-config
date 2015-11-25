@@ -1,0 +1,19 @@
+<record id="dimension">
+  <section id="dimensionInformation">
+    <field id="dimensionSummary" />
+    <repeat id="measuredPartGroupList/measuredPartGroup">
+      <!-- Convert from static to dynamic term list. -->
+      <field id="measuredPart" autocomplete="vocab-measuredPart" ui-type="enum" />
+      <repeat id="dimensionSubGroupList/dimensionSubGroup">
+        <field id="measuredBy"  autocomplete="person-person,organization-organization" />
+        <field id="dimension" autocomplete="vocab-dimension" ui-type="enum" />
+        <field id="measurementUnit" autocomplete="vocab-measurementUnit" ui-type="enum" />
+        <field id="value" ui-type="validated" datatype="float" />
+        <field id="measurementMethod" autocomplete="vocab-measurementMethod" ui-type="enum" />
+        <field id="valueDate" ui-type="date" datatype="date" />
+        <field id="valueQualifier" />
+        <field id="dimensionNote" />
+      </repeat>
+    </repeat>
+  </section>
+</record>

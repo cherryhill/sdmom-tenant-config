@@ -21,6 +21,7 @@
             <option id="deu">German</option>
             <option id="grc">Ancient Greek</option>
             <option id="heb">Hebrew</option>
+            <option id="Heiroglyphic">Heiroglyphic</option>
             <option id="ind">Indonesian</option>
             <option id="ita">Italian</option>
             <option id="jpn">Japanese</option>
@@ -70,6 +71,8 @@
             <option id="CHF">Swiss Franc</option>
         </options>
     </instance>
+
+    <!-- Overridden -->
     <instance id="vocab-collectionmethod">
         <web-url>collectionmethod</web-url>
         <title-ref>collectionmethod</title-ref>
@@ -81,13 +84,19 @@
             <option id="founddead">found dead</option>
             <option id="metaldetector">metal detector</option>
             <option id="netted">netted</option>
+            <option id="other">other</option>
             <option id="photographed">photographed</option>
             <option id="purchased">purchased</option>
             <option id="salvaged">salvaged</option>
             <option id="shot">shot</option>
+            <option id="shovelTesting">shovel testing</option>
+            <option id="surfaceCollecting">surface collecting</option>
+            <option id="survey">survey</option>
             <option id="trapped">trapped</option>
+            <option id="unknown">unknown</option>
         </options>
     </instance>
+
     <instance id="vocab-conditionfitness">
         <web-url>conditionfitness</web-url>
         <title-ref>conditionfitness</title-ref>

@@ -16,6 +16,11 @@
       <field id="sdmomNumberNote" section="sdmom" />
     </repeat>
 
+    <!-- Convert static vocabulary field to text field -->
+    <field id="collection" ui-search="" seperate_ui_container="">
+      <selector>object-identification-collection</selector>
+    </field>
+
     <repeat id="objectStandingList/objectStandingGroup" section="sdmom">
       <selector>object-identification-objectStandings</selector>
       <field id="objectStanding" autocomplete="vocab-objectStanding" ui-type="enum" section="sdmom">
@@ -117,6 +122,17 @@
   </section>
 
   <section id="descriptionInformation">
+    <!-- override options list -->
+    <field id="sex" ui-search="repeatable" seperate_ui_container="true">
+      <selector>object-description-sex</selector>
+      <options>
+        <option id="">Please select a value</option>
+        <option id="male">male</option>
+        <option id="female">female</option>
+        <option id="unknown">unknown</option>
+      </options>
+    </field>
+
     <field id="legacyPastPerfectDimensionDetails" section="sdmom" />
     <field id="legacySearchTermsData" section="sdmom" />
 
@@ -270,7 +286,7 @@
         </field>
       </repeat>
       <repeat id="contentActivities">
-        <field id="contentActivity">
+        <field id="contentActivity" autocomplete="concept-activity">
           <selector>object-description-content-activity</selector>
         </field>
       </repeat>

@@ -61,7 +61,7 @@
 			<include src="base-authz-userrole.xml"/>
 			<include src="base-authz-users.xml"/>
 
-			<include src="base-other-dimension.xml"/>
+			<include src="sdmom-other-dimension.xml"/> <!-- We've completely overridden the base version of Dimension-->
 			<include src="base-other-hierarchy.xml"/>
 			<include src="base-other-idgenerator.xml"/>
 			<include src="base-other-structureddate.xml"/>
