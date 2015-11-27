@@ -1,62 +1,96 @@
 <div class="info-pair">
-	<div class="header">
-		<div class="label csc-dimension-measuredPartGroup-label"></div>
-	</div>
-	<div class="content csc-dimension-measuredPartGroup">
-        <div class="info-column">
-			<div class="info-column2-50 fl-force-left">
-				<div class="info-pair">
-					<div class="header">
-						<div class="label csc-dimension-measuredPart-label"></div>
-					</div>
-					<div class="content">
-						<select class="csc-dimension-measuredPart input-select"><option value="">Options not loaded</option></select>
-					</div>
-				</div>
-			</div>
-			<div class="info-column2-50 fl-force-right">
-				<div class="info-pair">
-					<div class="header">
-						<div class="label csc-dimension-dimensionSummary-label"></div>
-					</div>
-					<div class="content">
-						<input type="text" class="csc-dimension-dimensionSummary"/>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="info-column">
-			<div class="info-pair">
-			    <div class="header">
-            		<div class="label csc-measuredPartGroup-dimensionSubGroup-label"></div>
-            	</div>
-				<div class="content">
-					<table>
-						<thead>
-							<tr>
-								<td class="csc-dimension-dimension-label"></td>
-								<td class="csc-dimension-measuredBy-label"></td>
-								<td class="csc-dimension-measurementMethod-label"></td>
-								<td class="csc-dimension-value-label"></td>
-								<td class="csc-dimension-measurementUnit-label"></td>
-								<td class="csc-dimension-valueQualifier-label"></td>
-								<td class="csc-dimension-valueDate-label"></td>
-							</tr>
-						</thead>
-						<tbody>
-							<tr class="csc-measuredPartGroup-dimensionSubGroup">
-								<td><select class="csc-dimension-dimension input-select"><option value="">Options not loaded</option></select></td>
-								<td><input type="text" class="csc-dimension-measuredBy" /></td>
-								<td><select class="csc-dimension-measurementMethod input-select"><option value="">Options not loaded</option></select></td>
-								<td><input type="text" class="csc-dimension-value"/></td>
-								<td><select class="csc-dimension-measurementUnit input-select"><option value="">Options not loaded</option></select></td>
-								<td><input type="text" class="csc-dimension-valueQualifier"/></td>
-								<td><input type="text" class="csc-dimension-valueDate" /></td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-			</div>
-		</div>
-	</div>
+  <div class="header">
+    <div class="label csc-dimension-measuredPartGroup-label"></div>
+  </div>
+  <div class="content csc-dimension-measuredPartGroup">
+    <div class="info-column">
+      <div class="info-column2-50 fl-force-left">
+        <div class="info-pair">
+          <div class="header">
+            <div class="label csc-dimension-partVersion-label"></div>
+          </div>
+          <div class="content">
+            <table>
+              <thead>
+                <tr>
+                  <td class="csc-dimension-measuredPart-label"></td>
+                  <td class="csc-dimension-dimensionSummary-label"></td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><select class="csc-dimension-measuredPart input-select"><option value="">Options not loaded</option></select></td>
+                  <td><input type="text" class="csc-dimension-dimensionSummary"/></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="info-column2-50 fl-force-right">
+        <div class="info-pair">
+          <div class="header">
+            <div class="label csc-measuredPartGroup-dimensionSubGroup-label"></div>
+          </div>
+          <div class="content">
+            <table>
+              <thead>
+                <tr>
+                  <td class="csc-dimension-dimension-label"></td>
+                  <!-- <td class="csc-dimension-measuredBy-label"></td> -->
+                  <!-- <td class="csc-dimension-measurementMethod-label"></td> -->
+                  <td class="csc-dimension-value-label"></td>
+                  <td class="csc-dimension-measurementUnit-label"></td>
+                  <!-- <td class="csc-dimension-valueQualifier-label"></td> -->
+                  <!-- <td class="csc-dimension-valueDate-label"></td> -->
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="csc-measuredPartGroup-dimensionSubGroup">
+                  <td><select class="csc-dimension-dimension input-select"><option value="">Options not loaded</option></select></td>
+                  <!-- <td><input type="text" class="csc-dimension-measuredBy" /></td> -->
+                  <!-- <td><select class="csc-dimension-measurementMethod input-select"><option value="">Options not loaded</option></select></td> -->
+                  <td><input type="text" class="csc-dimension-value"/></td>
+                  <td><select class="csc-dimension-measurementUnit input-select"><option value="">Options not loaded</option></select></td>
+                  <!-- <td><input type="text" class="csc-dimension-valueQualifier"/></td> -->
+                  <!-- <td><input type="text" class="csc-dimension-valueDate" /></td> -->
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="info-column">
+      <div class="info-pair">
+        <div class="header">
+          <div class="label csc-measuredPartGroup-avInformationSubGroup-label"></div>
+        </div>
+        <div class="content">
+          <table>
+            <thead>
+              <tr>
+                <td class="csc-dimension-technicalAttribute-label"></td>
+                <td class="csc-dimension-processTechnique-label"></td>
+                <td class="csc-dimension-filmFormat-label"></td>
+                <td class="csc-dimension-origCopy-label"></td>
+                <td class="csc-dimension-color-label"></td>
+                <td class="csc-dimension-avNote-label"></td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="csc-measuredPartGroup-avInformationSubGroup">
+                <td><select class="csc-dimension-technicalAttribute input-select"><option value="">Options not loaded</option></select></td>
+                <td><select class="csc-dimension-processTechnique input-select"><option value="">Options not loaded</option></select></td>
+                <td><select class="csc-dimension-filmFormat input-select"><option value="">Options not loaded</option></select></td>
+                <td><select class="csc-dimension-origCopy input-select"><option value="">Options not loaded</option></select></td>
+                <td><select class="csc-dimension-color input-select"><option value="">Options not loaded</option></select></td>
+                <td><input type="text" class="csc-dimension-avNote" /></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

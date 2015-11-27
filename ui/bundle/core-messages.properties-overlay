@@ -186,6 +186,18 @@ collection-object-fieldCollectionUnitLabel: Field Collection Unit
 collection-object-fieldCollectionLevelLabel: Field Collection Level
 collection-object-fieldCollectionStratumLabel: Field Collection Stratum
 
+# Dimensions Component
+dimension-partVersionLabel: Part/Version
+dimension-measuredPartLabel: Component Name 
+dimension-dimensionSummaryLabel: Information
+dimension-avInformationGroupLabel: Audio/Visual Information
+dimension-technicalAttributeLabel: Medium
+dimension-processTechniqueLabel: Process/Technique
+dimension-filmFormatLabel: Film Format
+dimension-origCopyLabel: Orig/Copy
+dimension-colorLabel: Color
+dimension-avNoteLabel: Note
+
 #  Anthro Extension
 collection-object-repatriationNagpraComplianceInformationLabel: Registration and NAGPRA Compliance Information
 collection-object-nagpraInventoryGroupLabel: NAGPRA Inventory Available

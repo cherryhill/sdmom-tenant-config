@@ -37,16 +37,6 @@
       </field>
     </repeat>
 
-    <repeat id="pastPerfectHistoryList/pastPerfectHistoryGroup" section="sdmom">
-      <selector>object-identification-past-perfect-history-group</selector>
-      <field id="pastPerfectHistoryBy" ui-readonly="true" autocomplete="person-person" section="sdmom">
-        <selector>object-identification-past-perfect-history-by</selector>
-      </field>
-      <field id="pastPerfectHistoryDate" ui-readonly="true" ui-type="date" datatype="date" ui-search="range" section="sdmom">
-        <selector>object-identification-past-perfect-history-date</selector>
-      </field>
-    </repeat>
-
     <field id="sdmomCollection" section="sdmom">
       <selector>object-identification-sdmomCollection</selector>
     </field>
@@ -134,6 +124,7 @@
     </field>
 
     <field id="legacyPastPerfectDimensionDetails" section="sdmom" />
+
     <field id="legacySearchTermsData" section="sdmom" />
 
     <field id="copyNumber" ui-search="repeatable">

@@ -1,9 +1,10 @@
-<record id="dimension">
+<record id="dimension" in-recordlist="no" separate-record="false" services-type="measuredPartGroupList">
+  <hassoftdelete>true</hassoftdelete>
   <section id="dimensionInformation">
-    <field id="dimensionSummary" />
     <repeat id="measuredPartGroupList/measuredPartGroup">
       <!-- Convert from static to dynamic term list. -->
       <field id="measuredPart" autocomplete="vocab-measuredPart" ui-type="enum" />
+      <field id="dimensionSummary" />
       <repeat id="dimensionSubGroupList/dimensionSubGroup">
         <field id="measuredBy"  autocomplete="person-person,organization-organization" />
         <field id="dimension" autocomplete="vocab-dimension" ui-type="enum" />
@@ -14,6 +15,15 @@
         <field id="valueQualifier" />
         <field id="dimensionNote" />
       </repeat>
+    </repeat>
+
+    <repeat id="avInformationSubList/avInformationSubGroup">
+      <field id="technicalAttribute" autocomplete="vocab-technicalAttribute" ui-type="enum" />
+      <field id="processTechnique" autocomplete="vocab-processTechnique" ui-type="enum" />
+      <field id="filmFormat" autocomplete="vocab-filmFormat" ui-type="enum" />
+      <field id="origCopy" autocomplete="vocab-origCopy" ui-type="enum" />
+      <field id="color" autocomplete="vocab-color" ui-type="enum" />
+      <field id="avNote" />
     </repeat>
   </section>
 </record>
