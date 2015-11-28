@@ -261,7 +261,32 @@
         </options>
       </field>
     </repeat>
+
     <field id="dimension" ui-type="groupfield/dimension/selfrenderer" ui-func="cspace.dimension"/>
+    <!-- We're copying the whole sdmom-other-dimension definitinon into the collectionobject schema -->
+    <repeat id="measuredPartGroupList/measuredPartGroup" section="sdmom">
+      <field id="measuredPart" autocomplete="vocab-measuredPart" ui-type="enum" section="sdmom" />
+      <field id="dimensionSummary" section="sdmom" />
+      <repeat id="dimensionSubGroupList/dimensionSubGroup" section="sdmom">
+        <field id="measuredBy"  autocomplete="person-person,organization-organization" section="sdmom" />
+        <field id="dimension" autocomplete="vocab-dimension" ui-type="enum" section="sdmom" />
+        <field id="measurementUnit" autocomplete="vocab-measurementUnit" ui-type="enum" section="sdmom" />
+        <field id="dimensionValue" ui-type="validated" datatype="float" section="sdmom" />
+        <field id="measurementMethod" autocomplete="vocab-measurementMethod" ui-type="enum" section="sdmom" />
+        <field id="valueDate" ui-type="date" datatype="date" section="sdmom" />
+        <field id="valueQualifier" section="sdmom" />
+        <field id="dimensionNote" section="sdmom" />
+      </repeat>
+
+      <repeat id="avInformationSubList/avInformationSubGroup" section="sdmom">
+        <field id="technicalAttribute" autocomplete="vocab-technicalAttribute" ui-type="enum" section="sdmom" />
+        <field id="processTechnique" autocomplete="vocab-processTechnique" ui-type="enum" section="sdmom" />
+        <field id="filmFormat" autocomplete="vocab-filmFormat" ui-type="enum" section="sdmom" />
+        <field id="origCopy" autocomplete="vocab-origCopy" ui-type="enum" section="sdmom" />
+        <field id="color" autocomplete="vocab-color" ui-type="enum" section="sdmom" />
+        <field id="avNote" section="sdmom" />
+      </repeat>
+    </repeat>
 
     <section id="contentInformation">
       <field id="contentDescription">

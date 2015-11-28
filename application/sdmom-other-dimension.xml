@@ -1,8 +1,8 @@
 <record id="dimension" in-recordlist="no" separate-record="false" services-type="measuredPartGroupList">
   <hassoftdelete>true</hassoftdelete>
   <section id="dimensionInformation">
-    <repeat id="measuredPartGroupList/measuredPartGroup">
-      <!-- Convert from static to dynamic term list. -->
+    <field id="nothingToSeeHere" />
+    <!-- <repeat id="measuredPartGroupList/measuredPartGroup">
       <field id="measuredPart" autocomplete="vocab-measuredPart" ui-type="enum" />
       <field id="dimensionSummary" />
       <repeat id="dimensionSubGroupList/dimensionSubGroup">
@@ -24,6 +24,6 @@
       <field id="origCopy" autocomplete="vocab-origCopy" ui-type="enum" />
       <field id="color" autocomplete="vocab-color" ui-type="enum" />
       <field id="avNote" />
-    </repeat>
+    </repeat> -->
   </section>
 </record>
