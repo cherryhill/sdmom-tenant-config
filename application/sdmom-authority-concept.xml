@@ -24,6 +24,18 @@
       <title-ref>objectName</title-ref>
       <title>Object Name Concepts</title>
     </instance>
+
+    <instance id="concept-culture_owc">
+      <web-url>culture_owc</web-url>
+      <title-ref>culture_owc</title-ref>
+      <title>Outline of World Cultures</title>
+    </instance>
+
+    <instance id="concept-culture_local">
+      <web-url>culture_local</web-url>
+      <title-ref>culture_local</title-ref>
+      <title>Local Cultures</title>
+    </instance>
   </instances>
 
 </record>
