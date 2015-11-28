@@ -244,33 +244,26 @@
         <selector>object-description-object-component-information</selector>
       </field>
     </repeat>
-    <repeat id="technicalAttributeGroupList/technicalAttributeGroup">
-      <!-- selector>collection-object-technicalAttributeGroup</selector -->
-      <field id="technicalAttribute" ui-search="repeatable" seperate_ui_container="true">
-        <selector>object-description-technical-attribute</selector>
-        <options>
-          <option id="">Please select a value</option>
-          <option id="magnetic-tape-type">magnetic tape type</option>
-          <option id="record-speed">record speed</option>
-        </options>
-      </field>
-      <field id="technicalAttributeMeasurement" seperate_ui_container="true">
-        <selector>object-description-technical-attribute-measurement</selector>
-        <options>
-          <option id="">Please select a value</option>
-          <option id="metal">metal</option>
-          <option id="78">78</option>
-        </options>
-      </field>
-      <field id="technicalAttributeMeasurementUnit" seperate_ui_container="true">
-        <selector>object-description-technical-attribute-unit</selector>
-        <options>
-          <option id="">Please select a value</option>
-          <option id="rpm">rpm</option>
-        </options>
-      </field>
-    </repeat>
+
     <field id="dimension" ui-type="groupfield/dimension/selfrenderer" ui-func="cspace.dimension"/>
+
+    <repeat id="dimMeasuredPartGroupList/dimMeasuredPartGroup" section="sdmom">
+      <field id="dimMeasuredPart" autocomplete="vocab-measuredPart" ui-type="enum" section="sdmom" />
+      <field id="dimSummary" section="sdmom" />
+      <repeat id="dimSubGroupList/dimSubGroup" section="sdmom">
+        <field id="dim" autocomplete="vocab-dimension" ui-type="enum" section="sdmom" />
+        <field id="dimMeasurementUnit" autocomplete="vocab-measurementUnit" ui-type="enum" section="sdmom" />
+        <field id="dimValue" ui-type="validated" datatype="float" section="sdmom" />
+      </repeat>
+      <repeat id="avInformationSubList/avInformationSubGroup" section="sdmom">
+        <field id="technicalAttribute" autocomplete="vocab-technicalAttribute" ui-type="enum" section="sdmom" />
+        <field id="processTechnique" autocomplete="vocab-processTechnique" ui-type="enum" section="sdmom" />
+        <field id="filmFormat" autocomplete="vocab-filmFormat" ui-type="enum" section="sdmom" />
+        <field id="origCopy" autocomplete="vocab-origCopy" ui-type="enum" section="sdmom" />
+        <field id="color" autocomplete="vocab-color" ui-type="enum" section="sdmom" />
+        <field id="avNote" section="sdmom" />
+      </repeat>
+    </repeat>
 
     <section id="contentInformation">
       <field id="contentDescription">
