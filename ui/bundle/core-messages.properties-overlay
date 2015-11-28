@@ -144,6 +144,21 @@ collection-object-contentObjectLabel: SDMoM Object Contained
 collection-object-contentPeoplesLabel: Culture
 collection-object-legacySearchTermsDataLabel: Legacy Search Terms Data
 
+collection-object-dimMeasuredPartGroupLabel: Dimensions
+collection-object-dimPartVersionLabel: Part/Version
+collection-object-dimMeasuredPartLabel: Component Name
+collection-object-dimSummaryLabel: Information
+collection-object-dimSubGroupLabel: Measurements
+collection-object-dimLabel: Dimension
+collection-object-dimvalueLabel: Value
+collection-object-dimMeasurementUnitLabel: Dimension Unit
+dimMeasuredPartGroup-avInformationSubGroupLabel: Audio/Visual Information
+collection-object-technicalAttributeLabel: Medium
+collection-object-processTechniqueLabel: Process/Technique
+collection-object-filmFormatLabel: Film Format
+collection-object-origCopyLabel: Orig/Copy
+collection-object-colorLabel: Color
+collection-object-avNoteLabel: Note
 collection-object-legacyPastPerfectDimensionDetailsLabel: Legacy Past Perfect Dimension Details
 collection-object-textualInscriptionInformationLabel: Inscription
 

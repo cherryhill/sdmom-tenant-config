@@ -811,4 +811,76 @@
     </options>
   </instance>
 
+  <instance id="vocab-technicalAttribute">
+    <web-url>technicalAttribute</web-url>
+    <title-ref>technicalAttribute</title-ref>
+    <title>Technical Attribute</title>
+    <options>
+      <option id="audioTape">Audio Tape</option>
+      <option id="digital">Digital</option>
+      <option id="glassPlateNegative">Glass Plate Negative</option>
+      <option id="glassPlatePositive">Glass Plate Positive</option>
+      <option id="magneticTapeType">Magnetic Tape Type</option>
+      <option id="mountedSlide">Mounted Slide</option>
+      <option id="photographicFilm">Photographic Film</option>
+      <option id="photographicPrint">Photographic Print</option>
+      <option id="postcard">Postcard</option>
+      <option id="realPhotoPostcard">Real-photo Postcard</option>
+      <option id="recordSpeed">Record Speed</option>
+      <option id="videoTape">Video Tape</option>
+    </options>
+  </instance>
+
+  <instance id="vocab-processTechnique">
+    <web-url>processTechnique</web-url>
+    <title-ref>processTechnique</title-ref>
+    <title>Process/Technique</title>
+    <options>
+      <option id="acetate">acetate</option>
+      <option id="ambrotype">ambrotype</option>
+      <option id="daggerotype">daggerotype</option>
+      <option id="negative">negative</option>
+      <option id="nitrateNegative">nitrate negative</option>
+      <option id="photogravure">photogravure</option>
+      <option id="png">png</option>
+      <option id="tiff">tiff</option>
+      <option id="jpg">jpg</option>
+      <option id="pdf">pdf</option>
+    </options>
+  </instance>
+  <instance id="vocab-filmFormat">
+    <web-url>filmFormat</web-url>
+    <title-ref>filmFormat</title-ref>
+    <title>Film Format</title>
+    <options>
+      <option id="16mm">16mm</option>
+      <option id="35mmUnperforated">35mm unperforated</option>
+      <option id="35mmPerforated">35mm perforated</option>
+      <option id="35mm">35mm</option>
+    </options>
+  </instance>
+
+  <instance id="vocab-origCopy">
+    <web-url>origCopy</web-url>
+    <title-ref>origCopy</title-ref>
+    <title>Original/Copy</title>
+    <options>
+      <option id="original">Original</option>
+      <option id="copy">Copy</option>
+    </options>
+  </instance>
+
+  <instance id="vocab-color">
+    <web-url>color</web-url>
+    <title-ref>color</title-ref>
+    <title>Color</title>
+    <options>
+      <option id="color">color</option>
+      <option id="grayscale">grayscale</option>
+      <option id="sepia">sepia</option>
+      <option id="blueTone">blue tone</option>
+      <option id="redTone">red tone</option>
+      <option id="greenTone">green tone</option>
+    </options>
+  </instance>
 </instances>
