@@ -98,6 +98,9 @@
     <title-ref>otherNumberType</title-ref>
     <title>Other Number Type</title>
     <options>
+      <option id="slideNumber">Slide Number</option>
+      <option id="negativeNumber">Negative Number</option>
+      <option id="frameNumber">Frame Number</option>
       <option id="creator">Creator</option>
       <option id="lender">Lender</option>
       <option id="donorCollector">Donor/Collector</option>
@@ -779,7 +782,7 @@
       <option id="diameter">diameter</option>
       <option id="height">height</option>
       <option id="length">length</option>
-      <option id="running-time">running time</option>
+      <option id="runningTime">running time</option>
       <option id="target">target</option>
       <option id="volume">volume</option>
       <option id="weight">weight</option>
@@ -794,7 +797,7 @@
     <options>
       <option id="carats">carats</option>
       <option id="centimeters">centimeters</option>
-      <option id="cubic-centimeters">cubic centimeters</option>
+      <option id="cubicCentimeters">cubic centimeters</option>
       <option id="feet">feet</option>
       <option id="inches">inches</option>
       <option id="kilograms">kilograms</option>
@@ -803,36 +806,9 @@
       <option id="meters">meters</option>
       <option id="minutes">minutes</option>
       <option id="pixels">pixels</option>
-      <option id="square-feet">square feet</option>
+      <option id="squareFeet">square feet</option>
       <option id="stories">stories</option>
     </options>
   </instance>
 
-  <instance id="vocab-measurementMethod">
-    <web-url>measurementMethod</web-url>
-    <title-ref>measurementMethod</title-ref>
-    <title>Measurement Method</title>
-    <options>
-      <option id="microscopy_reticule">Microscopy (reticule)</option>
-      <option id="standard_mesh_screen">Standard Mesh/Screen</option>
-      <option id="sliding_calipers">Sliding Calipers</option>
-      <option id="spreading_calipers">Spreading Calipers</option>
-      <option id="measuring_tape_cloth">Measuring Tape (cloth)</option>
-      <option id="measuring_tape_metal">Measuring Tape (metal)</option>
-      <option id="osteometric_board">Osteometric Board</option>
-      <option id="ruler">Ruler</option>
-      <option id="pacing_pedometer">Pacing Pedometer</option>
-      <option id="odometer">Odometer</option>
-      <option id="taping_chaining">Taping/Chaining</option>
-      <option id="stadia_transit">Stadia/Transit</option>
-      <option id="optical_range_finder">Optical Range Finder</option>
-      <option id="electronic_distance_measurement">Electronic Distance Measurement</option>
-      <option id="protractor">Protractor</option>
-      <option id="goniometer">Goniometer</option>
-      <option id="theodolite_total_station">Theodolite/Total Station</option>
-      <option id="balance_beam_scale">Balance/Beam Scale</option>
-      <option id="spring_scale">Spring Scale</option>
-      <option id="hydraulic_or_pneumatic_scale">Hydraulic or Pneumatic Scale</option>
-    </options>
-  </instance>
 </instances>
