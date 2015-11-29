@@ -766,6 +766,8 @@
       <option id="paperSize">paper size</option>
       <option id="plateSize">plate size</option>
       <option id="unframed">unframed</option>
+      <option id="whole">whole</option>
+      <option id="part">part</option>
     </options>
   </instance>
 
