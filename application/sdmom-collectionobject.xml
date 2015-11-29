@@ -323,7 +323,7 @@
         </field>
       </repeat>
       <repeat id="contentPeoples">
-        <field id="contentPeople">
+        <field id="contentPeople" ui-search"repeatable" autocomplete="concept-culture_local,concept-culture_owc">
           <selector>object-description-content-people</selector>
         </field>
       </repeat>
