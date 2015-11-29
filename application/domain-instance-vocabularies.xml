@@ -855,6 +855,8 @@
     <options>
       <option id="acetate">acetate</option>
       <option id="ambrotype">ambrotype</option>
+      <option id="albumenPrint">albumen print</option>
+      <option id="cyanotype">cyanotype</option>
       <option id="daggerotype">daggerotype</option>
       <option id="negative">negative</option>
       <option id="nitrateNegative">nitrate negative</option>
