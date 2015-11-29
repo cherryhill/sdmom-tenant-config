@@ -24,6 +24,11 @@
           <title-ref>nga_place</title-ref>
           <title>U.S. National Geospatial-Intelligence Agency</title>
       </instance>
+      <instance id="place-site_place">
+          <web-url>site_place</web-url>
+          <title-ref>site_place</title-ref>
+          <title>Sites</title>
+      </instance>
   </instances>
 
 </record>
