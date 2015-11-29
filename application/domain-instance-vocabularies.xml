@@ -830,6 +830,21 @@
       <option id="realPhotoPostcard">Real-photo Postcard</option>
       <option id="recordSpeed">Record Speed</option>
       <option id="videoTape">Video Tape</option>
+      <option id="advertisement">Advertisement</option>
+      <option id="ambrotype">Ambrotype</option>
+      <option id="anscochrome Film">Anscochrome Film</option>
+      <option id="blackWhiteSlide">Black &amp; White Slide</option>
+      <option id="cardPhotograph">Card Photograph</option>
+      <option id="clipping">Clipping</option>
+      <option id="colorFilm">Color Film</option>
+      <option id="colorSlide">Color Slide</option>
+      <option id="drawing">Drawing</option>
+      <option id="lanternSlide">Lantern Slide</option>
+      <option id="letter">Letter</option>
+      <option id="lithograph">Lithograph</option>
+      <option id="paper">Paper</option>
+      <option id="photogravure">Photogravure</option>
+      <option id="print">Print</option>
     </options>
   </instance>
 
