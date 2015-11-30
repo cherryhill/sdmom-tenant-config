@@ -1,0 +1,13 @@
+<record id="media">
+
+  <services-record-path id="sdmom">media_sdmom:http://collectionspace.org/services/intake/local/sdmom,media_sdmom</services-record-path>
+
+  <section id="mediaInformation">
+    <!-- convert from text field to authority -->
+    <repeat id="subjects">
+      <services-tag>subjectList</services-tag>
+      <field id="subject" ui-search="repeatable" autocomplete="concept-concept"></field>
+    </repeat>
+  </section>
+
+</record>
