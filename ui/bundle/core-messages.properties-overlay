@@ -74,6 +74,7 @@ preferredCA-termSourceLabel: Citation Source
 # Place
 vocab-bgn_place: U.S. Board on Geographic Names
 vocab-nga_place: U.S. National Geospatial-Intelligence Agency
+vocab-site_place: Site
 preferredPlace-termNameLabel: Place Name
 preferredPlace-termSourceLabel: Citation Source
 
