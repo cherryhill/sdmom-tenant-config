@@ -334,7 +334,7 @@
       </repeat>
       <repeat id="contentPlaces">
         <!-- SDMOM-modified to use place authority -->
-        <field id="contentPlace" ui-search="repeatable" autocomplete="place-place,place-bgn_place,place-nga_place" />
+        <field id="contentPlace" ui-search="repeatable" autocomplete="place-site_place,place-place,place-bgn_place,place-nga_place" />
       </repeat>
       <repeat id="contentScripts">
         <field id="contentScript" seperate_ui_container="true">
@@ -492,7 +492,7 @@
       </field>
     </repeat>
     <repeat id="objectProductionPlaceGroupList/objectProductionPlaceGroup">
-      <field id="objectProductionPlace" ui-search="repeatable" autocomplete="place-place,place-bgn_place,place-nga_place">
+      <field id="objectProductionPlace" ui-search="repeatable" autocomplete="place-site_place,place-place,place-bgn_place,place-nga_place">
         <selector>object-production-place</selector>
       </field>
       <field id="objectProductionPlaceRole"/>
