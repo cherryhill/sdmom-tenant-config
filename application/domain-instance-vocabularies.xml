@@ -903,4 +903,21 @@
       <option id="greenTone">green tone</option>
     </options>
   </instance>
+
+  <instance id="vocab-mediaType">
+    <web-url>mediaType</web-url>
+    <title-ref>mediaType</title-ref>
+    <title>Media Type</title>
+    <options>
+      <option id="artifact">Artifact</option>
+      <option id="dataset">Dataset</option>
+      <option id="document">Document</option>
+      <option id="film">Film</option>
+      <option id="movingImage">Moving Image</option>
+      <option id="printPhotographic">Print-Photographic</option>
+      <option id="slide">Slide</option>
+      <option id="sound">Sound</option>
+      <option id="other">other</option>
+    </options>
+  </instance>
 </instances>
