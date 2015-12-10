@@ -29,6 +29,7 @@ location-addressLabel: Location Address
 
 # Media
 media-sourceLabel: Related Resource
+media-hiresLocationLabel: High Resolution Location
 
 # Object Exit
 objectexit-objectExitTitleLabel: Exit Event Title
