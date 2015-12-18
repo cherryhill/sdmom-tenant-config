@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
+<!-- 2015-12-18T15:50:07 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Collection-to-ConditionCheck" columnCount="2" pageWidth="612" pageHeight="792" columnWidth="286" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="eea6c715-394f-4e95-83dc-ee52cda267c7">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="CollectionSpace.xml"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<import value="org.apache.commons.codec.binary.Base64"/>
+	<queryString>
+		<![CDATA[SELECT
+  co_c.objectnumber AS collectionobjects_objectnumber,
+  hco_c.name AS collectionobjects_csid,
+  cc_c.conditioncheckrefnumber	AS conditioncheck_refnumber,
+  hcc_c.name AS conditioncheck_csid
+FROM
+  conditionchecks_common cc_c
+  INNER JOIN misc ON (misc.id=cc_c.id AND misc.lifecyclestate <> 'deleted')
+  INNER JOIN collectionspace_core core ON (core.id=cc_c.id AND core.tenantid=11)
+
+  JOIN hierarchy hcc_c ON (cc_c.id = hcc_c.id)
+  JOIN relations_common rel_c ON (hcc_c.name = rel_c.subjectcsid AND rel_c.subjectdocumenttype='Conditioncheck')
+  JOIN hierarchy hrc ON (rel_c.objectcsid = hrc.name AND rel_c.objectdocumenttype='CollectionObject')
+  LEFT OUTER JOIN collectionobjects_common co_c ON (co_c.id=hrc.id)
+  JOIN hierarchy hco_c ON (co_c.id = hco_c.id)
+ORDER BY collectionobjects_objectnumber, conditioncheck_refnumber]]>
+	</queryString>
+	<field name="collectionobjects_objectnumber" class="java.lang.String"/>
+	<field name="collectionobjects_csid" class="java.lang.String"/>
+	<field name="conditioncheck_refnumber" class="java.lang.String"/>
+	<field name="conditioncheck_csid" class="java.lang.String"/>
+	<sortField name="collectionobjects_objectnumber"/>
+	<variable name="CSpaceLogo" class="java.lang.String">
+		<variableExpression><![CDATA["/9j/4AAQSkZJRgABAQEAYABgAAD//gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2ODApLCBxdWFsaXR5ID0gOTAK/9sAQwADAgIDAgIDAwMDBAMDBAUIBQUEBAUKBwcGCAwKDAwLCgsLDQ4SEA0OEQ4LCxAWEBETFBUVFQwPFxgWFBgSFBUU/9sAQwEDBAQFBAUJBQUJFA0LDRQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQU/8AAEQgAPABkAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8A/VLmiig0AHNHNFFABzXE/EH4n2/gG4s4JbGS8kuFZ/kcKFAOPeu25rwj9oz/AJDGj8f8sH/9CFexlOGp4vFxpVVeLv8AkeZmNeeHw0qlN2at+ZrxftGWTyIr6LOqkgFhMCQPXGK9fVtygjoea+LU5kUYzk19oRf6pPoK9TPsBh8D7P2EbXvfVva3f1ODKMZWxfP7Z3tb9R/NHNHOKK+TPogo5opKAFGaKBRQAUelFFAAaM1FdsUtZmBIIRiCPpXyq19cuxZriVmJySXOTTSuZTnyH1dVa/0uy1MILyzt7sL90TxK+36ZFeXfAq6nmn1eOSZ3jCxsFZiQDluai+Od1NFqOlxpM6J5TttViBnPWqV4y0dhOScLtHpieGNGhkV00iwR1OVZbZAQfUHFaea+U4b+6imR0uZVdWBBDkEGvpTxXNJB4R1eaJ2jlSymdXU4KkISCDWlp1ZxjJ3vpqRGcYxlJK1jYzxS5/GvjE31yetxL/32a90/Z5uprjRdWWWZ5FSddoZiduV5xX0ePyJ4Gg6/tL2tpa2/zPIwebrF1lS5LX8/+AetUDpRRXyp9AHPtRRzRQAUUYooAZNH5sLx5xuUrn6ivF2+BWq5IXULMjPBO4H+Ve14oxTTsRKClucR8OPAN14Le+kurmKdrgIqiIHAAz1z9aj+I/w9u/Gd1ZTWt1DAYUZGWYHnJyCCK7v0riPiF8Q5fBdzZww2aXLTozlncqAAcY4oV2xNRjGz2ONj+BeqeYu/ULQJkZK7ice3Fet6zpp1bRL6wD+Wbm3eDfjO3cpGf1ryqL47XfmoH0qHYSN22U5x7cV7Ep3KD61alKElJboiKhJNI8C/4Z21r/oJWH/j/wD8TXpHwt8BXXgPTr2G6uYriS4lD/uQdqgDHeu2xRivVxOb4vF0nSqyVn5I4qGW4fDTVSmtV5hRzRRXjHqBg+tFAooAPxoooIoAKKMdqKADFeN/HdGGpaU2DtMLjd2zur2SkYA4yM007ESjzKx8mxI0kqKqlmZgAo5JNfWKD92vril2KOwpTxQ3cmEOTqHaijFHQUjUPxooxR0FAB+NFAooA//Z"]]></variableExpression>
+	</variable>
+	<variable name="MoMLogo" class="java.lang.String">
+		<variableExpression><![CDATA["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"]]></variableExpression>
+	</variable>
+	<group name="collectionobjects_objectnumber">
+		<groupExpression><![CDATA[$F{collectionobjects_objectnumber}]]></groupExpression>
+	</group>
+	<group name="Group1" keepTogether="true">
+		<groupExpression><![CDATA[$F{collectionobjects_objectnumber}]]></groupExpression>
+		<groupHeader>
+			<band height="14">
+				<textField hyperlinkType="Reference">
+					<reportElement x="0" y="-3" width="120" height="17" uuid="22da9a20-ac3f-4ecc-9bd4-c81096bfba2e"/>
+					<textFieldExpression><![CDATA[$F{collectionobjects_objectnumber}]]></textFieldExpression>
+					<hyperlinkReferenceExpression><![CDATA["https://cs.museumofman.org/collectionspace/ui/sdmom/html/cataloging.html?csid=" + $F{collectionobjects_csid}]]></hyperlinkReferenceExpression>
+				</textField>
+			</band>
+		</groupHeader>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="45" splitType="Stretch">
+			<textField pattern="MMMMM dd, yyyy">
+				<reportElement x="102" y="20" width="100" height="21" uuid="df2283e5-347c-474d-814c-dfd879368618"/>
+				<textElement verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="20" width="100" height="21" uuid="9a2d503b-c381-49e7-b453-d2715a97aa44"/>
+				<textElement textAlignment="Right" verticalAlignment="Bottom"/>
+				<text><![CDATA[Report created on ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="3" y="0" width="589" height="30" uuid="31a4f2a6-8aad-4e34-9def-acef580e5eee"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="18"/>
+				</textElement>
+				<text><![CDATA[Collection Objects to ConditionCheck Records]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="34" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="11" width="130" height="20" uuid="83843ae6-703f-4d1c-8f37-80e7e70f055d"/>
+				<textElement verticalAlignment="Bottom"/>
+				<text><![CDATA[Collection Object Number]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="160" y="11" width="100" height="20" uuid="a5f71c1a-ae02-41a2-a46a-43a4e1d1d116"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom"/>
+				<text><![CDATA[Condition Check Reference Number]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="14" splitType="Stretch">
+			<textField hyperlinkType="Reference">
+				<reportElement x="160" y="-8" width="100" height="15" uuid="62cce6a4-d003-4906-8d70-a0a2e2faee49">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{conditioncheck_refnumber}]]></textFieldExpression>
+				<hyperlinkReferenceExpression><![CDATA["https://cs.museumofman.org/collectionspace/ui/sdmom/html/conditioncheck.html?csid=" + $F{conditioncheck_csid}]]></hyperlinkReferenceExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="21" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="77" splitType="Stretch">
+			<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+			<image>
+				<reportElement x="0" y="0" width="100" height="60" uuid="3c48ab86-6b62-4849-bbc4-3add970e85df">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<imageExpression><![CDATA[new ByteArrayInputStream(Base64.decodeBase64($V{CSpaceLogo}.getBytes()))]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="283" y="0" width="286" height="74" uuid="a4efaf60-9384-40fb-91bc-e2944f02dcb9">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+				</reportElement>
+				<imageExpression><![CDATA[new ByteArrayInputStream(Base64.decodeBase64($V{MoMLogo}.getBytes()))]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="0" y="54" width="100" height="20" uuid="29d61dd6-c526-496b-9b35-0bb835a58cf5">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA["Page " + $V{PAGE_NUMBER} + " of " + $V{PAGE_COUNT}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+</jasperReport>
