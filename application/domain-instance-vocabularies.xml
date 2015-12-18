@@ -914,10 +914,11 @@
       <option id="document">Document</option>
       <option id="film">Film</option>
       <option id="movingImage">Moving Image</option>
+      <option id="negative">Negative</option>
       <option id="printPhotographic">Print-Photographic</option>
       <option id="slide">Slide</option>
       <option id="sound">Sound</option>
-      <option id="other">other</option>
+      <option id="other">Other</option>
     </options>
   </instance>
 </instances>
