@@ -11,13 +11,13 @@
     </repeat>
 
     <repeat id="sdmomOtherNumberList/sdmomOtherNumber" section="sdmom">
-      <field id="sdmomNumberValue" in-tab="yes" section="sdmom" />
+      <field id="sdmomNumberValue" in-tab="yes" ui-search="repeatable" section="sdmom" />
       <field id="sdmomNumberType" autocomplete="vocab-otherNumberType" ui-type="enum" section="sdmom" />
       <field id="sdmomNumberNote" section="sdmom" />
     </repeat>
 
     <!-- Convert static vocabulary field to text field -->
-    <field id="collection" ui-search="" seperate_ui_container="">
+    <field id="collection" ui-search="repeatable" seperate_ui_container="false">
       <selector>object-identification-collection</selector>
     </field>
 
@@ -134,7 +134,7 @@
     </field>
 
     <field id="legacyPastPerfectDimensionDetails" section="sdmom" />
-    <field id="legacySearchTermsData" section="sdmom" />
+    <field id="legacySearchTermsData" ui-search="repeatable" section="sdmom" />
 
     <field id="copyNumber" ui-search="repeatable">
       <selector>object-description-copy-number</selector>
@@ -256,10 +256,10 @@
         <field id="dimValue" ui-type="validated" datatype="float" section="sdmom" />
       </repeat>
       <repeat id="avInformationSubList/avInformationSubGroup" section="sdmom">
-        <field id="technicalAttribute" autocomplete="vocab-technicalAttribute" ui-type="enum" section="sdmom" />
+        <field id="technicalAttribute" autocomplete="vocab-technicalAttribute" ui-type="enum" ui-search="repeatable" section="sdmom" />
         <field id="processTechnique" autocomplete="vocab-processTechnique" ui-type="enum" section="sdmom" />
         <field id="filmFormat" autocomplete="vocab-filmFormat" ui-type="enum" section="sdmom" />
-        <field id="origCopy" autocomplete="vocab-origCopy" ui-type="enum" section="sdmom" />
+        <field id="origCopy" autocomplete="vocab-origCopy" ui-type="enum" ui-search="repeatable" section="sdmom" />
         <field id="color" autocomplete="vocab-color" ui-type="enum" section="sdmom" />
         <field id="avNote" section="sdmom" />
       </repeat>
@@ -283,7 +283,7 @@
           <selector>object-description-content-activity</selector>
         </field>
       </repeat>
-      <repeat id="contentConcepts">
+      <repeat id="contentConcepts" ui-search="repeatable">
         <field id="contentConcept" autocomplete="concept-concept,concept-material_ca">
           <selector>object-description-content-concept</selector>
         </field>
@@ -501,12 +501,12 @@
 
   <section id="objectHistoryAssociationInformation">
     <repeat id="sdmomOwnerGroupList/sdmomOwnerGroup" section="sdmom">
-      <field id="sdmomOwner" autocomplete="person-person,organization-organization" section="sdmom" />
+      <field id="sdmomOwner" autocomplete="person-person,organization-organization" ui-search="repeatable" section="sdmom" />
       <field id="sdmomOwnerNote" section="sdmom" />
     </repeat>
     <section id="associationInformation">
       <repeat id="assocActivityGroupList/assocActivityGroup">
-        <field id="assocActivity" autocomplete="concept-activity"/>
+        <field id="assocActivity" autocomplete="concept-activity" ui-search="repeatable"/>
       </repeat>
 
       <repeat id="assocPlaceGroupList/assocPlaceGroup">
@@ -538,9 +538,9 @@
   </section>
 
   <section id="referenceInformation">
-    <field id="webReady" autocomplete="vocab-webReady" ui-type="enum" section="sdmom" />
+    <field id="webReady" autocomplete="vocab-webReady" ui-type="enum" ui-search="repeatable" section="sdmom" />
     <repeat id="copyrights" has-primary="yes" section="sdmom">
-      <field id="copyright" section="sdmom" />
+      <field id="copyright" ui-search="repeatable" section="sdmom" />
     </repeat>
     <repeat id="credits" has-primary="yes" section="sdmom">
       <field id="credit" section="sdmom" />
