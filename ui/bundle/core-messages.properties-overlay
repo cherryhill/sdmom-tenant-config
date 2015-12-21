@@ -3,6 +3,7 @@ login-current: San Diego Museum of Man
 login-current-info: Welcome to the Museum of Man CollectionSpace system
 login-current-details:
 
+collection-object-createdByLabel: Record created by
 
 preferredPA-foreNameLabel: First Name
 preferredPA-middleNameLabel: Middle Name
@@ -129,7 +130,7 @@ collection-object-pastPerfectHistoryDateLabel: Cataloged Date
 collection-object-briefDescriptionsLabel: Description
 
 collection-object-controlledObjectNameGroupLabel: Controlled Object Name
-collection-object-controlledObjectNameLabel: Object Name
+collection-object-controlledObjectNameLabel: Controlled Object Name
 collection-object-controlledObjectNameCurrencyLabel: Object Name Currency
 collection-object-controlledObjectNameLevelLabel: Object Name Level
 collection-object-controlledObjectNameNoteLabel: Object Name Note
