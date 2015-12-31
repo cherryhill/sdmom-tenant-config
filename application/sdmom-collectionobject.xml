@@ -283,8 +283,8 @@
           <selector>object-description-content-activity</selector>
         </field>
       </repeat>
-      <repeat id="contentConcepts" ui-search="repeatable">
-        <field id="contentConcept" autocomplete="concept-concept,concept-material_ca">
+      <repeat id="contentConcepts">
+        <field id="contentConcept" ui-search="repeatable" autocomplete="concept-concept,concept-material_ca">
           <selector>object-description-content-concept</selector>
         </field>
       </repeat>
