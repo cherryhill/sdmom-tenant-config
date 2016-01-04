@@ -69,6 +69,8 @@ preferredOA-mainBodyNameLabel: Organization Name
 
 # Concept
 vocab-objectName: Object Name Concepts
+vocab-culture_owc: Outline of World Cultures
+vocab-culture_local: Local Culture
 preferredCA-termSourceLabel: Citation Source
 
 # Place
