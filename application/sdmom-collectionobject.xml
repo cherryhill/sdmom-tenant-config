@@ -5,6 +5,12 @@
 
   <section id="identificationInformation">
 
+    <!-- Make appear in Advanced Search Screen -->
+    <!-- Create a new field for advanced search -->
+    <field id="computedCurrentLocationSearch" ui-search="repeatable" autocomplete="location-location" exists-in-services="false">
+    	<services-tag>computedCurrentLocation</services-tag>
+    </field>
+    
     <!-- Suppress from Advanced Search Screen -->
     <repeat id="responsibleDepartments" has-primary="yes">
       <field id="responsibleDepartment" ui-search="" mini="" />

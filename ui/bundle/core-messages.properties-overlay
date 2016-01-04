@@ -108,6 +108,7 @@ conditioncheck-conditionAssessmentCommentLabel: Assessment Comment
 conditioncheck-conditionChkerLabel: Condition Checker/Assessor
 
 # Cataloging / Object
+collection-object-computedCurrentLocationSearchLabel: Current Location
 collection-object-sdmomOtherNumberListLabel: Other Number
 collection-object-sdmomNumberValueLabel: Other number
 collection-object-sdmomNumberTypeLabel: Type
