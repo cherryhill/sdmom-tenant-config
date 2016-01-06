@@ -128,6 +128,17 @@
   </section>
 
   <section id="descriptionInformation">
+    <field id="legacyPastPerfectDimensionDetails" section="sdmom" />
+    <field id="legacySearchTermsData" ui-search="repeatable" section="sdmom" />
+
+    <field id="copyNumber" ui-search="repeatable">
+      <selector>object-description-copy-number</selector>
+    </field>
+    <repeat id="objectStatusList" services-type-anonymous="false">
+      <!-- SDMoM-modified to use dynamic list -->
+      <field id="objectStatus" autocomplete="vocab-objectStatus" ui-type="enum" />
+    </repeat>
+
     <!-- override options list -->
     <field id="sex" ui-search="repeatable" seperate_ui_container="true">
       <selector>object-description-sex</selector>
@@ -139,24 +150,6 @@
       </options>
     </field>
 
-    <field id="legacyPastPerfectDimensionDetails" section="sdmom" />
-    <field id="legacySearchTermsData" ui-search="repeatable" section="sdmom" />
-
-    <field id="copyNumber" ui-search="repeatable">
-      <selector>object-description-copy-number</selector>
-    </field>
-    <repeat id="objectStatusList" services-type-anonymous="false">
-      <!-- SDMoM-modified to use dynamic list -->
-      <field id="objectStatus" autocomplete="vocab-objectStatus" ui-type="enum" />
-    </repeat>
-    <field id="sex" ui-search="repeatable" seperate_ui_container="true">
-      <selector>object-description-sex</selector>
-      <options>
-        <option id="">Please select a value</option>
-        <option id="male">male</option>
-        <option id="female">female</option>
-      </options>
-    </field>
     <field id="phase" ui-search="repeatable" seperate_ui_container="true">
       <selector>object-description-phase</selector>
       <options>
