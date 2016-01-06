@@ -491,18 +491,18 @@
       </field>
     </repeat>
 
-    <repeat id="objectProductionPeopleGroupList/objectProductionPeopleGroup">
-      <field id="objectProductionPeople" ui-search="repeatable" autocomplete="concept-culture_local,concept-culture_owc">
-        <selector>object-production-people</selector>
-      </field>
-      <field id="objectProductionPeopleRole"/>
-    </repeat>
-
     <repeat id="objectProductionPlaceGroupList/objectProductionPlaceGroup">
       <field id="objectProductionPlace" ui-search="repeatable" autocomplete="place-site_place,place-place,place-bgn_place,place-nga_place">
         <selector>object-production-place</selector>
       </field>
       <field id="objectProductionPlaceRole"/>
+    </repeat>
+
+    <repeat id="objectProductionPeopleGroupList/objectProductionPeopleGroup">
+      <field id="objectProductionPeople" ui-search="repeatable" autocomplete="concept-culture_local,concept-culture_owc">
+        <selector>object-production-people</selector>
+      </field>
+      <field id="objectProductionPeopleRole"/>
     </repeat>
   </section>
 
