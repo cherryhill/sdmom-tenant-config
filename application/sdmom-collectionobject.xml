@@ -10,7 +10,7 @@
     <field id="computedCurrentLocationSearch" ui-search="repeatable" autocomplete="location-location" exists-in-services="false">
     	<services-tag>computedCurrentLocation</services-tag>
     </field>
-    
+
     <!-- Suppress from Advanced Search Screen -->
     <repeat id="responsibleDepartments" has-primary="yes">
       <field id="responsibleDepartment" ui-search="" mini="" />
@@ -497,6 +497,14 @@
         <selector>object-production-technique-type</selector>
       </field>
     </repeat>
+
+    <repeat id="objectProductionPeopleGroupList/objectProductionPeopleGroup">
+      <field id="objectProductionPeople" ui-search="repeatable" autocomplete="concept-culture_local,concept-culture_owc">
+        <selector>object-production-people</selector>
+      </field>
+      <field id="objectProductionPeopleRole"/>
+    </repeat>
+
     <repeat id="objectProductionPlaceGroupList/objectProductionPlaceGroup">
       <field id="objectProductionPlace" ui-search="repeatable" autocomplete="place-site_place,place-place,place-bgn_place,place-nga_place">
         <selector>object-production-place</selector>
@@ -515,10 +523,18 @@
         <field id="assocActivity" autocomplete="concept-activity" ui-search="repeatable"/>
       </repeat>
 
+      <!-- Convert assocPlace to authority look-up -->
       <repeat id="assocPlaceGroupList/assocPlaceGroup">
         <field id="assocPlace" ui-search="repeatable" autocomplete="place-place,place-bgn_place,place-nga_place"/>
         <field id="assocPlaceType"/>
         <field id="assocPlaceNote"/>
+      </repeat>
+
+      <!-- Convert assocCulturalContext to authority look-up -->
+      <repeat id="assocCulturalContextGroupList/assocCulturalContextGroup">
+        <field id="assocCulturalContext" ui-search="repeatable" autocomplete="concept-culture_local,concept-culture_owc"/>
+        <field id="assocCulturalContextType"/>
+        <field id="assocCulturalContextNote"/>
       </repeat>
 
       <!-- Convert to dynamic term list -->
