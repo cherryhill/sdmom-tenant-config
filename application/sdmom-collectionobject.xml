@@ -23,8 +23,9 @@
     </repeat>
 
     <!-- Convert static vocabulary field to text field -->
-    <field id="collection" ui-search="repeatable" seperate_ui_container="false">
+    <field id="collection" ui-search="repeatable" seperate_ui_container="false" autocomplete="concept-collection">
       <selector>object-identification-collection</selector>
+      <options action="delete" />
     </field>
 
     <repeat id="objectStandingList/objectStandingGroup" section="sdmom">

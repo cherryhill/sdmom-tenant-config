@@ -36,6 +36,11 @@
       <title-ref>culture_local</title-ref>
       <title>Local Cultures</title>
     </instance>
-  </instances>
 
+    <instance id="concept-collection">
+      <web-url>collection</web-url>
+      <title-ref>collection</title-ref>
+      <title>Collection</title>
+    </instance>
+  </instances>
 </record>
