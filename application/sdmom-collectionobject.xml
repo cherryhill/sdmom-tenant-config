@@ -126,6 +126,8 @@
       <selector>object-identification-record-status</selector>
     </field>
 
+    <field id="catalogedBy" autocomplete="person-person" section="sdmom" />
+    <field id="catalogedDate" ui-type="date" datatype="date" ui-search="range" section="sdmom" />
   </section>
 
   <section id="descriptionInformation">
