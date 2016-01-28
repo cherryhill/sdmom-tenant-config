@@ -224,8 +224,10 @@
     <title-ref>inscriptionPosition</title-ref>
     <title>Inscription Position</title>
     <options>
+      <option id="above">Above</option>
       <option id="back">Back</option>
       <option id="base">Base</option>
+      <option id="below">Below</option>
       <option id="bottom">Bottom</option>
       <option id="front">Front</option>
       <option id="inside">Inside</option>

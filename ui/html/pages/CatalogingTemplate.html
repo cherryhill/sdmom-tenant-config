@@ -98,7 +98,7 @@
             <thead>
               <tr>
                 <td class="csc-collection-object-controlledObjectName-label"></td>
-                <td class="csc-collection-object-controlledObjectNameCurrency-label"></td>
+                <td class="hidden csc-collection-object-controlledObjectNameCurrency-label"></td>
                 <td class="csc-collection-object-controlledObjectNameLevel-label"></td>
                 <td class="csc-collection-object-controlledObjectNameNote-label"></td>
                 <td class="csc-collection-object-controlledObjectNameSystem-label"></td>
@@ -107,10 +107,10 @@
             </thead>
             <tbody>
               <tr class="csc-collection-object-controlledObjectNameGroup">
-                <td>
+                <td style="width:33%;">
                   <input type="text" class="csc-object-identification-controlled-object-name" />
                 </td>
-                <td>
+                <td class="hidden">
                   <select class="csc-object-identification-controlled-object-name-currency input-select">
                     <option value="">Options not loaded</option>
                   </select>
@@ -1022,6 +1022,30 @@
       <div class="info-column2-50 fl-force-left">
         <div class="info-pair">
           <div class="header">
+            <div class="label csc-collection-object-contentConcepts-label"></div>
+          </div>
+          <div class="content">
+            <input type="text" class="csc-object-description-content-concept" />
+          </div>
+        </div>
+      </div>
+
+      <div class="info-column2-50 fl-force-right">
+        <div class="info-pair-date">
+          <div class="header">
+            <div class="label csc-collection-object-contentDate-label"></div>
+          </div>
+          <div class="content">
+            <input type="text" class="csc-object-description-content-date" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="info-column">
+      <div class="info-column2-50 fl-force-left">
+        <div class="info-pair">
+          <div class="header">
             <div class="label csc-collection-object-contentPeoples-label"></div>
           </div>
           <div class="content">
@@ -1061,30 +1085,6 @@
           </div>
           <div class="content">
             <input type="text" class="csc-object-description-content-organization" />
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="info-column">
-      <div class="info-column2-50 fl-force-left">
-        <div class="info-pair">
-          <div class="header">
-            <div class="label csc-collection-object-contentConcepts-label"></div>
-          </div>
-          <div class="content">
-            <input type="text" class="csc-object-description-content-concept" />
-          </div>
-        </div>
-      </div>
-
-      <div class="info-column2-50 fl-force-right">
-        <div class="info-pair-date">
-          <div class="header">
-            <div class="label csc-collection-object-contentDate-label"></div>
-          </div>
-          <div class="content">
-            <input type="text" class="csc-object-description-content-date" />
           </div>
         </div>
       </div>
@@ -1332,7 +1332,7 @@
             </div>
 
             <div class="info-column2-50 fl-force-right">
-              <div class="info-pair">
+              <div class="info-pair-select">
                 <div class="header">
                   <div class="label csc-collection-object-inscriptionContentMethod-label"></div>
                 </div>

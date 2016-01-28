@@ -54,10 +54,6 @@
       </field>
     </repeat>
 
-    <field id="sdmomCollection" section="sdmom">
-      <selector>object-identification-sdmomCollection</selector>
-    </field>
-
     <repeat id="collectionTypes" has-primary="yes" section="sdmom">
       <field id="collectionType" autocomplete="vocab-collectionType" ui-type="enum" ui-search="repeatable" section="sdmom" />
     </repeat>
