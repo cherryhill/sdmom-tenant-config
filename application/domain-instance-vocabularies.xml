@@ -833,7 +833,6 @@
       <option id="recordSpeed">Record Speed</option>
       <option id="videoTape">Video Tape</option>
       <option id="advertisement">Advertisement</option>
-      <option id="ambrotype">Ambrotype</option>
       <option id="anscochromeFilm">Anscochrome Film</option>
       <option id="blackWhiteFilm">Black &amp; White Film</option>
       <option id="blackWhiteSlide">Black &amp; White Slide</option>
@@ -846,7 +845,6 @@
       <option id="letter">Letter</option>
       <option id="lithograph">Lithograph</option>
       <option id="paper">Paper</option>
-      <option id="photogravure">Photogravure</option>
       <option id="print">Print</option>
     </options>
   </instance>
