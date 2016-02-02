@@ -103,8 +103,8 @@ conditioncheck-workCompletedLabel: Work Completed
 conditioncheck-workCompletedDateLabel: Work Completed Date
 
 conditioncheck-conditionAssessmentGroupLabel: Assessment
-conditioncheck-conditionAssessmentTermLabel: Assessment Term
-conditioncheck-conditionAssessmentPartLabel: Assessed Part
+conditioncheck-conditionAssessmentTermLabel: Assessment Detail
+conditioncheck-conditionAssessmentPartLabel: Assessed Term
 conditioncheck-conditionAssessmentCommentLabel: Assessment Comment
 conditioncheck-conditionChkerLabel: Condition Checker/Assessor
 
