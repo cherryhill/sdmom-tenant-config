@@ -3,6 +3,7 @@
   <services-record-path id="sdmom">movements_sdmom:http://collectionspace.org/services/intake/local/sdmom,movements_sdmom</services-record-path>
 
   <section id="locationMovementInformation">
+    <field id="normalLocation" ui-search="repeatable" autocomplete="location-location,location-offsite_sla,organization-organization"></field>
     <field id="approvedBy" ui-search="repeatable" autocomplete="person-person,organization-organization" section="sdmom" />
   </section>
 </record>
