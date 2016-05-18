@@ -154,7 +154,7 @@ collection-object-dimMeasuredPartLabel: Component Name
 collection-object-dimSummaryLabel: Information
 collection-object-dimSubGroupLabel: Measurements
 collection-object-dimLabel: Dimension
-collection-object-dimvalueLabel: Value
+collection-object-dimValueLabel: Value
 collection-object-dimMeasurementUnitLabel: Dimension Unit
 dimMeasuredPartGroup-avInformationSubGroupLabel: Audio/Visual Information
 collection-object-technicalAttributeLabel: Medium
