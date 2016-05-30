@@ -546,12 +546,11 @@
   </section>
 
   <section id="referenceInformation">
-    <repeat id="referenceGroupList/referenceGroup">
-      <field id="referenceUse" autocomplete="vocab-referenceUse" ui-type="enum" section="sdmom" />
+    <repeat id="referenceRefGroupList/referenceRefGroup" section="sdmom">
+      <field id="referenceRef" autocomplete="citation-citation,citation-worldcat" section="sdmom"/>
+      <field id="referenceRefUse" autocomplete="vocab-referenceUse" ui-type="enum" section="sdmom" />
+      <field id="referenceRefNote" section="sdmom"/>
     </repeat>
-  </section>
-
-  <section id="referenceInformation">
     <field id="webReady" autocomplete="vocab-webReady" ui-type="enum" ui-search="repeatable" section="sdmom" />
     <repeat id="copyrights" has-primary="yes" section="sdmom">
       <field id="copyright" ui-search="repeatable" section="sdmom" />
@@ -562,6 +561,7 @@
   </section>
 
   <section id="objectCollectionInformation">
+    <field id="fieldCollectionPlace" autocomplete="place-place,place-site_place,place-tgn_place" ui-type="enum"/>
     <field id="fieldCollectionUnit" section="sdmom" />
     <field id="fieldCollectionLevel" section="sdmom" />
     <field id="fieldCollectionStratum" section="sdmom" />

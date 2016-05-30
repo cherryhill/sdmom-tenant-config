@@ -194,7 +194,10 @@ collection-object-viewerRoleLabel: Commentor Role
 collection-object-viewerDateLabel: Commentor Date
 collection-object-viewerCommentaryLabel: Commentary
 
-collection-object-referenceUseLabel: Reference Use
+collection-object-referenceRefGroupLabel: Reference Information
+collection-object-referenceRefLabel: Reference
+collection-object-referenceRefUseLabel: Reference Use
+collection-object-referenceRefNoteLabel: Reference Note
 collection-object-copyrightsLabel: Copyrights
 collection-object-copyrightLabel: Copyright
 collection-object-creditsLabel: Label Credits
