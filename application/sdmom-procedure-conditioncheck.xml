@@ -3,7 +3,7 @@
   <services-record-path id="sdmom">conditionchecks_sdmom:http://collectionspace.org/services/conditioncheck/local/sdmom,conditionchecks_sdmom</services-record-path>
 
   <section id="objectConditionInformation">
-    <repeat id="conditionStatusList/conditionStatusGroup">
+    <repeat id="conditionStatusList/conditionStatusGroup" section="sdmom">
       <field id="status" autocomplete="vocab-conditionStatus" ui-type="enum" section="sdmom" />
       <field id="statusDate" ui-type="date" datatype="date" section="sdmom" />
       <field id="statusNote" section="sdmom" />
